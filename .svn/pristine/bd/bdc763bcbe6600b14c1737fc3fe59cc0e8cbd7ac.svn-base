@@ -1,0 +1,347 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>华商基金</title>
+    <link rel="stylesheet" href="/osoa/css/style.css">
+    <link rel="stylesheet" href="/osoa/css/kn.css">
+    <link rel="stylesheet" href="/osoa/css/zh.css">
+    <link rel="stylesheet" href="/osoa/css/swiper.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- right -->
+        <div id="right"></div>
+
+        <!-- /.right -->
+
+        <!--头部start-->
+        <div id="headerContent"></div>
+        <!--头部end-->
+
+        <div id="bodyContent">
+            <div id="customer_index" style="display: block;">
+                <div class="main">
+                    <div class="cs_banner">
+                        <div class="cs_banner_core">
+                            <div class="cs_search_form">
+                                <input type="text" class="cs_search" placeholder="请简要描述您的问题，帮您快速寻找答案">
+                                <input type="submit" value="搜索" class="cs_search_btn">
+                            </div>
+                            <!-- /.cs_search_form -->
+                            <div class="cs_search_links">
+                                热门搜索：
+                                <a href="#">APP开户</a><span>|</span>
+                                <a href="#">1折购基</a><span>|</span>
+                                <a href="#">密码忘记</a><span>|</span>
+                                <a href="#">赎回到账时间</a><span>|</span>
+                                <a href="#">账户查询</a>
+                            </div>
+                        </div>
+                        <!-- /.cs_banner_core -->
+                    </div>
+                    <!-- /.cs_banner -->
+
+                    <div class="cs_ul">
+						<a class="cs_li_0" href="/osoa/views/customer/server/guide.html">开户指南</a>
+						<a class="cs_li_1" href="/osoa/views/customer/server/tarde.html">基金交易</a>
+						<a class="cs_li_2" href="/osoa/views/customer/server/fund.html">天利宝</a>
+						<a class="cs_li_3" href="/osoa/views/customer/server/rate.html">费率优惠</a><br/>
+						<a class="cs_li_4" href="/osoa/views/customer/server/subscribe.html">基金定投</a>
+						<a class="cs_li_5" href="/osoa/views/customer/server/question.html">热点问题</a>
+						<a class="cs_li_6" href="/osoa/views/customer/server/know.html">投资者须知</a>
+						<a class="cs_li_7" href="/osoa/views/customer/server/download.html">表单下载</a>
+
+                    </div>
+                    <!-- /.cs_ul -->
+
+                    <div class="cs_box cs_our_service_box">
+                        <div class="cs_box_core">
+                            <h2>我们的服务</h2>
+
+                            <ul class="cs_our_service">
+                                <li class="cs_our_service_0">
+                                    <h3>服务介绍</h3>
+
+                                    <strong>人工客服</strong>
+                                    <a href="tel:400-700-8800">400-700-8800</a><br />
+                                    <span>服务时间: 工作日 8:30 - 17:30</span>
+
+                                    <strong>客服邮箱</strong>
+                                    <a href="mailto:services@hsfund.com">services@hsfund.com</a>
+
+                                    <strong>在线客服</strong>
+                                    <a href="#" class="cs_btn">立即咨询</a>
+                                </li>
+                                <li class="cs_our_service_1">
+                                    <h3>服务定制</h3>
+
+                                    <strong>定制短信</strong>
+                                    <a href="#">交易确认短信</a> |
+                                    <a href="#">净值短信</a> |
+                                    <a href="#">短信咨讯</a>
+
+                                    <strong>定制邮件</strong>
+                                    <a href="#">交易确认邮件</a> |
+                                    <a href="#">净值邮件</a> |
+                                    <a href="#">邮件咨讯</a>
+
+                                    <strong>定制对账单</strong>
+                                    <a href="#">电子对账单</a> |
+                                    <a href="#">短信对账单</a> |
+                                    <a href="#">纸质对账单</a>
+
+                                    <a href="#" class="cs_btn">立即定制</a>
+                                </li>
+                                <li class="cs_our_service_2">
+                                    <h3>掌上生活</h3>
+
+                                    <ul class="cs_qr">
+                                        <li>
+											 													
+																	<img width='94' width='94' src="/osoa/images/right_qr_0.jpg" alt="" />华商基金APP
+
+                                            
+                                        </li>
+                                        <li>
+																								
+																	<img width='94' width='94' src="/osoa/images/right_qr_0.jpg" alt="" />华商基金微博
+
+                                           
+                                        </li>
+                                        <li>
+																								
+																	<img width='94' width='94' src="/osoa/images/right_qr_0.jpg" alt="" />华商基金公众号
+
+                                           
+                                        </li>
+                                        <li>
+																								
+																	<img width='94' width='94' src="/osoa/images/right_qr_0.jpg" alt="" />华商基金财知道
+
+                                        </li>
+                                    </ul>
+                                    <!-- /.cs_qr -->
+                                </li>
+                            </ul>
+                            <!-- /.cs_our_service -->
+                        </div>
+                        <!-- /.cs_box_core -->
+                    </div>
+                    <!-- /.cs_box -->
+
+                    <div class="cs_box cs_club">
+                        <div class="cs_box_core">
+                            <h2>金海螺俱乐部</h2>
+
+                            <div class="cs_club_ul">
+                                <li class="cs_club_li_0">
+                                    <strong>尊享服务</strong>
+                                    <p>文本标签文本标签文本标签文本标签文本标签文本标签文本标签文本标签文本标签文本标签。</p>
+                                </li>
+                                <li class="cs_club_li_1">
+                                    <strong>积分兑换</strong>
+                                    <p>文本标签文本标签文本标签文本标签文本标签文本标签文本标签文本标签文本标签文本标签。</p>
+                                </li>
+                                <li class="cs_club_li_2">
+                                    <strong>活动公告</strong>
+                                    <p>文本标签文本标签文本标签文本标签文本标签文本标签文本标签文本标签文本标签文本标签。</p>
+                                </li>
+                            </div>
+                            <!-- /.cs_club_ul -->
+                        </div>
+                        <!-- /.cs_box_core -->
+                    </div>
+                    <!-- /.cs_box -->
+
+                    <div class="cs_swiper">
+                        <div id="cs_swiper_core" class="cs_swiper_core">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="csSwiItem">
+                                        <img src="/osoa/images/cs_swiper_0.jpg">
+                                        <img src="/osoa/images/cs_swiper_1.jpg">
+                                        <img src="/osoa/images/cs_swiper_2.jpg">
+                                        <img src="/osoa/images/cs_swiper_3.jpg">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="csSwiItem">
+                                        <img src="/osoa/images/cs_swiper_0.jpg">
+                                        <img src="/osoa/images/cs_swiper_1.jpg">
+                                        <img src="/osoa/images/cs_swiper_2.jpg">
+                                        <img src="/osoa/images/cs_swiper_3.jpg">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="csSwiItem">
+                                        <img src="/osoa/images/cs_swiper_0.jpg">
+                                        <img src="/osoa/images/cs_swiper_1.jpg">
+                                        <img src="/osoa/images/cs_swiper_2.jpg">
+                                        <img src="/osoa/images/cs_swiper_3.jpg">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="csSwiItem">
+                                        <img src="/osoa/images/cs_swiper_0.jpg">
+                                        <img src="/osoa/images/cs_swiper_1.jpg">
+                                        <img src="/osoa/images/cs_swiper_2.jpg">
+                                        <img src="/osoa/images/cs_swiper_3.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.swiper-wrapper -->
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                    <!-- /.cs_swiper -->
+
+                    <div class="cs_box cs_college">
+                        <div class="cs_box_core">
+                            <h2>华商学院</h2>
+
+                            <ul class="cs_college_ul">
+                                <li>
+                                    <strong>
+                                                投资生活
+                                                <a href="/osoa/views/customer/life/index.html" class="notice_more"></a>
+                                            </strong>
+																									 
+																
+																
+															<a  href="/osoa/views/customer/life/detail.html?article_id=19" target="_blank" >
+
+																
+																a大 </a>
+																 
+																
+																
+															<a  href="/osoa/views/customer/life/detail.html?article_id=13" target="_blank" >
+
+																
+																投资改生活的相关例句 </a>
+																 
+																
+																
+															<a  href="/osoa/views/customer/life/detail.html?article_id=14" target="_blank" >
+
+																
+																asdasdasd测试赛2 </a>
+																 
+																
+																
+															<a  href="/osoa/views/customer/life/detail.html?article_id=15" target="_blank" >
+
+																
+																30岁后，我靠投资生活_百度百科 </a>
+
+                                </li>
+                                <li>
+                                    <strong>
+                                                投资教育
+                                                <a href="/osoa/views/customer/teach/index.html" class="notice_more"></a>
+                                            </strong>
+
+                                    																 
+																
+															<a  href="/osoa/views/customer/teach/detail.html?article_id=5" target="_blank" >
+
+																asdasdasdddddddddddddd1 </a>
+																 
+																
+															<a  href="/osoa/views/customer/teach/detail.html?article_id=6" target="_blank" >
+
+																测试2 </a>
+																 
+																
+															<a  href="/osoa/views/customer/teach/detail.html?article_id=7" target="_blank" >
+
+																彩色3 </a>
+																 
+																
+															<a  href="/osoa/views/customer/teach/detail.html?article_id=8" target="_blank" >
+
+																阿斯达芙4 </a>
+
+                                </li>
+                                <li>
+                                    <strong>
+                                                法律法规
+                                                <a href="/osoa/views/customer/laws/index.html" class="notice_more"></a>
+                                            </strong>
+
+                                    																 
+																
+															<a  href="/osoa/views/customer/laws/detail.html?article_id=16" target="_blank" >
+
+																测试赛 233 </a>
+																 
+																
+															<a  href="/osoa/views/customer/laws/detail.html?article_id=17" target="_blank" >
+
+																发过去2 </a>
+																 
+																
+															<a  href="/osoa/views/customer/laws/detail.html?article_id=18" target="_blank" >
+
+																反射法 </a>
+
+                                </li>
+                            </ul>
+                            <!-- /.cs_college_ul -->
+                        </div>
+                        <!-- /.cs_box_core -->
+                    </div>
+                    <!-- /.cs_box -->
+
+                    <div class="cs_bottom">预防洗钱活动 打击洗钱犯罪 维护金融秩序</div>
+                </div>
+                <!-- /.main -->
+            </div>
+        </div>
+
+        <!--底部start-->
+        <div id="footerContent"></div>
+        <!--底部end-->
+    </div>
+    <script src="/osoa/js/swiper.min.js"></script>
+    <script src="/osoa/js/jquery.min.js"></script>
+    <script src="/osoa/js/main.js"></script>
+    <script type="text/javascript">
+        //项目主体页面 pageCode:页面路径编码,jsonParam:参数，isLoad:是否每次都加载
+        var _defaultPage = {
+            "pageCode": "customer/index",
+            "jsonParam": {},
+            "isLoad": false
+        };
+        //项目页头页面 pageCode:页面路径编码,jsonParam:参数，isLoad:是否每次都加载,默认是inclue/header
+        var _headerPage = {
+            "pageCode": "include/header",
+            "jsonParam": {},
+            "isLoad": false
+        };
+        //项目页脚页面 pageCode:页面路径编码,jsonParam:参数，isLoad:是否每次都加载,默认是inclue/footer
+        var _footerPage = {
+            "pageCode": "include/footer",
+            "jsonParam": {},
+            "isLoad": false
+        };
+    </script>
+
+    <!--基础框架包 -->
+    <script type="text/javascript" src="/osoa/version.js"></script>
+    <script type="text/javascript" src="/thinkiveJs.min.js"></script>
+
+    <script type="text/javascript">
+        var swiper = new Swiper('#cs_swiper_core', {
+            loop: true,
+            autoplay: 4000,
+            pagination: '.swiper-pagination',
+            paginationClickable: true
+        });
+    </script>
+</body>
+
+</html>

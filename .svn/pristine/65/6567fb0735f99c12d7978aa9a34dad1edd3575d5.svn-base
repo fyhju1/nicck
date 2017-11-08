@@ -1,0 +1,28 @@
+/**
+ * 商城业务常量配置
+ */
+define(function(require, exports, module) {
+
+    var serviceConstant = {
+        NEWS_PAGE: { //列表展示12条数据
+            PAGE: 1,
+            PAGESIZE: 12
+        },
+        ARTICLE_PAGE: { //列表展示4条数据
+            PAGE: 1,
+            PAGESIZE: 4
+        },
+        INDEX_PAGE: { //列表展示15调数据
+            PAGE: 1,
+            PAGESIZE: 15,
+            LINEPAGE: 5 //换行DIV PAGE
+        },
+        COLORGROUP: { //颜色组
+            //红色
+            REDCOLOR: ['#f1505a', '#f26c71', '#f2a49d', '#f3ddc9', '#f4d8c9', '#f5ggc9', '#f6df89', '#f8ddc9', '#f9dhc9', '#f0dcf4']
+        }
+    };
+
+    //暴露对外的接口
+    module.exports = serviceConstant;
+});

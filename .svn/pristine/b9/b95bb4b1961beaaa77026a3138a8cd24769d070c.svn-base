@@ -1,0 +1,135 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>华商基金</title>
+    <link rel="stylesheet" href="/osoa/css/style.css">
+    <link rel="stylesheet" href="/osoa/css/kn.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- right -->
+        <div id="right"></div>
+
+        <!-- /.right -->
+
+        <!--头部start-->
+        <div id="headerContent"></div>
+        <!--头部end-->
+
+        <div id="bodyContent">
+            <div id="about_index" style="display: block;">
+                <div class="main grey_main">
+                    <div class="text_banner text_banner_1">
+                        <div class="text_banner_core"></div>
+                    </div>
+                    <!-- /.text_banner -->
+
+                    <div class="center">
+                        <div class="left" id="include_menu">
+                            <div class="left_list">
+                                <a class="current" href="/osoa/views/about/index.html">公司简介</a>
+                                <a href="/osoa/views/about/senior.html">高管致辞</a>
+                                <a href="/osoa/views/about/ability.html">投研能力</a>
+                                <a href="/osoa/views/about/team.html">投研团队</a>
+                                <a href="/osoa/views/about/big.html">大事记</a>
+                                <a href="/osoa/views/about/duty.html">社会责任</a>
+                                <a href="http://zhaopin.hsfund.com/" target="_blank">人才招聘</a>
+                                <a href="/osoa/views/about/connect.html">联系我们</a>
+                            </div>
+                            <!-- /.left_list -->
+
+                            <div class="left_box left_box_qr">
+                                <img src="/osoa/images/left_qr.jpg" alt=""> 华商基金APP，基金交易30秒
+                            </div>
+                            <!-- /.left_box -->
+
+                            <div class="left_box left_cs">
+                                <strong>在线客服</strong>
+
+                                <ul>
+                                    <li>
+                                        <a href="tel:400-700-8800">400-700-8800</a>
+                                    </li>
+                                    <li>
+                                        服务时间：<br /> 工作日8:30 － 17:00
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- /.left_box -->
+                        </div>
+                        <!-- /.left -->
+
+
+                        <div class="core">
+                            <div class="article">
+                                <h1 class="article_h1">公司简介</h1>
+                                <p>华商基金管理有限公司是一家经中国证监会批准设立、为客户提供专业理财服务的资产管理机构。华商基金以“诚为本，智慧创造财富”为公司发展理念，以“优化资源配置，助力企业成长，为投资者创造财富”为使命，坚持奉行“诚信、专业、合作、进取、责任”的核心价值观，致力于成为值得信赖、受人尊敬的资产管理公司，努力把华商基金打造成为广大投资者信赖的基金品牌。</p>
+                                <p>华商基金旗下管理的产品覆盖了多种基金类型，均取得了较好的投资业绩。公司资产管理规模大幅增长，市场影响力迅速提升，综合实力快速提高，在投资研究、市场开拓、客户服务等方面表现出良好的发展势头，得到了越来越广泛的关注和认同。</p>
+                            </div>
+                            <!-- /.article -->
+
+                            <div class="article">
+                                <h1 class="article_h1">股东介绍</h1>
+                                <img class="article_img" src="/osoa/images/article_img_0.jpg" alt="">
+                                <img class="article_img" src="/osoa/images/article_img_1.jpg" alt="">
+                                <img class="article_img" src="/osoa/images/article_img_2.jpg" alt="">
+
+                                <h2 class="article_h2">华龙证券股份有限公司</h2>
+                                <p>华龙证券股份有限公司的前身为华龙证券有限责任公司，成立于2001年5月18日，是由甘肃省人民政府组织筹建，经中国证监会批准的综合类证券经营机构。2014年，公司完成股份制改制，更名为华龙证券股份有限公司，目前注册资本632,655万元。目前主要股东有甘肃省人民政府国有资产监督管理委员会、广西远辰投资集团有限公司、酒泉钢铁（集团）有限责任公司、甘肃省电力投资集团有限责任公司、晶龙实业集团有限公司、江苏阳光集团有限公司等。公司法定代表人为李晓安，总经理为韩鹏，公司主要经营范围：证券经纪；证券投资咨询；与证券交易、证券投资活动有关的财务顾问；证券承销与保荐；证券自营；证券资产管理；融资融券；代销金融产品；证券投资基金代销；为期货公司提供中间介绍业务；以及中国证监会批准或允许开展的其他业务。</p>
+
+                                <h2 class="article_h2">中国华电集团财务有限公司</h2>
+                                <p>中国华电集团财务有限公司（以下简称“华电财务公司”）是经中国银行业监督管理委员会银监复[2004]7号文批准，根据《企业集团财务公司管理办法》在原北方有色金属工业财务公司基础上重组设立的财务公司。华电财务公司业务接受中国银行业监督管理委员会的监督指导，依法自主经营，自担风险，自我约束，自负盈亏，具有独立企业法人资格。华电财务公司是由中国华电集团公司控股，华电集团系统内9家企业共同参股组建的一家全国性非银行金融机构，目前注册资本金为50亿元。法定代表人为陈宇，总经理为李文峰。公司经营范围：对成员单位办理财务和融资顾问、信用鉴证及相关的咨询、代理业务。协助成员单位实现交易款项的收付。经批准的保险代理业务。对成员单位提供担保。办理成员单位之间的委托贷款及委托投资。对成员单位办理票据承兑与贴现。办理成员单位之间的内部转账结算及相应的结算、清算方案设计。吸收成员单位的存款。对成员单位办理贷款及融资租赁。从事同业拆借。经批准发行财务公司债券。承销成员单位的企业债券。对金融机构的股权投资。有价证券投资。成员单位产品的消费信贷、买方信贷及融资租赁。中国银行业监督管理委员会批准的其他业务。</p>
+
+                                <h2 class="article_h2">济钢集团有限公司</h2>
+                                <p>济钢集团有限公司，成立日期为1991年5月6日，目前注册资本为28.57亿元，法定代表人为徐有芳，总经理为薄涛。公司许可经营项目：经营资格证书范围内的对外承包工程业务（按许可证核准的经营期限经营）；钢铁冶炼及技术咨询服务。加工、制造、销售：钢材，水泥制品，水渣，锻造件，保温材料，耐火材料；花卉种植销售；进出口业务（国家法律法规禁止的项目除外）；房屋、设备租赁及转让；计算机软件开发、销售、技术咨询；计算机系统服务；机械、电子设备的销售；国内广告业务；电子工程、机电设备安装工程（不含特种设备）；建筑智能化工程（凭资质证经营）。（依法须经批准的项目，经相关部门批准后方可开展经营活动）。</p>
+                            </div>
+                            <!-- /.article -->
+                        </div>
+                        <!-- /.core -->
+                    </div>
+                    <!-- /.center -->
+                </div>
+                <!-- /.main -->
+            </div>
+        </div>
+
+        <!--底部start-->
+        <div id="footerContent"></div>
+        <!--底部end-->
+    </div>
+    </div>
+
+    <script src="/osoa/js/jquery.min.js"></script>
+    <script src="/osoa/js/swiper.min.js"></script>
+    <script src="/osoa/js/main.js"></script>
+
+    <script type="text/javascript">
+        //项目主体页面 pageCode:页面路径编码,jsonParam:参数，isLoad:是否每次都加载
+        var _defaultPage = {
+            "pageCode": "about/index",
+            "jsonParam": {},
+            "isLoad": false
+        };
+        //项目页头页面 pageCode:页面路径编码,jsonParam:参数，isLoad:是否每次都加载,默认是inclue/header
+        var _headerPage = {
+            "pageCode": "include/header",
+            "jsonParam": {},
+            "isLoad": false
+        };
+        //项目页脚页面 pageCode:页面路径编码,jsonParam:参数，isLoad:是否每次都加载,默认是inclue/footer
+        var _footerPage = {
+            "pageCode": "include/footer",
+            "jsonParam": {},
+            "isLoad": false
+        };
+    </script>
+
+    <script type="text/javascript" src="/osoa/version.js"></script>
+    <!--基础框架包 -->
+    <script type="text/javascript" src="/thinkiveJs.min.js"></script>
+</body>
+
+</html>

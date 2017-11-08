@@ -1,0 +1,211 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>华商基金</title>
+    <link rel="stylesheet" href="/osoa/css/style.css">
+    <link rel="stylesheet" href="/osoa/css/howe.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- right -->
+        <div id="right"></div>
+
+        <!-- /.right -->
+
+        <!--头部start-->
+        <div id="headerContent"></div>
+        <!--头部end-->
+        <div id="bodyContent">
+            <div id="separate_index" style="display: block;">
+                <div class="main">
+                    <div class="banner prof_banner">
+                        <div class="wrap banner_info">
+                            理财专业人士提供<br>一对一的定制资产管理服务<br>
+                            <a target="_blank" href="https://trade.hsfund.com/etrading/" class="prof_login">专户登录</a>
+                        </div>
+                    </div>
+                    <div class="pro_des_box wrap">
+                        <div class="pro_des_item">
+                            <div class="pro_img_box pro_img_1">
+                                能力
+                            </div>
+                            <div class="pro_des_txt">华商基金管理公司自成立以来，体现了良好的整体资产管理能力。在第十三届中国基金业金牛奖评选中，华商基金荣获十大“金牛基金管理公司”称号（《中国证券报》2016年3月评选）。公司现管理近30只基金产品，覆盖多种基金类型，能够适应客户的多样化需求。</div>
+                        </div>
+                        <div class="pro_des_item">
+                            <div class="pro_img_box pro_img_2">
+                                经验
+                            </div>
+                            <div class="pro_des_txt">华商基金机构投资团队成员多来自财务公司与保险公司，具有丰富的资产管理经验。核心成员在长期市场磨炼中形成了严格控制风险、谨慎投资的理念，结合公司突出的选股优势和专户产品灵活投资的特点，努力为高端客户实现资产保值增值，追求高于市场平均水平的投资收益。</div>
+                        </div>
+                        <div class="pro_des_item last_item">
+                            <div class="pro_img_box pro_img_3">
+                                研究
+                            </div>
+                            <div class="pro_des_txt">华商基金公司高度重视研究对投资的基础性作用，逐步构建和提升完善的投研体系，从中培养了大批优秀的研究人才。目前，华商基金行业研究员数量接近60人，实现对行业的全覆盖，长期、深入地跟踪研究大量优质个股。华商基金专户理财业务与公司公募基金共享公司统一的研究平台，从投资研究到产品设计为专户理财业务提供强有力的支持。</div>
+                        </div>
+                        <div class="clr"></div>
+                    </div>
+                    <div class="yewu">
+                        <div class="wrap">
+                            <div class="wrap_title">
+                                业务流程
+                            </div>
+                            <div class="yewu_box">
+                                <div class="yewu_item yewu_1">
+                                    需求沟通
+                                </div>
+                                <div class="yewu_right"></div>
+                                <div class="yewu_item yewu_2">
+                                    方案设计
+                                </div>
+                                <div class="yewu_right"></div>
+                                <div class="yewu_item yewu_3">
+                                    签订合约
+                                </div>
+                                <div class="yewu_right"></div>
+                                <div class="yewu_item yewu_4">
+                                    合同备案
+                                </div>
+                                <div class="yewu_right"></div>
+                                <div class="yewu_item yewu_5">
+                                    账户开立
+                                </div>
+                                <div class="yewu_right"></div>
+                                <div class="yewu_item yewu_6">
+                                    投资运作
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="team">
+                        <div class="wrap">
+                            <div class="wrap_title">专业团队</div>
+                            <div class="team_wrap">
+                                <!-- <div class="team_item">
+                                    <img src="/osoa/images/team_1.png" alt="">
+                                    <div class="team_des">
+                                        <div class="name">王华</div>
+                                        <div class="base">工商管理硕士 | 投资部总经理</div>
+                                        <div class="years">从业24+年</div>
+                                    </div>
+                                    <div class="label red_label">专家</div>
+                                </div>
+                                <div class="team_item">
+                                    <img src="/osoa/images/team_2.png" alt="">
+                                    <div class="team_des">
+                                        <div class="name">吕春瑜</div>
+                                        <div class="base">财务管理硕士 | 投资经理</div>
+                                        <div class="years">从业12+年</div>
+                                    </div>
+                                    <div class="label">资深</div>
+                                </div>
+                                <div class="team_item">
+                                    <img src="/osoa/images/team_1.png" alt="">
+                                    <div class="team_des">
+                                        <div class="name">闵文强 </div>
+                                        <div class="base">金融工程硕士 | 投资经理</div>
+                                        <div class="years">从业10+年</div>
+                                    </div>
+                                    <div class="label">资深</div>
+                                </div>
+                                <div class="team_item last_item">
+                                    <img src="/osoa/images/team_2.png" alt="">
+                                    <div class="team_des">
+                                        <div class="name">王萍萍</div>
+                                        <div class="base">经济学硕士 | 投资经理</div>
+                                        <div class="years">从业8+年</div>
+                                    </div>
+                                    <div class="label">资深</div>
+                                </div> -->
+                                <div class="clr"></div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="knowledge_bg"></div>
+                    <div class="knowledge">
+                        <div class="wrap">
+                            <div class="wrap_title">专户知识</div>
+                            <div class="knowledge_wrap">
+                                <div class="wrap_left">
+                                    <h1>专户理财 <br>常见问题</h1>
+                                    <a href="/osoa/views/separate/knowledge/index.html" class="entry_link"></a>
+                                </div>
+                                <div class="wrap_right">
+                                    <!-- 
+                                    <div class="knowledge_item">
+                                        <div class="knowledge_title">什么是专户理财？</div>
+                                        <div class="knowledge_txt">专户理财又称特定客户资产管理业务是指基金管理公司向特定客户募集资金或者接受特定客户财产委托担任资产管理人，由商业银行担任资产托管人，为资产委托人的利益，运用委托财产进行证券投资的活动。</div>
+                                    </div>
+                                    <div class="knowledge_item">
+                                        <div class="knowledge_title">专户理财的一般投资范围有哪些？</div>
+                                        <div class="knowledge_txt">专户理财又称特定客户资产管理业务是指基金管理公司向特定客户募集资金或者接受特定客户财产委托担任资产管理人，由商业银行担任资产托管人，为资产委托人的利益，运用委托财产进行证券投资的活动。</div>
+                                    </div>
+                                    <div class="knowledge_item">
+                                        <div class="knowledge_title">专户理财是否可承诺最低收益？</div>
+                                        <div class="knowledge_txt">专户理财又称特定客户资产管理业务是指基金管理公司向特定客户募集资金或者接受特定客户财产委托担任资产管理人，由商业银行担任资产托管人，为资产委托人的利益，运用委托财产进行证券投资的活动。</div>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <div class="wrap">
+                            <div class="service_left">
+                                <div class="service_call">
+                                    <div class="call_title">专户尊享服务</div>
+                                    <div class="call_icon"></div>
+                                    <div class="call_txt">
+                                        010-58573766 <br> 40070088880 转 8
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="service_right">
+                                <div class="service_item item_1">及时的邮寄服务</div>
+                                <div class="service_item item_2">丰富的资讯服务</div>
+                                <div class="service_item item_3">贴心小秘书</div>
+                                <div class="service_item item_4">增值服务</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--底部start-->
+        <div id="footerContent"></div>
+        <!--底部end-->
+    </div>
+    <script src="/osoa/js/jquery.min.js"></script>
+    <script src="/osoa/js/main.js"></script>
+
+    <script type="text/javascript">
+        //项目主体页面 pageCode:页面路径编码,jsonParam:参数，isLoad:是否每次都加载
+        var _defaultPage = {
+            "pageCode": "separate/index",
+            "jsonParam": {},
+            "isLoad": false
+        };
+        //项目页头页面 pageCode:页面路径编码,jsonParam:参数，isLoad:是否每次都加载,默认是inclue/header
+        var _headerPage = {
+            "pageCode": "include/header",
+            "jsonParam": {},
+            "isLoad": false
+        };
+        //项目页脚页面 pageCode:页面路径编码,jsonParam:参数，isLoad:是否每次都加载,默认是inclue/footer
+        var _footerPage = {
+            "pageCode": "include/footer",
+            "jsonParam": {},
+            "isLoad": false
+        };
+    </script>
+    <script type="text/javascript" src="/osoa/version.js"></script>
+    <!--基础框架包 -->
+    <script type="text/javascript" src="/thinkiveJs.min.js"></script>
+</body>
+
+</html>

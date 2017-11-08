@@ -1,0 +1,26 @@
+###loggers###
+log4j.rootLogger=DEBUG,info,error,console
+log4j.logger.com.thinkive.ifaas.dao=INFO
+
+###consoleAppender###
+#log4j.appender.console=org.apache.log4j.ConsoleAppender
+#log4j.appender.console.layout=org.apache.log4j.PatternLayout
+#log4j.appender.console.layout.ConversionPattern=%d{HH:mm:ss,SSS}[%t][%.30c:%L][%p]-%m%n
+
+###detailAppender###
+log4j.appender.info=org.apache.log4j.DailyRollingFileAppender
+log4j.appender.info.Threshold=INFO
+log4j.appender.info.Append=true
+log4j.appender.info.File=D:/sidi/fundWeb/service/logs/frontWebLogs/front_web_info.log
+log4j.appender.info.DatePattern='.'yyyy-MM-dd
+log4j.appender.info.layout=org.apache.log4j.PatternLayout
+log4j.appender.info.layout.ConversionPattern=%d{MM-dd HH:mm:ss,SSS}[%t][%.30c:%L][%p]-%m%n
+
+###errorAppender###
+log4j.appender.error=org.apache.log4j.DailyRollingFileAppender
+log4j.appender.error.Threshold=ERROR
+log4j.appender.error.Append=true
+log4j.appender.error.File=D:/sidi/fundWeb/service/logs/frontWebLogs/front_web_error.log
+log4j.appender.error.DatePattern='.'yyyy-MM-dd
+log4j.appender.error.layout=org.apache.log4j.PatternLayout
+log4j.appender.error.layout.ConversionPattern=%d{MM-dd HH:mm:ss,SSS}[%t]-%m%n

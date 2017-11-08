@@ -1,0 +1,201 @@
+/**
+ * 公共方法
+ */
+define("osoa/scripts/utils/common", function(require, exports, module) {
+
+
+
+    /**
+     * 判断数组中是否存在值
+     * @param {*} array  Array    数组
+     * @param {*} obj    String   值
+     */
+    function arrayConstants(array, obj) {
+        var i = array.length;
+        while (i--) {
+            if (array[i] === obj) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    /**
+     * 将科学计数法转换成自然数
+     * @param num 科学计数法数字
+     * @param fixed 保留几位小数点
+     * @returns {*}
+     */
+    function convertScientificNotation(num, fixed) {
+        var _num = new String(num);
+        if (!isNaN(_num) && (_num.indexOf('E') != -1 || _num.indexOf('e') != -1)) {
+            _num = new Number(num).valueOf();
+            if (fixed) {
+                return _num.toFixed(fixed);
+            }
+            return _num;
+        }
+        return num;
+    }
+
+    /**
+     * 小数点向上取整
+     * @param num
+     * @param fixed
+     * @returns {*}
+     */
+    function decimalToCeil(num, fixed) {
+        if (num) {
+            var v = Math.pow(10, fixed);
+            var _num = Math.round(num * v);
+            if (_num < num * v) {
+                _num = _num + 1;
+            }
+            num = _num / v;
+        }
+        return num;
+    }
+
+    function duibi(a, b) {
+        var arr = a.split("-");
+        var starttime = new Date(arr[0], arr[1], arr[2]);
+        var starttimes = starttime.getTime();
+
+        var arrs = b.split("-");
+        var lktime = new Date(arrs[0], arrs[1], arrs[2]);
+        var lktimes = lktime.getTime();
+
+        if (starttimes > lktimes) {
+            return false;
+        } else
+            return true;
+
+    }
+
+    /**
+     * 创建一个form 用于打开新标签页
+     * @param url 新标签页地址
+     * @returns {HTMLElement}
+     */
+    function createForm(url) {
+        var form = document.createElement("form");
+        form.setAttribute("action", url);
+        form.setAttribute("method", "GET");
+        form.setAttribute("target", "_blank");
+        document.body.appendChild(form);
+        form.addInput = function(name, value) {
+            var tmpInput = document.createElement("input");
+            tmpInput.type = "hidden";
+            tmpInput.name = name;
+            tmpInput.value = value;
+            form.appendChild(tmpInput);
+        };
+        return form;
+    }
+
+    /**
+     * 定位弹框在页面中间，出入弹框 id 或 样式
+     */
+    function postionPopToMiddle(popId) {
+        var pop_lx = $(popId);
+        var _top = ($(window).height() - pop_lx.height()) / 2;
+        if (0 > _top) {
+            _top = 0;
+        }
+        pop_lx.css("top", _top);
+    }
+
+    /**
+     * 乘以 100
+     * @param num
+     * @returns {number}
+     */
+    function calDecimalPercent(num) {
+        if (num) {
+            return Math.round(num * 10000) / 100.00;
+        }
+        return 0;
+    }
+
+    /**
+     * 保留n位小数
+     * @param {*} v 
+     * @param {*} e 
+     */
+    function round(v, e) {
+        var t = 1;
+        for (; e > 0; t *= 10, e--);
+        for (; e < 0; t /= 10, e++);
+        return Math.round(v * t) / t;
+    }
+
+    /**
+     * 将小写金额转换为大写金额
+     * @param number
+     * @param id 显示的标签
+     * @returns {string}
+     * @constructor
+     */
+    function numToChineseText(number, id) {
+        if (isNaN(number) || number > Math.pow(10, 12)) {
+            return "";
+        } else {
+            var cn = "零壹贰叁肆伍陆柒捌玖";
+            var unit = new Array("拾百千", "分角");
+            var unit1 = new Array("万亿", "");
+            var numArray = number.toString().split(".");
+            var start = new Array(numArray[0].length - 1, 2);
+
+            function toChinese(number, index) {
+                var num = number.replace(/\d/g, function($1) {
+                    return cn.charAt($1) + unit[index].charAt(start-- % 4 ? start % 4 : -1);
+                });
+                return num;
+            }
+
+            for (var i = 0; i < numArray.length; i++) {
+                var tmp = "";
+                for (var j = 0; j * 4 < numArray[i].length; j++) {
+                    var strIndex = numArray[i].length - (j + 1) * 4;
+                    var str = numArray[i].substring(strIndex, strIndex + 4);
+                    var start = i ? 2 : str.length - 1;
+                    var tmp1 = toChinese(str, i);
+                    tmp1 = tmp1.replace(/(零.)+/g, "零").replace(/零+$/, "");
+                    tmp1 = tmp1.replace(/^壹拾/, "拾");
+                    tmp = (tmp1 + unit1[i].charAt(j - 1)) + tmp;
+                }
+                numArray[i] = tmp;
+            }
+            numArray[1] = numArray[1] ? numArray[1] : "";
+            numArray[0] = numArray[0] ? numArray[0] + "元" : numArray[0],
+                numArray[1] = numArray[1].replace(/^零+/, "");
+            numArray[1] = numArray[1].match(/分/) ? numArray[1] : numArray[1] + "整";
+            $("#" + id).text(numArray[0] + numArray[1]);
+        }
+    }
+
+
+    //格式化金额
+    var clearNoNum = function(_object) {
+        _object.value = _object.value.replace(/[^\d.]/g, "");
+        _object.value = _object.value.replace(/^\./g, "");
+        _object.value = _object.value.replace(/\.{2,}/g, ".");
+        _object.value = _object.value.replace(".", "$#$").replace(/\./g, "").replace("$#$", ".");
+        _object.value = _object.value.replace(/^(\-)*(\d+)\.(\d\d).*$/, '$1$2.$3');
+    };
+
+    var common = {
+        "convertScientificNotation": convertScientificNotation,
+        "duibi": duibi,
+        "decimalToCeil": decimalToCeil,
+        "createForm": createForm,
+        "postionPopToMiddle": postionPopToMiddle,
+        "calDecimalPercent": calDecimalPercent,
+        "numToChineseText": numToChineseText,
+        "clearNoNum": clearNoNum,
+        "arrayConstants": arrayConstants,
+        "round": round
+    };
+
+    module.exports = common;
+});

@@ -1,0 +1,132 @@
+/**
+ * 赎回费率计算器
+ */
+define("osoa/scripts/index/viewpoint/detail", function(require, exports, module) {
+    var pageId = "#index_calculator_redeemrate ";
+    var fxckhService = require("fxckhService");
+    var fundService = require("fundService");
+    var layerUtils = require("layerUtils");
+    require("osoa/js/datepicker.js");
+
+    //初始化 
+    function init(param) {
+        $("#choose_date").datepicker({
+            dateFormat: "yy-mm-dd",
+            onSelect: function(date) {
+                $('.date_btn').removeClass('disabled').removeAttr('disabled');
+                // $('#net_value').val('显示' + date + '的净值');
+            }
+        });
+
+        $("#right").loadPageContent(null, "include/right", {}, function() {}, true, false, true);
+    }
+
+    //绑定事件
+    function bindPageEvent() {
+        $(pageId + " .core .date_btn").bindEvent(function() {
+            var fund_code = $(pageId + " .core #fundSleect")[0].value;
+            var nv_date = $(pageId + " .core #choose_date").val();
+            if ($.string.isEmpty(fund_code)) {
+                layerUtils.iAlert("请选择赎回基金");
+                return;
+            }
+            if ($.string.isEmpty(nv_date)) {
+                layerUtils.iAlert("请选择赎回净值日期");
+                return;
+            }
+            if (!$.string.isDate(nv_date)) {
+                layerUtils.iAlert("请输入正确的日期格式，格式如：1900-01-01");
+                return;
+            }
+            queryFundNvByCode(fund_code, nv_date);
+        });
+
+
+        //申购计算器查询
+        $(pageId + " .core #calculator_submit").bindEvent(function() {
+            var nav = $(pageId + " .core #net_value").val();
+            var red_rate = $(pageId + " .core #red_rate").val();
+            var red_quotient = $(pageId + " .core #red_quotient").val();
+            if ($.string.isEmpty(red_quotient)) {
+                layerUtils.iAlert("请输入赎回金额");
+                return;
+            }
+            if ($.string.isEmpty(nav)) {
+                layerUtils.iAlert("请先查询份额净值");
+                return;
+            }
+            if ($.string.isEmpty(red_rate)) {
+                layerUtils.iAlert("请输入赎回费率");
+                return;
+            }
+            calculatorFunction(nav, red_rate, red_quotient);
+        });
+
+        $(pageId + " .core #calculator_reset").bindEvent(function() {
+            nav = $(pageId + " .core #net_value").val("");
+            red_rate = $(pageId + " .core #red_rate").val("");
+            red_quotient = $(pageId + " .core #red_quotient").val("");
+            nv_date = $(pageId + " .core #choose_date").val("");
+            $(pageId + " .core .cal_res .res").html("");
+        });
+    }
+
+    //当日基金净值
+    function queryFundNvByCode(fund_code, nv_date) {
+        var param = {
+            fund_code: $.trim(fund_code),
+            nv_date: $.trim(nv_date)
+        }
+        var callBack = function(resultVo) {
+            var error_no = resultVo.getErrorNo();
+            var error_info = resultVo.getErrorInfo();
+            var results = resultVo.getResults();
+            if (error_no == 0) {
+                $(pageId + " .core #net_value").val(results[0].unit_nv);
+            } else {
+                layerUtils.iAlert(error_info);
+            }
+        };
+        fundService.getFundNVByCode(callBack, param);
+    }
+
+
+    //申购计算
+    /**
+     * red_quotient:赎回份额
+     * red_rate：赎回费率
+     * nav:份额净值
+     */
+    function calculatorFunction(nav, red_rate, red_quotient) {
+        var param = {
+            nav: $.trim(nav),
+            red_rate: $.trim(red_rate),
+            red_quotient: $.trim(red_quotient)
+        }
+        var callBack = function(resultVo) {
+            var error_no = resultVo.getErrorNo();
+            var error_info = resultVo.getErrorInfo();
+            var results = resultVo.getResults();
+            if (error_no == 0) {
+                $(pageId + " .core .cal_res .res").html("<td>" + results[0].red_cost + "元</td><td>" + results[0].red_amount + "元</td>");
+            } else {
+                layerUtils.iAlert(error_info);
+            }
+        };
+        fxckhService.getCalculatorRedeemrate(callBack, param);
+    }
+
+    //销毁页面，单页面时候要用
+    function destroy() {
+
+    }
+
+    var redeemrate = {
+        "init": init,
+        "bindPageEvent": bindPageEvent,
+        "destroy": destroy
+    };
+
+    // 暴露对外的接口
+    module.exports = redeemrate;
+});

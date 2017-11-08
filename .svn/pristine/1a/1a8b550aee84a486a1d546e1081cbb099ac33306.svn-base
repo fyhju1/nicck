@@ -1,0 +1,81 @@
+<div class="fund_index">
+    <table>
+        <tbody>
+            <tr>
+                <td class="table_lbl" width="14%">基金名称</td>
+                <td width="36%">${data.fund_name}</td>
+                <td class="table_lbl" width="14%">基金代码</td>
+                <td width="36%">${data.fund_code}</td>
+            </tr>
+            <tr>
+                <td class="table_lbl">基金运作方式</td>
+               		<td>
+	               		{@if data.operation_type=="1"}
+	               			开放
+	               		{@/if}
+	               		{@if data.operation_type=="2"}
+	                		封闭
+	                	{@/if}
+                	</td>
+                <td class="table_lbl">基金类型</td>
+               		<td>
+	               		{@if data.fund_type=="1"}
+	               			保本型
+	               		{@/if}
+	               		{@if data.fund_type=="2"}
+	                		债券型
+	                	{@/if}
+	               		{@if data.fund_type=="3"}
+	                		混合型
+	                	{@/if}
+	               		{@if data.fund_type=="4"}
+	                		货币型
+	                	{@/if}
+	               		{@if data.fund_type=="0"}
+	                		股票型
+	                	{@/if}
+                	</td>
+            </tr>
+            <tr>	
+                <td class="table_lbl">风险评价</td>
+                <td>
+               		{@if data.risk_level=="1"}低风险{@/if}
+               		{@if data.risk_level=="2"}中低风险{@/if}
+               		{@if data.risk_level=="3"}中风险{@/if}
+               		{@if data.risk_level=="4"}中高风险{@/if}
+               		{@if data.risk_level=="5"}高风险{@/if}
+                	</td>
+                <td class="table_lbl">最低申购金额</td>
+                <td>${data.min_buy_amount}元</td>
+            </tr>
+            <tr>
+                <td class="table_lbl">管理人</td>
+                <td>${data.manager_name}</td>
+                <td class="table_lbl">基金经理</td>
+                <td>${data.manaName}</td>
+            </tr>
+            <tr>
+                <td class="table_lbl">托管人</td>
+                <td>${data.custodian_name}</td>
+                <td class="table_lbl">合同生效日期</td>
+                <td>${data.establish_date}</td>
+            </tr>
+            <tr>
+                <td class="table_lbl">业绩比较基准</td>
+                <td colspan="3" id="base_benchmark"></td>
+            </tr>
+            <tr>
+                <td class="table_lbl">投资目标</td>
+                <td colspan="3" id="base_invest_objective"></td>
+            </tr>
+            <tr>
+                <td class="table_lbl">投资范围</td>
+                <td colspan="3" id="base_invest_scope"></td>
+            </tr>
+            <tr>
+                <td class="table_lbl">投资策略</td>
+                <td colspan="3" id="base_invest_strategy"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

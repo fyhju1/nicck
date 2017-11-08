@@ -1,0 +1,224 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>华商基金</title>
+    <link rel="stylesheet" href="/osoa/css/style.css">
+    <link rel="stylesheet" href="/osoa/css/kn.css">
+    <link rel="stylesheet" href="/osoa/css/zh.css">
+    <link rel="stylesheet" href="/osoa/css/swiper.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- right -->
+        <div id="right"></div>
+
+        <!-- /.right -->
+
+        <!--头部start-->
+        <div id="headerContent"></div>
+        <!--头部end-->
+
+        <div id="bodyContent">
+            <div id="about_team" style="display: block;">
+                <div class="main grey_main">
+                    <div class="text_banner text_banner_1">
+                        <div class="text_banner_core"></div>
+                    </div>
+                    <!-- /.text_banner -->
+
+                    <div class="center">
+                        <div class="left" id="include_menu">
+                            <div class="left_list">
+                                <a href="/osoa/views/about/index.html">公司简介</a>
+                                <a href="/osoa/views/about/senior.html">高管致辞</a>
+                                <a href="/osoa/views/about/ability.html">投研能力</a>
+                                <a class="current" href="/osoa/views/about/team.html">投研团队</a>
+                                <a href="/osoa/views/about/big.html">大事记</a>
+                                <a href="/osoa/views/about/duty.html">社会责任</a>
+                                <a href="http://zhaopin.hsfund.com/" target="_blank">人才招聘</a>
+                                <a href="/osoa/views/about/connect.html">联系我们</a>
+                            </div>
+                            <!-- /.left_list -->
+
+                            <div class="left_box left_box_qr">
+                                <img src="/osoa/images/left_qr.jpg" alt=""> 华商基金APP，基金交易30秒
+                            </div>
+                            <!-- /.left_box -->
+
+                            <div class="left_box left_cs">
+                                <strong>在线客服</strong>
+
+                                <ul>
+                                    <li>
+                                        <a href="tel:400-700-8800">400-700-8800</a>
+                                    </li>
+                                    <li>
+                                        服务时间：<br /> 工作日8:30 － 17:00
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- /.left_box -->
+                        </div>
+                        <!-- /.left -->
+
+
+                        <div class="core swipe-core">
+                            <div class="article">
+                                <h1 class="article_h1">投研团队</h1>
+                            </div>
+
+                            <div class="swiper-container-dashijian dashijian">
+
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="swiItem">
+                                            <img width='138px' height='183px' src="/upload/20170818/20170818141455110.jpg">
+                                            <div class="name">新人类</div>
+                                            <div class="degree">，年从业资格</div>
+                                            <div class="info">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="swiItem">
+                                            <img width='138px' height='183px' src="/upload/20170818/20170818141506896.jpg">
+                                            <div class="name">成员1</div>
+                                            <div class="degree">大专，2年从业资格</div>
+                                            <div class="info">
+                                                个人简介
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="swiItem">
+                                            <img width='138px' height='183px' src="/upload/20170818/20170818141525772.jpg">
+                                            <div class="name">位才源</div>
+                                            <div class="degree">1，1年从业资格</div>
+                                            <div class="info">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="swiItem">
+                                            <img width='138px' height='183px' src="/upload/20170818/20170818141516704.jpg">
+                                            <div class="name">测试经理</div>
+                                            <div class="degree">1，1年从业资格</div>
+                                            <div class="info">
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="swiper-pre swiper-button-prev swiper-button-black"></div>
+                                <div class="swiper-next swiper-button-next swiper-button-black"></div>
+                            </div>
+
+
+                            <div class="man_list clearfix">
+                                <div class="man">
+                                    <img src="/upload/20170818/20170818141455110.jpg">
+                                    <div class="man-text">新人类</div>
+                                </div>
+                                <div class="man">
+                                    <img src="/upload/20170818/20170818141506896.jpg">
+                                    <div class="man-text">成员1</div>
+                                </div>
+                                <div class="man">
+                                    <img src="/upload/20170818/20170818141525772.jpg">
+                                    <div class="man-text">位才源</div>
+                                </div>
+                                <div class="man">
+                                    <img src="/upload/20170818/20170818141516704.jpg">
+                                    <div class="man-text">测试经理</div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- /.core -->
+                    </div>
+                    <!-- /.center -->
+                </div>
+                <!-- /.main -->
+            </div>
+        </div>
+
+        <!--底部start-->
+        <div id="footerContent"></div>
+        <!--底部end-->
+    </div>
+    </div>
+
+    <script src="/osoa/js/swiper.min.js"></script>
+    <script src="/osoa/js/jquery.min.js"></script>
+    <script src="/osoa/js/main.js"></script>
+
+    <script type="text/javascript">
+        //项目主体页面 pageCode:页面路径编码,jsonParam:参数，isLoad:是否每次都加载
+        var _defaultPage = {
+            "pageCode": "about/team",
+            "jsonParam": {},
+            "isLoad": false
+        };
+        //项目页头页面 pageCode:页面路径编码,jsonParam:参数，isLoad:是否每次都加载,默认是inclue/header
+        var _headerPage = {
+            "pageCode": "include/header",
+            "jsonParam": {},
+            "isLoad": false
+        };
+        //项目页脚页面 pageCode:页面路径编码,jsonParam:参数，isLoad:是否每次都加载,默认是inclue/footer
+        var _footerPage = {
+            "pageCode": "include/footer",
+            "jsonParam": {},
+            "isLoad": false
+        };
+    </script>
+
+    <!--基础框架包 -->
+    <script type="text/javascript" src="/osoa/version.js"></script>
+    <script type="text/javascript" src="/thinkiveJs.min.js"></script>
+
+    <script>
+        var index = 0;
+        var swiper = new Swiper('.swiper-container-dashijian', {
+            loop: true,
+            autoplay: 4000,
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            onSlideChangeEnd: function(swiper) {
+                index = swiper.activeIndex - 1;
+                $('.man').removeClass('cur');
+                $('.man').eq(index).addClass('cur');
+            }
+        });
+
+        $('body').on('click', '.man_list .man', function() {
+            index = $(this).index();
+            swiper.slideTo(index + 1);
+            // setCur(index);
+        });
+        $('body').on('click', ' .core .swiper-pre', function() {
+            index = index - 1;
+            setCur(index)
+        });
+        $('body').on('click', ' .core .swiper-next', function() {
+            index = index + 1;
+            setCur(index)
+        });
+
+        function setCur(index) {
+            $(".man_list .man").removeClass('cur');
+            $(".man_list .man").eq(index).addClass('cur');
+        }
+    </script>
+
+
+</body>
+
+</html>

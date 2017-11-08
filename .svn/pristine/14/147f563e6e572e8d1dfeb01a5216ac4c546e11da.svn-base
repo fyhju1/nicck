@@ -1,0 +1,234 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>  
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+ <meta name="Keywords" content="华商基金,金牛基金,基金直销,基金定投,基金,货币基金,余额理财,实时赎回,费率1折,基金怎么买,热销基金,华商盛世成长,华商价值共享,华商领先企业,
+华商新趋势优选,华商主题精选,华商优势行业" />
+<meta name="Description" content="华商基金管理有限公司—基金网上直销—费率1折优惠" />
+<title>华商基金管理有限公司 -天利宝|基金|理财|专户</title>
+	<!-- 后加载公用样式先加载滑动组件样式 -->
+	<link rel="stylesheet" href="/osoa/css/style.css" />
+	
+    <link rel="stylesheet" href="/osoa/css/kn.css" />
+<link rel="stylesheet" href="/osoa/css/zh.css" />
+    <link rel="stylesheet" href="/osoa/css/howe.css" />
+ <link rel="stylesheet" href="/osoa/css/datepicker.css" />
+</head>
+<body>
+	<div>
+		<!--头部start-->  
+		<div id="headerContent"></div>
+		<!--头部end-->  
+		
+		
+
+	      
+		
+	    <div id="bodyContent">
+	    	<div id="fund_detail" style="display: block;"> 
+	     		<div class="wrapper">
+	     		 <div class="main">
+		            <div class="crumbs">
+		                <div class="crumbs_core">
+		                    <a href="/osoa/views/index.html">首页</a>
+		                    <small>></small>
+		                    <a href="/osoa/views/fund/index.html">旗下基金</a>
+		                    <small>></small>
+		                    <span>基金详情</span>
+		                </div><!-- /.crumbs -->
+		            </div><!-- /.crumbs -->
+											
+						
+						
+
+						
+												
+						
+							<div class="fund_banner">
+								<div class="fund_banner_content">
+									<h1 id="fund_index_name">华商创新成长</h1>
+				
+									<ul class="fund_banner_left">
+										<li>
+											<span style="font-size:16px;color:black;">净值（2017-10-16）</span>
+											
+													<strong class="txt_num" id="base_unit_nv">1.309</strong>
+												
+											<small style="font-size:16px;color:black;">基金代码： 000541</small>
+										</li>
+										<li>
+											<span style="font-size:16px;color:black;">日涨跌</span>
+
+																														<strong class="txt_num green"><label id="base_daily_change">-1.65</label><span>
+															<font color="#31be66" >%</font>
+														</span> 
+													</strong>
+										
+										
+		                        </li>
+		                    </ul><!-- /.fund_banner_left -->
+		
+		                    <ul class="fund_banner_right">
+		                        <li>
+		                            基金类型：混合型<br />
+		                            风险类型：中高风险<br />
+		                            <a target="_blank" href="https://trade.hsfund.com/etrading/">申购</a>
+		                        </li>
+		                        <li>
+		                            最低申购金额：<span  style="font-size:16px;" >10元</span><br />
+		                            成立日期： 2014-03-18<br />
+		                            <a class="border_btn" target="_blank"  href="https://trade.hsfund.com/etrading/">定投</a>
+		                        </li>
+		                    </ul><!-- /.fund_banner_right -->
+		                </div><!-- /.fund_banner_content -->
+						
+						
+
+	      
+		            </div><!-- /.fund_banner -->
+		
+		            <div class="center fund_center">
+		                <ul class="fund_thumbs">
+																				<ul class="fund_thumbs">
+												<li class="fund_thumbs_0">
+													<strong>业绩长期领先</strong>
+													<p>在权益类和固定收益类投资领域，均取得了持续领先同业的良好业绩</p>
+												</li>
+												<li class="fund_thumbs_1">
+													<strong>深受业界好评</strong>
+													<p>品牌影响力不断提升，在主流机构选中屡获殊荣</p>
+												</li>
+												<li class="fund_thumbs_2">
+													<strong>关注企业成长</strong>
+													<p>坚定投资优秀企业，将ESG责任投资理念纳入选股指标</p>
+												</li>
+												<li class="fund_thumbs_3">
+													<strong>执著持续分红</strong>
+													<p>注重将投资收益及时转化为红利，累计为持有人分红超过百亿元</p>
+												</li>
+											</ul><!-- /.fund_thumbs -->
+											
+
+		                </ul><!-- /.fund_thumbs -->
+		
+		                <h2 class="title_h2">业绩表现</h2>
+
+                <div class="performance_left">
+                    <strong>历年份额累计净值增长率与业绩比较基准收益率走势对比图</strong>
+
+                    <div id="echart_tab" class="echart_tab">
+                        
+                    </div><!-- /.echart_tab -->
+                    <div id="echart_fund" class="echart_fund"></div><!-- /.echart_fund -->
+                    <div class="fund_des">华商红利优选混合 （001188）  来源：华商基金  数据截至：2011年1月1日至2017年8月22日</div>
+                </div><!-- /.performance_left -->
+		
+		                <div class="tab_box">
+		                    <ul class="tabs">
+		                        <li id="fund_base" class="current"><a href="javascript:void(0)">基本信息</a></li>
+		                        <li id="fund_group"><a href="javascript:void(0)">投资组合</a></li>
+		                        <li id="fund_nv"><a href="javascript:void(0)">基金净值</a></li>
+		                        <li id="fund_mana"><a href="javascript:void(0)">基金经理</a></li>
+		                        <li id="fund_rate"><a href="javascript:void(0)">费率</a></li>
+		                        <li id="fund_organiza"><a href="javascript:void(0)">销售机构</a></li>
+		                        <li id="fund_article"><a href="javascript:void(0)">基金公告</a></li>
+		                    </ul><!-- /ul.tab_box -->
+		
+									                    <div class="tab_content current" fund_type='3'>
+		                        <div class="fund_index">
+		                            <table>
+									
+									
+		                                <tbody>
+		                                    <tr>
+		                                        <td class="table_lbl" width="14%">基金名称</td>
+		                                        <td width="36%">华商创新成长</td>
+		                                        <td class="table_lbl" width="14%">基金代码</td>
+		                                        <td width="36%">000541</td>
+		                                    </tr>
+		                                    <tr>
+		                                        <td class="table_lbl">基金运作方式</td>
+		                                        <td>开放</td>
+		                                        <td class="table_lbl">基金类型</td>
+		                                        <td>混合型</td>
+		                                    </tr>
+		                                    <tr>
+		                                        <td class="table_lbl">风险评价</td>
+		                                        <td>中高风险</td>
+		                                        <td class="table_lbl">最低申购金额</td>
+		                                        <td>10元</td>
+		                                    </tr>
+		                                    <tr>
+		                                        <td class="table_lbl">管理人</td>
+		                                        <td>华商基金管理有限公司</td>
+		                                        <td class="table_lbl">基金经理</td>
+		                                        <td> 高兵</td>
+		                                    </tr>
+		                                    <tr>
+		                                        <td class="table_lbl">托管人</td>
+		                                        <td>中国工商银行股份有限公司</td>
+		                                        <td class="table_lbl">合同生效日期</td>
+		                                        <td>2014-03-18</td>
+		                                    </tr>
+		                                    <tr>
+		                                        <td class="table_lbl">业绩比较基准</td>
+		                                        <td colspan="3">沪深300指数收益率×55%＋上证国债指数收益率×45%</td>
+		                                    </tr>
+		                                    <tr>
+		                                        <td class="table_lbl">投资目标</td>
+		                                        <td colspan="3">本基金重点关注受益于在我国经济转型中涌现出各类创新机遇的企业，力争为基金份额持有人创造绝对收益和长期稳定的投资回报。</td>
+		                                    </tr>
+		                                    <tr>
+		                                        <td class="table_lbl">投资范围</td>
+		                                        <td colspan="3">本基金的投资范围包括国内依法发行上市的股票（包含中小板、创业板及其他经中国证监会核准上市的股票）、债券、中期票据、中小企业私募债、货币市场工具、权证、资产支持证券、股指期货及法律法规或中国证监会允许基金投资的其他金融工具，但须符合中国证监会的相关规定。
+如法律法规或监管机构以后允许基金投资其他品种，基金管理人在履行适当程序后，可以将其纳入投资范围。
+本基金的投资组合比例为：股票（包含中小板、创业板及其他经中国证监会核准上市的股票）投资比例为基金资产的0-95%。债券、权证、中期票据、中小企业私募债、现金、货币市场工具和资产支持证券及法律法规或中国证监会允许基金投资的其他金融工具占基金资产的比例为5%-100%，其中权证投资比例不超过基金资产净值的3%，中小企业私募债的投资比例不超过基金资产净值的10%，每个交易日日终在扣除股指期货合约需缴纳的交易保证金后，保持现金或者到期日在一年以内的政府债券的比例合计不低于基金资产净值的5%。本基金投资于具有创新能力、成长潜力的上市公司的股票资产不低于非现金基金资产80%。</td>
+		                                    </tr>
+		                                    <tr>
+		                                        <td class="table_lbl">投资策略</td>
+		                                        <td colspan="3">在中国经济转型发展过程中，各种创新机会将层出不穷。本基金将重点关注各种创新对我们的经济和社会产生的影响，挖掘具有爆发式潜力的创新模式及其所蕴含的投资机会，进一步精选成长性良好、资质优良、具有长期发展前景的优势企业。同时，根据对宏观经济和市场风险特征变化的判断，通过不断优化资产配置、控制仓位和采用股指期货做套期保值等策略，实现基金资产长期稳定增值。</td>
+		                                    </tr>
+											
+					
+		                                </tbody>
+		                            </table>
+		                        </div>
+		                    </div><!-- /.tab_content -->
+								<div id ='quarterly_strategy' style="display:none;">
+									2017年一季度，经济基本面表现强劲，房地产政策结构性调控周期开启，一二线城市管控，三四线城市主动去库存。与此同时我们也注意到在央行主动去杠杆的作用下，流动性趋紧。中央经济工作会议中也指出对于2017年的流行性环境相比16年要更加稳健。从宏观经济角度来看一季度可能是全年经济的高点，后续经济增速可能会放缓，但认为整体风险可控。
+一季度以来，主板指数在周期品、一带一路、漂亮50等蓝筹股带动下小幅上涨，但基本是窄幅震荡。创业板指数则乏善可陈，中小创的机构持仓比例不断下降，指数小幅收跌，但主要代表板块传媒、计算机和通信表现偏弱。甚至在一带一路，中国版漂亮50的白马蓝筹龙头股的追捧之下，创业板被主流资金抛弃的情形比较明显，唯有电子表现可圈可点，但也是在年初砸了一个大坑之后在苹果8创新大年和换机大年的预期之下开始收复失地。但整体上市场对周期性板块由追捧到抛弃，低估值高分红的标的持续受到市场的追捧，尤其表现家电和白酒等龙头品种。
+一季度指数窄幅震荡，市场更偏向资金的存量博弈，表现在低估值高分红白马龙头的追捧，另一方面主题从次新股到一带一路、国企改革等，但基本上主题轮动过快，无论是次新股还是一带一路等热点都需要提前潜伏，很难在追涨环节获利。反而低估值高增长的行业白马龙头更值得通过重仓买入并持有赚钱。此外，虽然市场对中小创整体是偏谨慎的，但是依然有业绩能够兑现的细分领域龙头依然是认可的，这些品种不需要过度考虑市值大小，而是看业绩是否能够真正兑现。
+本基金投资组合在报告期内仓位中性偏高，侧重Alpha策略，核心配置上集中在军工混改、国企改革、环保，轨道交通、Sass、汽车零部件国产自主化、医药生物、农业养殖等领域。核心持仓品种坚持且估值优势和成长空间并重。由于本基金配置以军工、Sass、生物医药和环保为主，本基金在报告期内跑赢基准。
+结合今年的宏观经济形势、资本市场的趋势特点，本基金将继续坚定核心仓位长期配置并持有符合中国经济转型、具备核心竞争优势的品种。对行业景气度的选择更加注重，同时在选股思路上更加注重估值的安全性和基本面兑现的确定性。
+							    </div>
+		                </div><!-- /.tab_box -->
+		            </div><!-- /.center -->
+		        </div><!-- /.main -->
+			     </div>
+	     	</div>
+	    </div>
+		<!--底部start-->
+	    <div id="footerContent"></div>
+	    <!--底部end-->
+    </div>
+     <script src="/osoa/js/jquery.min.js"></script>
+    <script src="/osoa/js/echarts.common.min.js"></script>
+<script src="/osoa/js/datepicker.js"></script>
+	<script src="/osoa/js/main.js"></script>
+    <script src="/osoa/js/detail_chart.js"></script>	
+	
+    <script type="text/javascript">
+ 	//项目主体页面 pageCode:页面路径编码,jsonParam:参数，isLoad:是否每次都加载
+ 	var _defaultPage = {"pageCode": "fund/detail", "jsonParam":{},"isLoad":false}; 
+ 	//项目页头页面 pageCode:页面路径编码,jsonParam:参数，isLoad:是否每次都加载,默认是inclue/header
+ 	var _headerPage = {"pageCode": "include/header", "jsonParam":{},"isLoad":false}; 
+	//项目页脚页面 pageCode:页面路径编码,jsonParam:参数，isLoad:是否每次都加载,默认是inclue/footer
+	var _footerPage = {"pageCode": "include/footer", "jsonParam":{},"isLoad":false};
+	</script>
+	<script type="text/javascript" src="/osoa/version.js"></script>
+	<!--基础框架包 -->
+	<script type="text/javascript" src="/thinkiveJs.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="GBK"?>
+<system>
+	<interceptors>
+		<interceptor class="com.thinkive.tbservice.interceptor.LoggingInterceptor" name="logging" description="打印参数日志" />
+		<interceptor class="com.thinkive.tbservice.interceptor.TimerInterceptor" name="timer" description="记录接口执行时间 " />
+		<interceptor class="com.thinkive.tbservice.interceptor.TicketInterceptor" name="ticket" description="验证码拦截器 " />
+		<interceptor class="com.thinkive.project.interceptor.SecurityInterceptor" name="security" description="权限拦截器 " />
+		<interceptor class="com.thinkive.project.interceptor.LoginInterceptor" name="login" description="登录拦截器 " />	
+		<interceptor class="com.thinkive.project.interceptor.ParamsInterceptor" name="params" description="参数拦截器 " />	
+		<interceptor class="com.thinkive.project.interceptor.RsaInterceptor" name="rsa" description="RSA拦截器 " />		
+		<interceptor class="com.thinkive.project.interceptor.LogoutInterceptor" name="logout" description="退出登录拦截器 " />	
+		<interceptor class="com.thinkive.project.interceptor.SmsCodeInterceptor" name="smscode" description="短信验证码获取拦截器 " />	
+		<interceptor class="com.thinkive.project.interceptor.SmsIdentityInterceptor" name="sms_ticket" description="短信验证码验证拦截器 " />		
+		<interceptor class="com.thinkive.project.interceptor.LoginValidInterceptor" name="login_status" description="登录状态拦截器 " />
+		<interceptor class="com.thinkive.project.interceptor.UserInfoInterceptor" name="user_info" description="用户信息拦截器 " />
+		<interceptor-stack name="defaultStack">
+			<interceptor-ref name="params" />
+			<interceptor-ref name="logging" />
+			<interceptor-ref name="timer" />
+		</interceptor-stack>
+		<interceptor-stack name="loginStack">
+			<interceptor-ref name="ticket" />
+			<interceptor-ref name="user_info" />
+			<interceptor-ref name="login" />
+		</interceptor-stack>
+		<interceptor-stack name="securityStack">
+			<interceptor-ref name="security" />
+		</interceptor-stack>
+		<interceptor-stack name="rsaStack">
+			<interceptor-ref name="rsa" />
+		</interceptor-stack>
+		<interceptor-stack name="logoutStack">
+			<interceptor-ref name="logout" />
+		</interceptor-stack>
+		<interceptor-stack name="ticketStack">
+			<interceptor-ref name="ticket" />
+		</interceptor-stack>
+		<interceptor-stack name="smscodeStack">
+			<interceptor-ref name="smscode" />
+		</interceptor-stack>
+		<interceptor-stack name="sms_ticketStack">
+			<interceptor-ref name="sms_ticket" />
+		</interceptor-stack>
+		<interceptor-stack name="login_statusStack">
+			<interceptor-ref name="login_status" />
+		</interceptor-stack>
+		
+		<interceptor-stack name="user_infoStack">
+			<interceptor-ref name="user_info" />
+		</interceptor-stack>
+		<default-interceptor-ref name="defaultStack" />
+	</interceptors>
+	<functions>
+		<function>
+			<config-type>workframe</config-type>
+			<config-addr>conf/bussiness/functions/</config-addr>
+			<config-name>func_business.xml</config-name>
+			<bus-config-id>webBus</bus-config-id>
+			<interceptor-ref name="defaultStack">
+				<filter-function></filter-function>
+			</interceptor-ref>
+		</function>
+		<function>
+			<function-list>904004</function-list>
+			<buskey>webBus</buskey>		
+			<interceptor-ref name="smscodeStack">
+			</interceptor-ref>
+		</function>
+<!-- 		<function>
+			<function-list>904002</function-list>
+			<buskey>webBus</buskey>		
+			<interceptor-ref name="ticketStack">
+			</interceptor-ref>
+		</function> -->
+		<function>
+			<function-list>100004</function-list>
+			<buskey>webBus</buskey>		
+			<interceptor-ref name="sms_ticketStack">
+			</interceptor-ref>
+		</function>
+		<!-- <function>
+			<function-list>904003</function-list>
+			<buskey>webBus</buskey>		
+			<interceptor-ref name="loginStack">
+			</interceptor-ref>
+		</function> -->
+		<function>
+			<function-list>1000001</function-list>
+			<buskey>webBus</buskey>		
+			<interceptor-ref name="logoutStack">
+			</interceptor-ref>
+		</function>
+		
+		
+		<function>
+			<function-list>100100</function-list>
+			<buskey>webBus</buskey>		
+			<interceptor-ref name="login_statusStack">
+			</interceptor-ref>
+		</function>
+		
+		
+		<function>
+			<function-list>904501</function-list>
+			<buskey>webBus</buskey>		
+			<interceptor-ref name="user_infoStack">
+			</interceptor-ref>
+		</function>
+		
+	</functions>	
+</system>

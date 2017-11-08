@@ -1,0 +1,55 @@
+<div class="fund_notice">
+    <div class="notice_srh">
+        <input id="content" value='${data.contents}' class="notice_srh_ipt" type="text" placeholder="请输入所查询公告标题">
+        <a id="search" class="notice_srh_btn" href="javascript:void(0)">查询</a>
+    </div>
+    <div class="notice_item">
+
+        <div class="notice_title">
+            临时公告
+            <a target="_blank" href="/osoa/views/news/template/newsList.html?catalogid=announce" class="notice_more"></a>
+        </div>
+        <ul class="notice_list">
+            {@each data.obj.results.list0[0].data as item,index}
+            <li class="notice_list_item">
+                {@if item.content_type!="0"}
+                <a href="${item.link_url}" target="_blank">${item.announcement_name}</a> {@else}
+                <a target="_blank" href="/osoa/views/news/newsList.html?catalogid=announce&article_id=${item.id}">${item.announcement_name}</a> {@/if}
+                <span>${item.publish_date}</span>
+            </li>
+            {@/each}
+        </ul>
+    </div>
+    <div class="notice_item">
+        <div class="notice_title">
+            定期公告
+            <a target="_blank" href="/osoa/views/news/newsList.html?catalogid=announce" class="notice_more"></a>
+        </div>
+        <ul class="notice_list">
+            {@each data.obj.results.list1[0].data as item,index}
+            <li class="notice_list_item">
+                {@if item.content_type!="0"}
+                <a href="${item.link_url}" target="_blank">${item.announcement_name}</a> {@else}
+                <a target="_blank" href="/osoa/views/news/newsList.html?catalogid=announce&article_id=${item.id}">${item.announcement_name}</a> {@/if}
+                <span>${item.publish_date}</span>
+            </li>
+            {@/each}
+        </ul>
+    </div>
+    <div class="notice_item">
+        <div class="notice_title">
+            法律文件
+            <a target="_blank" href="/osoa/views/news/newsList.html?catalogid=announce" class="notice_more"></a>
+        </div>
+        <ul class="notice_list">
+            {@each data.obj.results.list2[0].data as item,index}
+            <li class="notice_list_item">
+                {@if item.content_type!="0"}
+                <a href="${item.link_url}" target="_blank">${item.announcement_name}</a> {@else}
+                <a target="_blank" href="/osoa/views/news/newsList.html?catalogid=announce&article_id=${item.id}">${item.announcement_name}</a> {@/if}
+                <span>${item.publish_date}</span>
+            </li>
+            {@/each}
+        </ul>
+    </div>
+</div>

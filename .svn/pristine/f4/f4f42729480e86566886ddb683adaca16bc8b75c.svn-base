@@ -1,0 +1,63 @@
+<!-- right -->
+<div class="right" id="include_right">
+    <a class="right_0" href="#">
+      我的收藏
+      </a>
+    <a class="right_1" href="javascript:void(0)">
+          最近浏览
+    </a>
+    <a class="right_2" href="javascript:void(0)">华商推荐
+      <div class="right_collapse">
+                    <table>
+                        <tr>
+                            <th>基金名称</th>
+                            <th>基金代码</th>
+                            <th>最新净值</th>
+                            <th>日涨跌幅</th>
+                        </tr>
+                        <tr>
+                            <td>华商领先企业</td>
+                            <td>630001</td>
+                            <td>0.9159</td>
+                            <td><span class="red">0.45%</span></td>
+                        </tr>
+                        <tr>
+                            <td>华商领先企业</td>
+                            <td>630002</td>
+                            <td>0.9159</td>
+                            <td><span class="red">0.45%</span></td>
+                        </tr>
+                        <tr>
+                            <td>华商收益增强A</td>
+                            <td>630003</td>
+                            <td>1.269</td>
+                            <td><span class="black">0.00%</span></td>
+                        </tr>
+                        <tr>
+                            <td>华商收益增强B</td>
+                            <td>630004</td>
+                            <td>1.260</td>
+                            <td><span class="black">0.00%</span></td>
+                        </tr>
+                        <tr>
+                            <td>华商动态阿尔法</td>
+                            <td>630005</td>
+                            <td>1.958</td>
+                            <td><span class="red">0.20%</span></td>
+                        </tr>
+                    </table>
+      </div>
+    </a>
+    <a class="right_3" href="javascript:void(0)" onClick="javascript:window.open('http://service.hsfund.com/webcall/live/visitorRoom/onlineChat.jsp?command=inviteChat&companyId=1&visitorId=10c05598ab274055be3e2cfd6e688359&userId=ff7a32f8559c47d494c55a3ae333b9ee&configId=1&customerId=h208&realName=208%E5%8F%B7%E5%9D%90%E5%B8%AD','','width=820,height=530,toolbar=no, status=no, menubar=no, resizable=yes, scrollbars=yes');return false;">在线客服</a>
+    <div class="right_qr show">
+        <img src="/osoa/images/right_qr_0.jpg" alt="" /> 华商公众号
+    </div>
+    <!-- /.right_qr -->
+    <div class="right_qr show">
+
+        <img src="/osoa/images/right_qr_2.jpg" alt="" /> 华商APP
+    </div>
+    <!-- /.right_qr -->
+    <a id="right_last" class="right_last" href="javascript:void(0);">华商媒体</a>
+</div>
+<!-- /.right -->

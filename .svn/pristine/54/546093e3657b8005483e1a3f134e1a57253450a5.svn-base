@@ -1,0 +1,35 @@
+<%@page import="com.thinkive.project.util.SSOUtils"%>
+<%@page import="com.thinkive.base.util.StringHelper"%>
+<%@page import="com.thinkive.project.WebConstants"%>
+<%@page import="com.thinkive.base.util.SessionHelper"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%
+    response.setHeader("Pragma","No-cache");
+	response.setHeader("Cache-Control","no-cache");
+	response.setDateHeader("Expires", -10);
+	String custName = "";
+	String outJs = "";
+	
+	if (SSOUtils.hasSso(request, response)) {
+		custName = SessionHelper.getString(WebConstants.SESSION_CLIENT_CUSTNAME, session);
+		if(StringHelper.isBlank(custName))
+		{
+		    custName = SSOUtils.getSSOCustName(request, response);
+		}
+	} else {
+	    custName = "";
+	}
+	String planName = SessionHelper.getString(WebConstants.SESSION_CLIENT_CUSTNAME, session);
+	
+	if (StringHelper.isBlank(custName)){
+	    // 清除cookie和session下的用户信息
+	    if (StringHelper.isBlank(planName))
+	    {
+		    SSOUtils.removeSSOCookie(request, response);
+	    }
+	    outJs = "$('#loginStatus').html('欢迎来到金鹰基金！<a href=\"https://e.gefund.com.cn/etrading/\" target=\"_blank\">我要理财</a>');";
+	} else {
+        outJs = "$('#loginStatus').parent().html(\""+ custName + "</a>, 您好! </span><a href='/logout.jsp' id='out'>安全退出</a>\");";
+    }
+    out.print(outJs);
+%>

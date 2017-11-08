@@ -1,0 +1,175 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>华商基金</title>
+    <link rel="stylesheet" href="/osoa/css/style.css">
+    <link rel="stylesheet" href="/osoa/css/kn.css">
+    <link rel="stylesheet" href="/osoa/css/zh.css">
+
+</head>
+<body>
+    <div class="wrapper">
+        <div id="right"></div>
+        <div class="header">
+            <div class="top">
+                <div class="wrap">
+                    <div class="login_shortcut">
+                        <a class="login_item" id="login" href="javascript:void(0)">登录</a>
+                        <a class="login_item" id="signup" href="javascript:void(0)">注册</a>
+                        <a class="login_item" id="call_center" href="javascript:void(0)">客服中心</a>
+                        <span class="call_item">服务热线：400-700-8800</span>
+                    </div>
+                    <div class="search">
+                        <input type="text">
+                        <a class="srh_btn" href="javascript:void(0)"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="nav_wrap">
+                <div class="wrap">
+                    <a href="javascript:void(0)" class="logo">
+                        <img src="/osoa/images/logo.png" alt="">
+                    </a>
+                    <ul class="nav">
+                        <li class="nav_item"><a href="javascript:void(0)">首页</a></li>
+                        <li class="nav_item"><a href="javascript:void(0)">天利宝<span class="num">5.03%</span></a></li>
+                        <li class="nav_item"><a href="javascript:void(0)">旗下基金</a></li>
+                        <li class="nav_item"><a href="javascript:void(0)">专户理财</a></li>
+                        <li class="nav_item cur"><a href="javascript:void(0)">资讯中心</a></li>
+                        <li class="nav_item"><a href="javascript:void(0)">客户服务</a></li>
+                        <li class="nav_item"><a href="javascript:void(0)">关于华商</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="main grey_main">
+            <div class="crumbs">
+                <div class="crumbs_core">
+                    <a href="../index.html">首页</a>
+
+
+                    <small>&gt;</small>
+                    <span>理财课堂</span>
+                </div>
+                <!-- /.crumbs_core -->
+            </div>
+            <div class="center">
+
+
+                <div class="core core-one">
+
+                    <div class="core_list">
+                        <a href="licaiketang_detail.html"><span>2017年04月24日</span><strong>3月份CPI同比上涨0.9%维持低位 鲜菜价格大降27.9%</strong></a>
+                        <a href="licaiketang_detail.html"><span>2017年04月24日</span><strong>证监会完善上市公司非公开发行股票规则 规范上市公司再融资</strong></a>
+                        <a href="licaiketang_detail.html"><span>2017年04月24日</span><strong>2016年全国CPI同比涨2%</strong></a>
+                        <a href="licaiketang_detail.html"><span>2017年04月24日</span><strong>5月CPI同比涨幅回落 货币政策料以稳为主</strong></a>
+                        <a href="licaiketang_detail.html"><span>2017年04月24日</span><strong>一季度GDP同比6.7% 中国经济“开门红”</strong></a>
+                    </div><!-- /.core_list -->
+
+                    <div class="core_list">
+                        <a href="licaiketang_detail.html"><span>2017年04月24日</span><strong>3月份居民消费价格同比上涨2.3% 与2月份持平</strong></a>
+                        <a href="licaiketang_detail.html"><span>2017年04月24日</span><strong>3月制造业PMI为50.2 时隔8月返荣枯线</strong></a>
+                        <a href="licaiketang_detail.html"><span>2017年04月24日</span><strong>人民币汇率四连升重返6.50关口 贬值预期有所缓解</strong></a>
+                        <a href="licaiketang_detail.html"><span>2017年04月24日</span><strong>海通宏观评1月社融数据：短期兴奋剂 长期麻醉剂</strong></a>
+                        <a href="licaiketang_detail.html"><span>2017年04月24日</span><strong>减持门槛提高 协议转让不得低于5%</strong></a>
+                    </div><!-- /.core_list -->
+
+                    <div class="core_list">
+                        <a href="licaiketang_detail.html"><span>2017年04月24日</span><strong>公私募：多因素叠加致A股熔断 持续大跌可能性不大</strong></a>
+                        <a href="licaiketang_detail.html"><span>2017年04月24日</span><strong>机器人产业十三五发展规划草案已完成</strong></a>
+                        <a href="licaiketang_detail.html"><span>2017年04月24日</span><strong>GDP增速“破7”，怎么看？（前三季度经济数据解读）</strong></a>
+                        <a href="licaiketang_detail.html"><span>2017年04月24日</span><strong>9月CPI同比涨1.6%PPI降5.9% 各方解读一览</strong></a>
+                        <a href="licaiketang_detail.html"><span>2017年04月24日</span><strong>国企改革顶层方案亮相 三大细节提振市场预期</strong></a>
+                    </div><!-- /.core_list -->
+
+                    <div class="pgn">
+                        共<span>80</span>条动态，第<span>1</span>/16页
+                        <a class="pgn_nav" href="javascript:void(0)">上一页</a>
+                        <strong>1</strong>
+                        <a href="javascript:void(0)">2</a>
+                        <a href="javascript:void(0)">3</a>
+                        <small>...</small>
+                        <a href="javascript:void(0)">16</a>
+                        <a class="pgn_nav" href="javascript:void(0)">下一页</a>
+                    </div><!-- /.pgn -->
+                </div><!-- /.core -->
+            </div><!-- /.center -->
+        </div><!-- /.main -->
+        <div class="footer">
+            <div class="hotlink">
+                <div class="link_list">
+                    <span class="link_title">希望以下内容能够帮助您：</span>
+                    <div class="link_item">
+                        <span class="item_title">账户管理</span>
+                        <ul class="links">
+                            <li class="link"><a href="javascript:void(0)">开户</a></li>
+                            <li class="link"><a href="javascript:void(0)">登录</a></li>
+                            <li class="link"><a href="javascript:void(0)">账户查询</a></li>
+                            <li class="link"><a href="javascript:void(0)">专户</a></li>
+                        </ul>
+                    </div>
+                    <div class="link_item">
+                        <span class="item_title">网上交易</span>
+                        <ul class="links">
+                            <li class="link"><a href="javascript:void(0)">认购 转托管</a></li>
+                            <li class="link"><a href="javascript:void(0)">申购 智能定投</a></li>
+                            <li class="link"><a href="javascript:void(0)">赎回 撤单</a></li>
+                            <li class="link"><a href="javascript:void(0)">定投 交易申请查询</a></li>
+                            <li class="link"><a href="javascript:void(0)">转换 交易确认查询</a></li>
+                        </ul>
+                    </div>
+                    <div class="link_item">
+                        <span class="item_title">基金产品</span>
+                        <ul class="links">
+                            <li class="link"><a href="javascript:void(0)">混合型</a></li>
+                            <li class="link"><a href="javascript:void(0)">债券型</a></li>
+                            <li class="link"><a href="javascript:void(0)">保本型</a></li>
+                            <li class="link"><a href="javascript:void(0)">货币基金</a></li>
+                        </ul>
+                    </div>
+                    <div class="link_item">
+                        <span class="item_title">客服中心</span>
+                        <ul class="links">
+                            <li class="link"><a href="javascript:void(0)">客服中心</a></li>
+                            <li class="link"><a href="javascript:void(0)">直销柜台</a></li>
+                            <li class="link"><a href="javascript:void(0)">代销网点</a></li>
+                            <li class="link"><a href="javascript:void(0)">业务表格下载</a></li>
+                            <li class="link"><a href="javascript:void(0)">帮助中心</a></li>
+                        </ul>
+                    </div>
+                    <div class="link_item">
+                        <span class="item_title">关于我们</span>
+                        <ul class="links">
+                            <li class="link"><a href="javascript:void(0)">关于我们</a></li>
+                            <li class="link"><a href="javascript:void(0)">联系我们</a></li>
+                            <li class="link"><a href="javascript:void(0)">人才招聘</a></li>
+                            <li class="link"><a href="javascript:void(0)">公司大事记</a></li>
+                            <li class="link"><a href="javascript:void(0)">社会责任</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>
+                    <a href="javascript:void(0)">人才招聘</a> |
+                    <a href="javascript:void(0)">投资者权益须知</a> |
+                    <a href="javascript:void(0)">投资者教育</a> |
+                    <a href="javascript:void(0)">法律法规</a> |
+                    <a href="javascript:void(0)">法律声明</a> |
+                    <a href="javascript:void(0)">反洗钱</a> |
+                    <a href="javascript:void(0)">风险提示函</a> |
+                    <a href="javascript:void(0)">友情链接</a> |
+                    <a href="javascript:void(0)">联系我</a>
+                </p>
+                <p>本网站所有资讯与说明文字仅供参考，如有与本公司相关公告及基金法律文件不符，以相关公告及基金法律文件为准。市场有风险，投资需谨慎。</p>
+                <p>网站备案：京ICP备16069264号 京公网安备：110102002124 版权所有：2006 华商基金管理有限公司</p>
+            </div>
+        </div>
+    </div>
+    <script src="/osoa/js/jquery.min.js"></script>
+    <script src="/osoa/js/main.js"></script>
+</body>
+
+</html>

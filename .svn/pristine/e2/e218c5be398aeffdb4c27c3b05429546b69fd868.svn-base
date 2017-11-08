@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="GBK"?>
+<system>
+    <category name="system" description="系统相关配置">
+    	<item name="verifyKey" value="B49A86FA425D439dB510A234A3E25A3E" description="验签使用的加解密KEY"/>
+    	<item name="isOracleSequence" value="1" description="是否使用oracle的sequence(0或空不使用 1使用)"/>
+    	<item name="filterPwdField" value="password|tradePwd|fundPwd"/>
+    	<item name="moduleXMLList" value="function.xml|plat_function.xml"/>
+    	<item name="execSqlMode" value="bus" description="执行SQL配置文件模式  jdbc、bus 默认是jdbc"></item>
+    	<item name="busKey" value="webBus" description="BusKEY" ></item>
+    </category>
+    <category name="sso" description="单点登录cookie配置">
+    	<item name="domain" value="" description="单点登陆中用到的域名" />
+        <item name="cookiename" value="sso_cookie" description="cookie名称" />
+    </category>
+    <category name="test" description="测试http请求">
+    	<item name="urlPath" value="http://localhost:8081/servlet/CookieAction" description="测试调用地址" />
+    	<item name="charset" value="UTF-8" description="调用字符集编码" />
+    </category>
+</system>
+

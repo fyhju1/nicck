@@ -1,0 +1,61 @@
+<div class="fund_nv">
+    <div class="chart-item">
+        <h1>基金净值走势图</h1>
+        <div class="clearfix">
+            <div class="fl">
+                <span style="cursor:pointer" type="0" class="chart-check cur chart_date_type0">最近一个月</span>
+                <span style="cursor:pointer" type="2" class="chart-check chart_date_type2">最近六个月</span>
+                <span style="cursor:pointer" type="3" class="chart-check chart_date_type3">最近一年</span>
+                <span style="cursor:pointer" type="4" class="chart-check chart_date_type4">成立以来</span>
+            </div>
+            <div class="fl date-box">
+                <input class="date-pick" type="text" id="datepicker1" placeholder="开始日期">
+                <input class="date-pick" type="text" id="datepicker2" placeholder="结束日期">
+            </div>
+            <div style="cursor:pointer" class="chart-search fl">查询</div>
+        </div>
+        <div id="pie-chart-line" style="width:1000px;height:400px;"></div>
+        <div>
+            <table class="table-normal table-big">
+                <tbody>
+                    <tr class="table-normal-title">
+                        <th>时间</th>
+                        {@if data.fund_type=="4"}
+                        <th>每万份收益</th>
+                        <th>七日年化收益</th>
+                        {@/if} {@if data.fund_type!="4"}
+                        <th>单位净值</th>
+                        <th>累计净值</th>
+                        {@/if}
+                    </tr>
+                    {@each data.data as item,index}
+                    <tr>
+                        <td>${item.nv_date}</td>
+                        {@if data.fund_type=="4"}
+                        <td><span class="green">${item.profit_per_million}</span></td>
+                        <td><span class="green">${item.serven_days_annual_profit}%</span></td>
+                        {@/if} {@if data.fund_type!="4"}
+                        <td><span class="green">${item.unit_nv}</span></td>
+                        <td><span class="green">${item.sum_nv}</span></td>
+                        {@/if}
+
+                    </tr>
+                    {@/each}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div id="png">
+        <div class="pgn">
+            共<span>80</span>条动态，第<span>1</span>/16页
+            <a class="pgn_nav" href="#">上一页</a>
+            <strong>1</strong>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <small>...</small>
+            <a href="#">16</a>
+            <a class="pgn_nav" href="#">下一页</a>
+        </div>
+        <!-- /.pgn -->
+    </div>
+</div>

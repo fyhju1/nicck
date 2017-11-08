@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>  
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+ <meta name="Keywords" content="华商基金,金牛基金,基金直销,基金定投,基金,货币基金,余额理财,实时赎回,费率1折,基金怎么买,热销基金,华商盛世成长,华商价值共享,华商领先企业,
+华商新趋势优选,华商主题精选,华商优势行业" />
+<meta name="Description" content="华商基金管理有限公司—基金网上直销—费率1折优惠" />
+<title>华商基金管理有限公司 -天利宝|基金|理财|专户</title>
+	<!-- 后加载公用样式先加载滑动组件样式 -->
+	<link rel="stylesheet" href="/osoa/css/style.css" />
+	
+    <link rel="stylesheet" href="/osoa/css/kn.css" />
+<link rel="stylesheet" href="/osoa/css/zh.css" />
+    <link rel="stylesheet" href="/osoa/css/howe.css" />
+ <link rel="stylesheet" href="/osoa/css/datepicker.css" />
+</head>
+<body>
+	<div>
+		<!--头部start-->  
+		<div id="headerContent"></div>
+		<!--头部end-->  
+		
+		
+
+	      
+		
+	    <div id="bodyContent">
+	    	<div id="fund_detail" style="display: block;"> 
+	     		<div class="wrapper">
+	     		 <div class="main">
+		            <div class="crumbs">
+		                <div class="crumbs_core">
+		                    <a href="/osoa/views/index.html">首页</a>
+		                    <small>></small>
+		                    <a href="/osoa/views/fund/index.html">旗下基金</a>
+		                    <small>></small>
+		                    <span>基金详情</span>
+		                </div><!-- /.crumbs -->
+		            </div><!-- /.crumbs -->
+					
+	      
+		            </div><!-- /.fund_banner -->
+		
+		            <div class="center fund_center">
+		                <ul class="fund_thumbs">
+																				<ul class="fund_thumbs">
+												<li class="fund_thumbs_0">
+													<strong>业绩长期领先</strong>
+													<p>在权益类和固定收益类投资领域，均取得了持续领先同业的良好业绩</p>
+												</li>
+												<li class="fund_thumbs_1">
+													<strong>深受业界好评</strong>
+													<p>品牌影响力不断提升，在主流机构选中屡获殊荣</p>
+												</li>
+												<li class="fund_thumbs_2">
+													<strong>关注企业成长</strong>
+													<p>坚定投资优秀企业，将ESG责任投资理念纳入选股指标</p>
+												</li>
+												<li class="fund_thumbs_3">
+													<strong>执著持续分红</strong>
+													<p>注重将投资收益及时转化为红利，累计为持有人分红超过百亿元</p>
+												</li>
+											</ul><!-- /.fund_thumbs -->
+											
+
+		                </ul><!-- /.fund_thumbs -->
+		
+		                <h2 class="title_h2">业绩表现</h2>
+
+                <div class="performance_left">
+                    <strong>历年份额累计净值增长率与业绩比较基准收益率走势对比图</strong>
+
+                    <div id="echart_tab" class="echart_tab">
+                        
+                    </div><!-- /.echart_tab -->
+                    <div id="echart_fund" class="echart_fund"></div><!-- /.echart_fund -->
+                    <div class="fund_des">华商红利优选混合 （001188）  来源：华商基金  数据截至：2011年1月1日至2017年8月22日</div>
+                </div><!-- /.performance_left -->
+		
+		                <div class="tab_box">
+		                    <ul class="tabs">
+		                        <li id="fund_base" class="current"><a href="javascript:void(0)">基本信息</a></li>
+		                        <li id="fund_group"><a href="javascript:void(0)">投资组合</a></li>
+		                        <li id="fund_nv"><a href="javascript:void(0)">基金净值</a></li>
+		                        <li id="fund_mana"><a href="javascript:void(0)">基金经理</a></li>
+		                        <li id="fund_rate"><a href="javascript:void(0)">费率</a></li>
+		                        <li id="fund_organiza"><a href="javascript:void(0)">销售机构</a></li>
+		                        <li id="fund_article"><a href="javascript:void(0)">基金公告</a></li>
+		                    </ul><!-- /ul.tab_box -->
+		
+									                    <div class="tab_content current" fund_type='3'>
+		                        <div class="fund_index">
+		                            <table>
+									
+									
+		                                <tbody>
+		                                    <tr>
+		                                        <td class="table_lbl" width="14%">基金名称</td>
+		                                        <td width="36%">华商500A</td>
+		                                        <td class="table_lbl" width="14%">基金代码</td>
+		                                        <td width="36%">150110</td>
+		                                    </tr>
+		                                    <tr>
+		                                        <td class="table_lbl">基金运作方式</td>
+		                                        <td>开放</td>
+		                                        <td class="table_lbl">基金类型</td>
+		                                        <td>混合型</td>
+		                                    </tr>
+		                                    <tr>
+		                                        <td class="table_lbl">风险评价</td>
+		                                        <td></td>
+		                                        <td class="table_lbl">最低申购金额</td>
+		                                        <td>元</td>
+		                                    </tr>
+		                                    <tr>
+		                                        <td class="table_lbl">管理人</td>
+		                                        <td>华商基金</td>
+		                                        <td class="table_lbl">基金经理</td>
+		                                        <td></td>
+		                                    </tr>
+		                                    <tr>
+		                                        <td class="table_lbl">托管人</td>
+		                                        <td>中国工商银行股份有限公司</td>
+		                                        <td class="table_lbl">合同生效日期</td>
+		                                        <td>2012-09-06</td>
+		                                    </tr>
+		                                    <tr>
+		                                        <td class="table_lbl">业绩比较基准</td>
+		                                        <td colspan="3">95%×中证500指数收益率+5%×商业银行人民币活期存款利率（税后）</td>
+		                                    </tr>
+		                                    <tr>
+		                                        <td class="table_lbl">投资目标</td>
+		                                        <td colspan="3">本基金运用完全复制的被动型指数化投资方法，通过严格的投资纪律约束和数量化风险手段，力争将本基金的净值增长率与标的指数之间的日均跟踪误差偏离度的绝对值控制在0.35%以内，年跟踪误差控制4%以内，获得与标的指数收益相类似的回报。</td>
+		                                    </tr>
+		                                    <tr>
+		                                        <td class="table_lbl">投资范围</td>
+		                                        <td colspan="3">投资股票组合的比例占基金资产的85%-95%，其中投资于中证500指数的成份股及其备选成份股的投资比例不低于股票资产的90%，权证投资占基金资产净值的比例为0%-3%，现金或者到期日在一年以内的政府债券不低于基金资产净值的5%，其他金融工具的投资比例符合法律规则和监管机构的规定。</td>
+		                                    </tr>
+		                                    <tr>
+		                                        <td class="table_lbl">投资策略</td>
+		                                        <td colspan="3">本基金采用完全复制法，以中证500指数作为标的指数，按照成份股在指数中的组成及其基准权重构建股票投资组合，通过运用深入的基本面研究及先进的数量化投资技术，严格控制与目标指数的偏离风险，以拟合、跟踪标的指数的收益表现，并根据标的指数的成份股及其权重的变动而进行相应调整，获得与标的指数收益相似的回报。</td>
+		                                    </tr>
+											
+					
+		                                </tbody>
+		                            </table>
+		                        </div>
+		                    </div><!-- /.tab_content -->
+								<div id ='quarterly_strategy' style="display:none;">
+									    展望2015年1季度，宏观基本面增长动能依然疲弱。从制造业来看，尽管新出口订单指数小幅回升，但新订单指数却继续下滑，表明内需不振是拖累经济增长的原因。原材料采购量及库存指数进一步走低，说明当前企业主动补库存意愿仍在下降。就业指数在扩张收缩临界点以下继续下滑，表明企业用工意愿持续低迷。尽管房地产销售数据回暖，但房地产投资并未出现复苏迹象，同时基建投资也面临财政赤字红线的压力。实体经济赚钱效应的低迷使得资本市场内的增量资金得以持续，这为提升资本市场整体的估值水平提供了流动性。从板块来看，14年四季度涨幅较大的大盘蓝筹以及估值高企的新兴板块将面临一定的调整压力，具有上涨潜力的板块将集中于有色、油服、光伏、农业以及医药。从各指数来看，中证500的风险收益比将优于沪深300以及创业板指。
+							    </div>
+		                </div><!-- /.tab_box -->
+		            </div><!-- /.center -->
+		        </div><!-- /.main -->
+			     </div>
+	     	</div>
+	    </div>
+		<!--底部start-->
+	    <div id="footerContent"></div>
+	    <!--底部end-->
+    </div>
+     <script src="/osoa/js/jquery.min.js"></script>
+    <script src="/osoa/js/echarts.common.min.js"></script>
+<script src="/osoa/js/datepicker.js"></script>
+	<script src="/osoa/js/main.js"></script>
+    <script src="/osoa/js/detail_chart.js"></script>	
+	
+    <script type="text/javascript">
+ 	//项目主体页面 pageCode:页面路径编码,jsonParam:参数，isLoad:是否每次都加载
+ 	var _defaultPage = {"pageCode": "fund/detail", "jsonParam":{},"isLoad":false}; 
+ 	//项目页头页面 pageCode:页面路径编码,jsonParam:参数，isLoad:是否每次都加载,默认是inclue/header
+ 	var _headerPage = {"pageCode": "include/header", "jsonParam":{},"isLoad":false}; 
+	//项目页脚页面 pageCode:页面路径编码,jsonParam:参数，isLoad:是否每次都加载,默认是inclue/footer
+	var _footerPage = {"pageCode": "include/footer", "jsonParam":{},"isLoad":false};
+	</script>
+	<script type="text/javascript" src="/osoa/version.js"></script>
+	<!--基础框架包 -->
+	<script type="text/javascript" src="/thinkiveJs.min.js"></script>
+</body>
+</html>

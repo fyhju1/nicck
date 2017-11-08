@@ -1,0 +1,19 @@
+<div class="fund_manager">
+	{@each data as item,index}   
+	    <div class="fund_manager_item no_padding_top">
+	        <div class="manager_img">
+	            <img src='${item.photo_url }' alt="">
+	        </div>
+	        <div class="manager_info">
+	            <h1 class="manager_name">${item.member_name }</h1>
+	            <i class="manager_edu">${item.education}，${item.experience_time}年证券从业经历</i>
+	            <p>${item.introduction}</p>
+	        </div>
+	    </div>
+   {@/each}     
+  <!-- <div class="fenbu">
+        <h1>行业分布</h1>
+        <p> 2017年1月以来，A股市场整体相对平稳，其中蓝筹股表现相对较好,创业板股票仍在调整过程中。整体来看,国内经济企稳,大部分企业盈利有所回升,市场对业绩行业龙头等蓝筹认可度在不断提升。</p>
+        <p>报告期内，华商盛世成长基金主要进行了一些结构性的微幅调仓，还是围绕前期坚持的创新和成长领域精选个股。基金投资组合的行业配置，从结果上看，仓位相对集中在符合经济转型方向、行业景气度高的板块，包括移动互联网为代表的信息消费、文化旅游、健康等。</p>
+    </div> -->
+</div>

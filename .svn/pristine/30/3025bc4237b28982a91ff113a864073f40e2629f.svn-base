@@ -1,0 +1,474 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://weww.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="Keywords" content="华商基金 华商货币基金 华商直销,首页" />
+    <meta name="Description" content="华商基金管理有限公司—基金网上直销—费率4折优惠" />
+    <title>华商基金 华商货币基金 华商直销</title>
+
+    <link rel="stylesheet" href="/osoa/css/swiper.css" />
+
+    <!-- 后加载公用样式先加载滑动组件样式 -->
+    <link rel="stylesheet" href="/osoa/css/style.css" />
+</head>
+
+<body>
+    <div>
+        <!-- right -->
+        <div id="right"></div>
+
+        <!-- /.right -->
+
+        <!--头部start-->
+        <div id="headerContent"></div>
+        <!--头部end-->
+
+        <div id="bodyContent">
+            <div id="index" style="display: block;">
+                <div class="wrapper">
+                    <div class="main">
+                        <div class="banner">
+                            <div class="swiper_wrap swiper-container">
+                                <div class="swiper-wrapper">
+
+
+                                    <div class="swiper_item swiper-slide" style="background-image: url(/upload/20170826/20170826164741153.png);"> </div>
+                                    <div class="swiper_item swiper-slide" style="background-image: url(/upload/20170826/20170826164834435.png);"> </div>
+                                    <div class="swiper_item swiper-slide" style="background-image: url(/upload/20170826/20170826164911534.png);"> </div>
+                                    <div class="swiper_item swiper-slide" style="background-image: url(/upload/20170826/20170826164953420.png);"> </div>
+                                </div>
+                            </div>
+                            <div class="swiper_des">
+                                <ul>
+
+                                    <li class="swiper_des_item cur">
+                                        <a href="javascript:void(0)">华商研究精选</a>
+                                    </li>
+                                    <li class="swiper_des_item cur">
+                                        <a href="javascript:void(0)">2016年基届奥斯卡</a>
+                                    </li>
+                                    <li class="swiper_des_item cur">
+                                        <a href="javascript:void(0)">海螺之家礼相伴</a>
+                                    </li>
+                                    <li class="swiper_des_item cur">
+                                        <a href="javascript:void(0)">华商再捧两奖</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="login_wrap">
+                                <div class="login_top">
+                                    <h1>华商通行证</h1>
+                                    <a href="https://trade.hsfund.com/etrading/" class="login_btn personal_login" target="_blank">个人注册</a>
+                                    <a href="https://trade.hsfund.com/etrading/" class="login_btn organiz_login" target="_blank">机构注册</a>
+                                    <ul class="login_des">
+                                        <li class="des_item des_price">申购费1折</li>
+                                        <li class="des_item des_safe">安全有保障</li>
+                                        <li class="des_item des_able">零违规记录</li>
+                                    </ul>
+                                </div>
+                                <div class="login_bottom">
+                                    <a href="https://trade.hsfund.com/etrading/" class="signup_btn" target="_blank">立即注册</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrap">
+                            <div class="prodlist">
+                                <div class="prod_big m_rihgt_0">
+                                </div>
+
+                                <div class="clr"></div>
+                            </div>
+                        </div>
+                        <div class="banner_center">
+                            <div class="live_banner" style="background: ">
+                                <div class="wrap">
+
+                                    <div class="wrap_title">华商直播间</div>
+                                    <div class="live_des">
+                                        <div>
+                                            A smart loan for people with no credit history haha
+                                        </div>
+                                        <div class="live_tip">TED专家</div>
+                                        <div class="live_tip">LIVE</div>
+                                    </div>
+                                    <a target="_blank" class="play_btn" href="http://www.baidu.com"></a>
+
+                                </div>
+                            </div>
+
+                            <div class="live_info">
+                                <div class="prod_big">
+                                    <div class="prod_item">
+                                        <div class="block_l">
+                                            <h1>华商新闻</h1>
+                                            <span>追踪业界专家观点<br />了解行业最新动向 </span>
+                                            <a href="/osoa/views/news/newsList.html?catalog_id=10175" class="entry_link" target="_blank"></a>
+                                        </div>
+
+                                        <div class="block_r">
+                                            <div class="live_hot">
+                                                <div class="live_news_title">
+                                                    <a href="/osoa/views/news/template/22479.html?catalog_id=10175&article_id=22479" target="_blank">
+													公募少壮派华商基金梁永强——不惑之年
+													</a>
+                                                </div>
+                                                <div class="live_news_base">
+                                                    <span class="source">来源:第一财经日报</span>
+                                                    <span class="date">2017-07-05</span>
+                                                </div>
+                                            </div>
+
+                                            <ul class="live_news_list">
+
+
+
+
+
+
+                                                </a>
+                                                </li>
+
+                                                <li class="live_news_item">
+                                                    <a href="/osoa/views/news/template/22480.html?catalog_id=10175&article_id=22480" target="_blank">
+
+                                                        <span class="source">华商健康生活上半年收益8.9%</span>
+                                                        <span class="date">2017-07-05</span>
+
+
+                                                    </a>
+                                                </li>
+
+                                                <li class="live_news_item">
+                                                    <a href="/osoa/views/news/template/22481.html?catalog_id=10175&article_id=22481" target="_blank">
+
+                                                        <span class="source">华商李双全：掌管超40亿资金基金经理的选股秘笈和投资建议</span>
+                                                        <span class="date">2017-06-30</span>
+
+
+                                                    </a>
+                                                </li>
+
+                                                <li class="live_news_item">
+                                                    <a href="/osoa/views/news/template/22482.html?catalog_id=10175&article_id=22482" target="_blank">
+
+                                                        <span class="source">华商基金向北大现代农学院捐资设立农业经济研究基金</span>
+                                                        <span class="date">2017-06-29</span>
+
+
+                                                    </a>
+                                                </li>
+
+
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="prod_big m_rihgt_0">
+                                    <div class="prod_item">
+                                        <div class="block_l">
+                                            <h1>投研观点</h1>
+                                            <span>追踪业界专家观点<br />了解行业最新动向 </span>
+                                            <a target="_blank" href="/osoa/views/index/viewpoint/index.html" class="entry_link"></a>
+                                        </div>
+                                        <div class="block_r_1">
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="clr"></div>
+                            </div>
+                        </div>
+                        <div class="all_fund">
+                            <div class="wrap">
+                                <div class="wrap_title">
+                                    旗下基金
+                                    <a href="javascript:void(0)" class="more fund_more"></a>
+                                </div>
+                                <div class="fund_list">
+                                    <div class="fund_filter">
+                                        <div class="filter_item" id="hot_theme">
+                                            <span class="filter_lbl">热门主题</span>
+                                            <span class="filter_line"></span>
+                                            <a href="javascript:void(0)" class="filter_all filter_sec">全部</a>
+                                            <a href="javascript:void(0)" class="filter_sec" theme_code="3">黄金</a>
+                                            <a href="javascript:void(0)" class="filter_sec" theme_code="1">深港通</a>
+                                            <a href="javascript:void(0)" class="filter_sec" theme_code="2">一带一路</a>
+
+                                        </div>
+                                        <div class="filter_item" id="hot_type">
+                                            <span class="filter_lbl">基金类型</span>
+                                            <span class="filter_line"></span>
+
+                                            <a href="javascript:void(0)" class="filter_all filter_sec">全部</a>
+                                            <a href="javascript:void(0)" class="filter_sec" fund_type="2">债券型</a>
+                                            <a href="javascript:void(0)" class="filter_sec" fund_type="3">混合型</a>
+                                            <a href="javascript:void(0)" class="filter_sec" fund_type="4">货币型</a>
+                                            <a href="javascript:void(0)" class="filter_sec" fund_type="1">保本型</a>
+
+
+                                        </div>
+                                    </div>
+                                    <div class="fund_table">
+                                        <table>
+                                            <tbody>
+                                                <tr class="fund_th">
+                                                    <th class="txt_l fund_name">基金名称</th>
+                                                    <th>关注</th>
+                                                    <th>基金代码</th>
+                                                    <th>最新净值</th>
+                                                    <th>累计净值</th>
+                                                    <th>日涨跌幅</th>
+                                                    <th>成立以来
+                                                        <br />收益率</th>
+                                                    <th>赎回状态</th>
+                                                    <th width="166px" class="txt_l">描述</th>
+                                                    <th>操作</th>
+                                                </tr>
+
+
+
+                                                <tr class="fund_th">
+                                                    <th class="txt_l fund_name">基金名称</th>
+                                                    <th>关注</th>
+                                                    <th>基金代码</th>
+                                                    <th>万份收益</th>
+                                                    <th>七日年化
+                                                        <br />收益率</th>
+                                                    <th>日涨跌幅</th>
+                                                    <th>成立以来
+                                                        <br />收益率</th>
+                                                    <th>赎回状态</th>
+                                                    <th width="166px" class="txt_l">描述</th>
+                                                    <th>操作</th>
+                                                </tr>
+
+                                                <tr class='fund_show'>
+                                                    <td class="txt_l fund_name txt-bold" fundCode="630001"> <a href="
+																								
+																								/osoa/views/fund/detail/630001.html?fund_code=630001
+																								
+																								" style="color:#3d3c44"> 华商领先企业</a></td>
+                                                    <td class="unfav save"></td>
+                                                    <td class="txt-bold">630001 </td>
+                                                    <td class="txt-bold">4.023
+                                                        <br/> <span>2017-09-05</span></td>
+                                                    <td>156.546%</td>
+                                                    <td class="num_green txt-bold">%</td>
+
+                                                    <td class="num_green txt-bold">%</td>
+                                                    <td>开放</td>
+                                                    <td class="txt_l">开放，自由，自主，民主，团结</td>
+                                                    <td>
+                                                        <a target="_blank" href="https://trade.hsfund.com/etrading/" class="fund_ctrl">申购</a>
+
+                                                        <a target="_blank" href="https://trade.hsfund.com/etrading/" class="fund_ctrl">定投</a>
+
+                                                        <div class="ctrl_des">优惠费率：<i class="num_red">0.06%</i>
+                                                            <s>0.01%</s>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+
+
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="live_info fund_block">
+                                    <div class="prod_big">
+
+                                        <div class="prod_item pride_item">
+
+
+                                            <div class="block_l">
+                                                <h1>华商荣誉</h1>
+                                                <span>勇于开拓的创新勇气<br/> 傲而不骄的沉稳执着   </span>
+                                                <a href="/osoa/views/about/big/honor.html" class="entry_link"></a>
+                                            </div>
+
+
+                                            <div class="block_r" style="background:/osoa/images/s_banner_3.png ">
+
+
+
+                                                <div class="pride_type">A</div>
+                                                <div class="pride_name">
+                                                    <p>A</p>
+                                                </div>
+                                                <div class="pride_his">2017-08-28AS<br/>（ASD）</div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="prod_big m_rihgt_0">
+                                        <div class="prod_item pub_item">
+                                            <div class="block_l">
+                                                <h1>华商公益</h1>
+                                                <span>为慈善事业添砖加瓦，<br/>充分发光发热，向社会<br/>源源不断地传递出正<br/>能量</span>
+
+                                                <a href="/osoa/views/about/duty.html" class="entry_link"></a>
+                                            </div>
+
+
+                                            <div class="block_r" style="background:/osoa/images/s_banner_4.png  ">
+
+
+
+                                                <div class="pub_name">让爱发光</div>
+                                                <div class="pub_txt"> 华商基金捐赠甘肃板桥小学10万元</div>
+
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="clr"></div>
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tools">
+                            <div class="wrap">
+                                <div class="wrap_title">理财工具</div>
+                                <div class="tools_wrap">
+                                    <div class="tools_lbl"></div>
+                                    <a href="/osoa/views/index/calculator/earnings.html" class="tools_item tools_earn">
+                                        <div class="icon"></div>
+                                        定投收益计算器
+                                    </a>
+                                    <a href="/osoa/views/index/calculator/returns.html" class="tools_item tools_return">
+                                        <div class="icon"></div>
+                                        投资回报计算器
+                                    </a>
+                                    <a href="/osoa/views/index/calculator/applyrate.html" class="tools_item tools_sub">
+                                        <div class="icon"></div>
+                                        申购费率计算器
+                                    </a>
+                                    <a href="/osoa/views/index/calculator/redeemrate.html" class="tools_item tools_rede">
+                                        <div class="icon"></div>
+                                        赎回费率计算器
+                                    </a>
+                                </div>
+                                <div class="clr"></div>
+                            </div>
+                        </div>
+                        <div class="news">
+                            <div class="wrap">
+                                <div class="wrap_title">信息咨询</div>
+                                <div class="news_block">
+                                    <div class="news_title">
+                                        信息披露
+                                        <a href="/osoa/views/news/newsList.html?catalog_id=announce" class="news_more more" target="_blank"></a>
+                                    </div>
+                                    <ul class="news_list">
+
+
+
+
+
+
+
+                                    </ul>
+                                </div>
+                                <div class="news_block m_rihgt_0">
+                                    <div class="news_title">
+                                        理财课堂
+                                        <a href="/osoa/views/index/classroom/index.html" class="news_more more" target="_blank"></a>
+                                    </div>
+                                    <ul class="news_list">
+                                        <li class="news_item">
+
+
+                                            <a class="news_link" href="/osoa/views/index/classroom/detail/25973.html?catalog_id=10280&article_id=25973" target="_blank">
+
+                                                <span class="news_des">投资策略报告</span>
+                                                <span class="news_date">2014-08-25</span>
+                                            </a>
+                                        </li>
+                                        <li class="news_item">
+
+
+                                            <a class="news_link" href="/osoa/views/index/classroom/detail/25974.html?catalog_id=10280&article_id=25974" target="_blank">
+
+                                                <span class="news_des">微信功能使用</span>
+                                                <span class="news_date">2014-08-25</span>
+                                            </a>
+                                        </li>
+                                        <li class="news_item">
+
+
+                                            <a class="news_link" href="/osoa/views/index/classroom/detail/25975.html?catalog_id=10280&article_id=25975" target="_blank">
+
+                                                <span class="news_des">教育基金储备</span>
+                                                <span class="news_date">2014-08-25</span>
+                                            </a>
+                                        </li>
+                                        <li class="news_item">
+
+
+                                            <a class="news_link" href="/osoa/views/index/classroom/detail/25976.html?catalog_id=10280&article_id=25976" target="_blank">
+
+                                                <span class="news_des">第三篇：如何办理华商定投</span>
+                                                <span class="news_date">2014-08-25</span>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <div class="clr"></div>
+
+
+                                <a href="javascript:void(0)" class="warning" style="background:/upload/1_images/s_banner_5.png">预防洗钱活动  打击洗钱犯罪  维护金融秩序</a>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--底部start-->
+        <div id="footerContent"></div>
+        <!--底部end-->
+    </div>
+    <script src="/osoa/js/jquery.min.js"></script>
+    <script src="/osoa/js/swiper.min.js"></script>
+    <script src="/osoa/js/main.js"></script>
+
+    <script type="text/javascript">
+        //项目主体页面 pageCode:页面路径编码,jsonParam:参数，isLoad:是否每次都加载
+        var _defaultPage = {
+            "pageCode": "index",
+            "jsonParam": {},
+            "isLoad": false
+        };
+        //项目页头页面 pageCode:页面路径编码,jsonParam:参数，isLoad:是否每次都加载,默认是inclue/header
+        var _headerPage = {
+            "pageCode": "include/header",
+            "jsonParam": {},
+            "isLoad": false
+        };
+        //项目页脚页面 pageCode:页面路径编码,jsonParam:参数，isLoad:是否每次都加载,默认是inclue/footer
+        var _footerPage = {
+            "pageCode": "include/footer",
+            "jsonParam": {},
+            "isLoad": false
+        };
+    </script>
+    <script type="text/javascript" src="/osoa/version.js"></script>
+    <!--基础框架包 -->
+    <script type="text/javascript" src="/thinkiveJs.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+/**
+ * 页脚
+ */
+define("osoa/scripts/calculator/earnings", function(require, exports, module) {
+    var page_id = "#calculator_earnings ";
+    require("osoa/js/datepicker.js");
+    //初始化 
+    function init(param) {
+        $("#choose_date_start").datepicker({
+            dateFormat: "yy-mm-dd"
+        });
+
+        $("#choose_date_end").datepicker({
+            dateFormat: "yy-mm-dd"
+        });
+    }
+
+    //绑定事件
+    function bindPageEvent() {
+
+    }
+
+    //销毁页面，单页面时候要用
+    function destroy() {
+
+    }
+
+    var earnings = {
+        "init": init,
+        "bindPageEvent": bindPageEvent,
+        "destroy": destroy
+    };
+
+    // 暴露对外的接口
+    module.exports = earnings;
+});

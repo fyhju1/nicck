@@ -1,0 +1,544 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="Keywords" content="华商基金 华商货币基金 华商直销,旗下基金" />
+<meta name="Description" content="华商基金管理有限公司—基金网上直销—费率4折优惠" />
+<title>华商基金 华商货币基金 华商直销</title>
+	<link rel="stylesheet" href="/osoa/css/swiper.css" />
+	
+	<!-- 后加载公用样式先加载滑动组件样式 -->
+	<link rel="stylesheet" href="/osoa/css/style.css" />
+	 <link rel="stylesheet" href="/osoa/css/zh.css" />
+</head>
+<body>
+	<div>
+		<!-- right -->
+		<div  id="right">
+	      
+	    </div>
+	    <!-- /.right -->
+	        
+		<!--头部start-->  
+		<div id="headerContent"></div>
+		<!--头部end-->  
+	 
+	    <div id="bodyContent">
+	    	<div id="product_fund" style="display: block;"> 
+	     		<div class="wrapper">
+	     		 <div class="main">
+		            <div class="banner">
+						   <div class="swiper_wrap swiper-container">      
+									<div class="swiper-wrapper">
+									
+												
+												<div class="swiper_item swiper-slide" style="background-image: url(/upload/20170712/20170712141818796.jpg);"> </div>
+												<div class="swiper_item swiper-slide" style="background-image: url(/upload/20170712/20170712141208355.jpg);"> </div>
+												<div class="swiper_item swiper-slide" style="background-image: url(/upload/20170712/20170712141854747.jpg);"> </div>
+												<div class="swiper_item swiper-slide" style="background-image: url(/upload/20170712/20170712141916258.jpg);"> </div>
+												<div class="swiper_item swiper-slide" style="background-image: url(/upload/20170712/20170712141948547.jpg);"> </div>
+									</div>
+								</div>
+								<div class="swiper_des">
+									<ul>
+		
+												<li class="swiper_des_item cur">
+													<a href="javascript:void(0)">首页广告2</a>
+												</li>
+												<li class="swiper_des_item cur">
+													<a href="javascript:void(0)">首页广告</a>
+												</li>
+												<li class="swiper_des_item cur">
+													<a href="javascript:void(0)">首页广告3</a>
+												</li>
+												<li class="swiper_des_item cur">
+													<a href="javascript:void(0)">首页广告四</a>
+												</li>
+												<li class="swiper_des_item cur">
+													<a href="javascript:void(0)">首页广告5</a>
+												</li>
+									</ul>
+								</div>
+			                <div class="login_wrap">
+			                    <div class="login_top">
+			                        <h1>华商通行证</h1>
+			                        <a href="https://trade.hsfund.com/etrading/" class="login_btn personal_login"  target="_blank">个人注册</a>
+			                        <a href="https://trade.hsfund.com/etrading/" class="login_btn organiz_login"  target="_blank">机构注册</a>
+			                        <ul class="login_des">
+			                            <li class="des_item des_price">申购费1折</li>
+			                            <li class="des_item des_safe">安全有保障</li>
+			                            <li class="des_item des_able">零违规记录</li>
+			                        </ul>
+			                    </div>
+			                    <div class="login_bottom">
+			                        <a href="https://trade.hsfund.com/etrading/" class="signup_btn" target="_blank">立即注册</a>
+			                    </div>
+			                </div>
+			            </div>
+		            <div class="wrap">
+		                <div class="f-bg-box clearfix">
+		                           
+						
+						
+																							
+														<a  target="_blank"
+														
+															href="/osoa/views/news/newsList.html"
+													
+													
+													>
+													<div class="f-bg f-bg-1" style="background-image: url(/upload/20170712/20170712141916258.jpg);">
+													<div>
+														<div>推荐热门3</div>
+														<div>
+													
+																<span class="star"></span>
+															
+															
+													 	</div>
+													</div>
+												</div>
+													 </a>
+												
+														<a  target="_blank"
+														
+															href="http://hsfund.com"
+													
+													
+													>
+													<div class="f-bg f-bg-1" style="background-image: url(/upload/20170712/20170712141818796.jpg);">
+													<div>
+														<div>推荐热门2</div>
+														<div>
+													
+																<span class="star"></span>
+													
+																<span class="star"></span>
+													
+																<span class="star"></span>
+													
+																<span class="star"></span>
+													
+																<span class="star"></span>
+															
+															
+													 	</div>
+													</div>
+												</div>
+													 </a>
+												
+														<a  target="_blank"
+														
+															href="http://www.baidu.com"
+													
+													
+													>
+													<div class="f-bg f-bg-1" style="background-image: url(/upload/20170712/20170712141818796.jpg);">
+													<div>
+														<div>推荐热门1</div>
+														<div>
+													
+																<span class="star"></span>
+													
+																<span class="star"></span>
+													
+																<span class="star"></span>
+															
+															
+													 	</div>
+													</div>
+												</div>
+													 </a>
+
+		                </div>
+		                <div class="prodlist">
+		                     									
+									
+										
+												
+												<div 
+												
+												
+												
+															class="prod_small" 
+												
+												
+												fundCode='9'>
+												<div class="txt_label">
+													股票
+													
+													
+													
+													
+													
+													
+												</div>
+												<div class="prod_name txt_color txt_23">19</div>
+												<div class="txt_12 txt_color_2">低收益，低风险 </div>
+												<div class="prod_per txt_color txt_60 txt_num_black txt_bold">20.21<span class="prod_txt txt_color txt_22">%</span></div>
+												<div class="txt_12 txt_color_2">近一周以来收益率</div>
+												<div class="detail_entry">
+													<div class="hasbuy_num">已有 12200人购买</div>
+													<a href="/osoa/views/product/detail/9.html?fund_code=9" class="detail_btn" target="_blank" >查看详情</a>
+												</div>
+											</div>
+									
+										
+												
+												<div 
+												
+												
+												
+															class="prod_small" 
+												
+												
+												fundCode='6'>
+												<div class="txt_label">
+													
+													债券
+													
+													
+													
+													
+													
+												</div>
+												<div class="prod_name txt_color txt_23">16</div>
+												<div class="txt_12 txt_color_2">中低收益，中低风险 </div>
+												<div class="prod_per txt_color txt_60 txt_num_black txt_bold">-12.4<span class="prod_txt txt_color txt_22">%</span></div>
+												<div class="txt_12 txt_color_2">近一周以来收益率</div>
+												<div class="detail_entry">
+													<div class="hasbuy_num">已有 12200人购买</div>
+													<a href="/osoa/views/product/detail/6.html?fund_code=6" class="detail_btn" target="_blank" >查看详情</a>
+												</div>
+											</div>
+									
+										
+												
+												<div 
+												
+												
+												
+															class="prod_small" 
+												
+												
+												fundCode='7'>
+												<div class="txt_label">
+													股票
+													
+													
+													
+													
+													
+													
+												</div>
+												<div class="prod_name txt_color txt_23">17</div>
+												<div class="txt_12 txt_color_2">低收益，低风险 </div>
+												<div class="prod_per txt_color txt_60 txt_num_black txt_bold">12.4<span class="prod_txt txt_color txt_22">%</span></div>
+												<div class="txt_12 txt_color_2">近一月以来收益率</div>
+												<div class="detail_entry">
+													<div class="hasbuy_num">已有 12200人购买</div>
+													<a href="/osoa/views/product/detail/7.html?fund_code=7" class="detail_btn" target="_blank" >查看详情</a>
+												</div>
+											</div>
+							
+
+		                    
+		                    <div class="clr"></div>
+		                </div>
+		            </div>
+		         
+		            <div class="all_fund">
+		                <div class="wrap">
+		                    <div class="wrap_title">
+		                        旗下基金
+		                        <a href="javascript:void(0)" class="more fund_more"></a>
+		                    </div>
+		                    <div class="fund_list">
+			                        <div class="fund_filter">
+			                            <div class="filter_item" id="hot_theme">
+			                                <span class="filter_lbl">热门主题</span>
+			                                <span class="filter_line"></span>
+										<a href="javascript:void(0)" class="filter_all filter_sec" >全部</a>											
+																								<a href="javascript:void(0)" class="filter_sec" theme_code = "1" >深广通</a>
+													<a href="javascript:void(0)" class="filter_sec" theme_code = "3" >一代一路</a>
+													<a href="javascript:void(0)" class="filter_sec" theme_code = "2" >黄金</a>
+
+			                            </div>
+			                            <div class="filter_item" id="hot_type">
+			                                <span class="filter_lbl">基金类型</span>
+			                                <span class="filter_line"></span>
+											
+										<a href="javascript:void(0)" class="filter_all filter_sec">全部</a>						
+																								<a href="javascript:void(0)" class="filter_sec fundClass1" fund_type = "1">股票</a>
+													<a href="javascript:void(0)" class="filter_sec fundClass2" fund_type = "2">债券</a>
+													<a href="javascript:void(0)" class="filter_sec fundClass3" fund_type = "3">混合</a>
+													<a href="javascript:void(0)" class="filter_sec fundClass4" fund_type = "4">货币</a>
+													<a href="javascript:void(0)" class="filter_sec fundClass5" fund_type = "5">保本</a>
+													<a href="javascript:void(0)" class="filter_sec fundClass6" fund_type = "6">指数</a>
+													<a href="javascript:void(0)" class="filter_sec fundClass7" fund_type = "7">FOF</a>
+
+			                              
+			                            </div>
+			                        </div>
+			                        <div class="fund_table">
+			                            <table>
+			                                <tbody>
+			                                    <tr class="fund_th">
+			                                        <th class="txt_l fund_name">基金名称</th>
+			                                        <th>关注</th>
+			                                        <th>基金代码</th>
+			                                        <th>最新净值</th>
+			                                        <th>累计净值</th>
+			                                        <th>日涨跌幅</th>
+			                                        <th>成立以来
+			                                            <br />收益率</th>
+			                                        <th>赎回状态</th>
+			                                        <th width="166px" class="txt_l">描述</th>
+			                                        <th>操作</th>
+			                                    </tr>
+												
+																															
+																							<tr>
+																							<td class="txt_l fund_name txt-bold" fundCode="9" > <a href="
+																								
+																								/osoa/views/product/detail/9.html?fund_code=9
+																								
+																								" style="color:#3d3c44"> 19</a></td>
+																							<td class="unfav"></td>
+																								<td class="txt-bold">9</td>
+																								<td class="txt-bold">1
+																									<br/> <span>2017-07-17</span></td>
+																								<td>1</td>
+																						
+																								
+																									<td class="num_red txt-bold">20.21%</td>
+																								
+																									<td class="num_red txt-bold">20.21%</td>
+																								<td>开放</td>
+																								<td class="txt_l">1</td>
+																								<td>
+																									<a href="javascript:void(0)" class="fund_ctrl">申购</a>
+																									<a href="javascript:void(0)" class="fund_ctrl">定投</a>
+																									<div class="ctrl_des">优惠费率：<i class="num_red">1%</i>
+																										<s>1%</s>
+																									</div>
+																								</td>
+																							</tr>
+																		
+																							<tr>
+																							<td class="txt_l fund_name txt-bold" fundCode="sdas" > <a href="
+																								
+																								/osoa/views/product/detail/sdas.html?fund_code=sdas
+																								
+																								" style="color:#3d3c44"> sds</a></td>
+																							<td class="unfav"></td>
+																								<td class="txt-bold">sdas</td>
+																								<td class="txt-bold">
+																									<br/> <span></span></td>
+																								<td></td>
+																						
+																								
+																									<td class="num_green txt-bold">%</td>
+																								
+																									<td class="num_green txt-bold">%</td>
+																								<td>开放</td>
+																								<td class="txt_l"></td>
+																								<td>
+																									<a href="javascript:void(0)" class="fund_ctrl">申购</a>
+																									<a href="javascript:void(0)" class="fund_ctrl">定投</a>
+																									<div class="ctrl_des">优惠费率：<i class="num_red">%</i>
+																										<s>%</s>
+																									</div>
+																								</td>
+																							</tr>
+																		
+																							<tr>
+																							<td class="txt_l fund_name txt-bold" fundCode="6" > <a href="
+																								
+																								/osoa/views/product/detail/6.html?fund_code=6
+																								
+																								" style="color:#3d3c44"> 16</a></td>
+																							<td class="unfav"></td>
+																								<td class="txt-bold">6</td>
+																								<td class="txt-bold">32.1
+																									<br/> <span>2017-07-19</span></td>
+																								<td>1</td>
+																						
+																								
+																									<td class="num_green txt-bold">-12.4%</td>
+																								
+																									<td class="num_green txt-bold">-12.4%</td>
+																								<td>开放</td>
+																								<td class="txt_l">2</td>
+																								<td>
+																									<a href="javascript:void(0)" class="fund_ctrl">申购</a>
+																									<a href="javascript:void(0)" class="fund_ctrl">定投</a>
+																									<div class="ctrl_des">优惠费率：<i class="num_red">2%</i>
+																										<s>2%</s>
+																									</div>
+																								</td>
+																							</tr>
+																		
+																							<tr>
+																							<td class="txt_l fund_name txt-bold" fundCode="8" > <a href="
+																								
+																								/osoa/views/product/detail/8.html?fund_code=8
+																								
+																								" style="color:#3d3c44"> 18</a></td>
+																							<td class="unfav"></td>
+																								<td class="txt-bold">8</td>
+																								<td class="txt-bold">-11.32
+																									<br/> <span>2017-07-17</span></td>
+																								<td>1</td>
+																						
+																								
+																									<td class="num_green txt-bold">-0.21%</td>
+																								
+																									<td class="num_green txt-bold">-0.21%</td>
+																								<td>开放</td>
+																								<td class="txt_l">2</td>
+																								<td>
+																									<a href="javascript:void(0)" class="fund_ctrl">申购</a>
+																									<a href="javascript:void(0)" class="fund_ctrl">定投</a>
+																									<div class="ctrl_des">优惠费率：<i class="num_red">2%</i>
+																										<s>2%</s>
+																									</div>
+																								</td>
+																							</tr>
+																		
+																		
+																							<tr>
+																							<td class="txt_l fund_name txt-bold" fundCode="4" > <a href="
+																								
+																								/osoa/views/product/detail/4.html?fund_code=4
+																								
+																								" style="color:#3d3c44"> 14</a></td>
+																							<td class="unfav"></td>
+																								<td class="txt-bold">4</td>
+																								<td class="txt-bold">12.1
+																									<br/> <span>2017-05-22</span></td>
+																								<td>1</td>
+																						
+																								
+																									<td class="num_red txt-bold">4.1%</td>
+																								
+																									<td class="num_red txt-bold">4.1%</td>
+																								<td>开放</td>
+																								<td class="txt_l">1</td>
+																								<td>
+																									<a href="javascript:void(0)" class="fund_ctrl">申购</a>
+																									<a href="javascript:void(0)" class="fund_ctrl">定投</a>
+																									<div class="ctrl_des">优惠费率：<i class="num_red">1%</i>
+																										<s>1%</s>
+																									</div>
+																								</td>
+																							</tr>
+																		
+																							<tr>
+																							<td class="txt_l fund_name txt-bold" fundCode="7" > <a href="
+																								
+																								/osoa/views/product/detail/7.html?fund_code=7
+																								
+																								" style="color:#3d3c44"> 17</a></td>
+																							<td class="unfav"></td>
+																								<td class="txt-bold">7</td>
+																								<td class="txt-bold">-12.3
+																									<br/> <span>2011-12-05</span></td>
+																								<td>1</td>
+																						
+																								
+																									<td class="num_red txt-bold">12.4%</td>
+																								
+																									<td class="num_red txt-bold">12.4%</td>
+																								<td>开放</td>
+																								<td class="txt_l">1</td>
+																								<td>
+																									<a href="javascript:void(0)" class="fund_ctrl">申购</a>
+																									<a href="javascript:void(0)" class="fund_ctrl">定投</a>
+																									<div class="ctrl_des">优惠费率：<i class="num_red">1%</i>
+																										<s>1%</s>
+																									</div>
+																								</td>
+																							</tr>
+																
+												<tr class="fund_th">
+			                                        <th class="txt_l fund_name">基金名称</th>
+			                                        <th>关注</th>
+			                                        <th>基金代码</th>
+			                                        <th>万份收益</th>
+			                                        <th>七日年化
+													 <br />收益率</th>
+			                                        <th>日涨跌幅</th>
+			                                        <th>成立以来
+			                                            <br />收益率</th>
+			                                        <th>赎回状态</th>
+			                                        <th width="166px" class="txt_l">描述</th>
+			                                        <th>操作</th>
+			                                    </tr>
+																		
+																		
+																		
+																		
+																		
+																							<tr>
+																								<td class="txt_l fund_name txt-bold" fundCode="5" > <a href="
+																								
+																								/osoa/views/product/detail/5.html?fund_code=5
+																								
+																								" style="color:#3d3c44"> 15</a></td>
+																								<td class="unfav"></td>
+																								<td class="txt-bold">5 </td>
+																								<td class="txt-bold">1
+																									<br/> <span>2012-05-22</span></td>
+																								<td>1%</td>
+																									<td class="num_green txt-bold">%</td>
+																								
+																									<td class="num_green txt-bold">%</td>
+																								<td>开放</td>
+																								<td class="txt_l">2</td>
+																								<td>
+																									<a href="javascript:void(0)" class="fund_ctrl">申购</a>
+																									<a href="javascript:void(0)" class="fund_ctrl">定投</a>
+																									<div class="ctrl_des">优惠费率：<i class="num_red">2%</i>
+																										<s>2%</s>
+																									</div>
+																								</td>
+																							</tr>
+																		
+																		
+															
+
+			                                   
+			                                </tbody>
+			                            </table>
+			                        </div>
+			                    </div>
+		                    
+		                </div>
+		            </div>
+		            
+		        </div>
+			     </div>
+	     	</div>
+	    </div>
+		<!--底部start-->
+	    <div id="footerContent"></div>
+	    <!--底部end-->
+    </div>
+    <script src="/osoa/js/jquery.min.js"></script>
+    <script src="/osoa/js/swiper.min.js"></script>
+    <script src="/osoa/js/main.js"></script>
+	
+    <script type="text/javascript">
+ 	//项目主体页面 pageCode:页面路径编码,jsonParam:参数，isLoad:是否每次都加载
+ 	var _defaultPage = {"pageCode": "product/fund", "jsonParam":{},"isLoad":false}; 
+ 	//项目页头页面 pageCode:页面路径编码,jsonParam:参数，isLoad:是否每次都加载,默认是inclue/header
+ 	var _headerPage = {"pageCode": "include/header", "jsonParam":{},"isLoad":false}; 
+	//项目页脚页面 pageCode:页面路径编码,jsonParam:参数，isLoad:是否每次都加载,默认是inclue/footer
+	var _footerPage = {"pageCode": "include/footer", "jsonParam":{},"isLoad":false};
+	</script>
+	<script type="text/javascript" src="/osoa/version.js"></script>
+	<!--基础框架包 -->
+	<script type="text/javascript" src="/thinkiveJs.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<div class="fund_rate">
+    <div class="cost_title">
+        基金费用
+    </div>
+    <table class="cost_table">
+        <tbody>
+            <tr class="title">
+                <th class="lbl">费用名称</th>
+                <th colspan="12">费率明细</th>
+            </tr>
+             <tr>
+            <td class="lbl">基金管理费</td>
+            <td colspan="12">{@if data.results.data[0].manage_rate !=""}${data.results.data[0].manage_rate}%{@/if}</td>
+        </tr>
+        <tr>
+            <td class="lbl">基金托管费</td>
+            <td colspan="12">{@if data.results.data[0].trustee_rate !=""}${data.results.data[0].trustee_rate}%{@/if}</td>
+        </tr>
+            
+            <tr>
+                <td class="lbl" rowspan="3">日常申购费</td>
+                {@each data.results.list0 as item,index}   
+            		<td colspan="${data.length0}">${item.show_desc}</td>
+            	{@/each}
+            </tr>
+            <tr>
+               {@each data.results.list0 as item,index}   
+            		<td  colspan="${data.length0}">
+						{@if item.value_type=="0"}
+							${((item.feerate-0)*100).toFixed(2) }%
+						{@/if}
+						{@if item.value_type=="1"}
+							${item.min_fare}
+						{@/if}
+					</td>
+            	{@/each}
+            </tr>
+            <tr>
+                <td class="attention" colspan="12">注： M为单笔申购金额</td>
+            </tr>
+            <tr>
+                <td rowspan="4">日常赎回费</td>
+                <td colspan="12">所有</td>
+            </tr>
+            <tr>
+               {@each data.results.list1 as item,index}   
+            		<td  colspan="${data.length1}">${item.show_desc}</td>
+            	{@/each}
+            </tr>
+            <tr>
+                {@each data.results.list1 as item,index}   
+            		<td  colspan="${data.length1}">
+						{@if item.value_type=="0"}
+							${((item.feerate-0)*100).toFixed(2) }%
+						{@/if}
+						{@if item.value_type=="1"}
+							${item.min_fare}
+						{@/if}
+					</td>
+            	{@/each}
+            </tr>
+            <tr>
+                <td class="attention" colspan="12">注： Y为持有时间。一年指365天，两年为730天，以此类推。</td>
+            </tr>
+        </tbody>
+    </table>
+	<!-- <p class="table_attention" align='center'>注：该基金不收取申购和赎回费，B类销售服务费年费率0.01%/年，按日计提。</p>  -->
+     <p class="table_attention">注:上表适用于非分级基金，若该基金为分级基金，则上表费率情况适用于A类份额，而B/C类不收取申购和赎回费，只收取销售服务费（年费率0.4%，按日计提）。另外，对于华商丰利增强定期开放债券型基金，无论是A类还是C类，在同一开放期内申购后又赎回基金份额，还需收取1.0%的赎回费。</p>
+    <div class="des">
+        <h1>转换费用</h1> 基金的转换费率=转出基金的赎回费+转出与转入基金申购费补差
+    </div>
+    <div class="des">
+        <h1>赎回费用</h1> 转出基金的赎回费率按持有年限递减，具体各基金的赎回费率请参见各基金的招募说明书或在本公司网站（www.hsfund.com）查询。
+    </div>
+    <div class="des">
+        <h1>转出与转入基金申购费补差：</h1>
+        1. 转出基金申购费率大于等于转入基金申购费率的，不收取申购费补差。<br>
+        2. 转出基金申购费率为0，申购补差费率为转入基金申购费率，根据网上交易客户转换基金对应的不同支付或直销交易账户的银行卡、支付账户享受相应的优惠费率。<br>
+        3. 转出基金申购费率小于转入基金申购费率且不为0，申购补差费为转入基金申购费减去转出基金申购费。
+    </div>
+</div>

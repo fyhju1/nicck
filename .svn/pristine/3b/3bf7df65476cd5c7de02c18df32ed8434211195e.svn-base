@@ -1,0 +1,63 @@
+<table class="cost_table">
+    <tbody>
+        <tr class="title">
+            <th class="lbl">费用名称</th>
+            <th colspan="12">费率明细</th>
+        </tr>
+        <tr>
+            <td class="lbl">基金管理费</td>
+            <td colspan="12">{@if data.results.data[0].manage_rate !=""}${data.results.data[0].manage_rate}%{@/if}</td>
+        </tr>
+        <tr>
+            <td class="lbl">基金托管费</td>
+            <td colspan="12">{@if data.results.data[0].trustee_rate !=""}${data.results.data[0].trustee_rate}%{@/if}</td>
+        </tr>
+
+        <tr>
+            <td class="lbl" rowspan="3">日常申购费</td>
+            {@each data.results.list0 as item,index}
+            <td colspan="${data.length0}">${item.show_desc}</td> {@/each}
+        </tr>
+        <tr>
+            {@each data.results.list0 as item,index}
+            <td colspan="${data.length0}">
+				{@if item.value_type=="0"}
+				${((item.feerate-0)*100).toFixed(2) }%
+			{@/if}
+			{@if item.value_type=="1"}
+				${item.min_fare}
+			{@/if}
+	    </td>
+	    {@/each}
+        </tr>
+        <tr>
+            <td class="attention" colspan="12">注： M为单笔申购金额</td>
+        </tr>
+        <tr>
+            <td rowspan="4">日常赎回费</td>
+            <td colspan="12">所有</td>
+        </tr>
+        <tr>
+            {@each data.results.list1 as item,index}
+            <td colspan="${data.length1}">${item.show_desc}</td> {@/each}
+        </tr>
+        <tr>
+            {@each data.results.list1 as item,index}
+            <td colspan="${data.length1}">
+			{@if item.value_type=="0"}
+				${((item.feerate-0)*100).toFixed(2) }%
+			{@/if}
+			{@if item.value_type=="1"}
+				${item.min_fare}
+			{@/if}
+	    </td> 
+	{@/each}
+        </tr>
+        <tr>
+            <td class="attention" colspan="12">注： Y为持有时间。一年指365天，两年为730天，以此类推。</td>
+        </tr>
+    </tbody>
+</table>
+<p class="table_attention">
+    免责提示: <br> 以上费率优惠情况仅供参考，具体费率优惠请以 《基金合同》、招募说明书、销售机构公告等法律文件为准。
+</p>

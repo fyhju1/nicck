@@ -1,0 +1,179 @@
+/**
+ * 申购费率计算器
+ */
+define("osoa/scripts/index/calculator/applyrate", function(require, exports, module) {
+    var pageId = "#index_calculator_applyrate ";
+    var fxckhService = require("fxckhService");
+    var fundService = require("fundService");
+    var layerUtils = require("layerUtils");
+    require("osoa/js/datepicker.js");
+
+    //初始化 
+    function init(param) {
+        // $("#choose_date").val(new Date().getFullYear() + "-" + ((new Date().getMonth() - 0) + 1) + "-" + new Date().getDay());
+        $("#choose_date").datepicker({
+            dateFormat: "yy-mm-dd",
+            maxDate: '%y-%M-%d',
+            onSelect: function(date) {
+                // $('#net_value').val('显示' + date + '的净值')
+            }
+        });
+
+        $("#right").loadPageContent(null, "include/right", {}, function() {}, true, false, true);
+    }
+
+
+    //绑定事件
+    function bindPageEvent() {
+        $(pageId + " .core .date_btn").bindEvent(function() {
+            var fund_code = $(pageId + " .core #fundSleect")[0].value;
+            var nv_date = $(pageId + " .core #choose_date").val();
+            if ($.string.isEmpty(fund_code)) {
+                layerUtils.iAlert("请选择申购基金");
+                return;
+            }
+            if ($.string.isEmpty(nv_date)) {
+                layerUtils.iAlert("请选择申购净值日期");
+                return;
+            }
+            if (!$.string.isDate(nv_date)) {
+                layerUtils.iAlert("请输入正确的日期格式，格式如：<br/>1900-01-01");
+                return;
+            }
+            queryFundNvByCode(fund_code, nv_date);
+        });
+
+        //申购计算器查询
+        $(pageId + " .core #calculator_submit").bindEvent(function() {
+            var nav = $(pageId + " .core #net_value").val();
+            var buy_rate = $(pageId + " .core #buy_rate").val();
+            var buy_amount = $(pageId + " .core #buy_amount").val();
+            if ($.string.isEmpty(buy_amount)) {
+                layerUtils.iAlert("请输入申购金额");
+                return;
+            }
+            if ($.string.isEmpty(nav)) {
+                layerUtils.iAlert("请先查询份额净值");
+                return;
+            }
+            if ($.string.isEmpty(buy_rate)) {
+                layerUtils.iAlert("请输入申购费率");
+                return;
+            }
+
+            if (!isNaN(buy_amount)) {
+                if (buy_amount < 0) {
+                    layerUtils.iAlert("申购金额不能小于0");
+                    return;
+                }
+            } else {
+                layerUtils.iAlert("申购金额为数字");
+                return;
+            }
+            if (!isNaN(nav)) {
+                if (nav < 0) {
+                    layerUtils.iAlert("净值不能小于0");
+                    return;
+                }
+            } else {
+                layerUtils.iAlert("净值为数字");
+                return;
+            }
+            if (!isNaN(buy_rate)) {
+                if (buy_rate > 100 || buy_rate < 0) {
+                    layerUtils.iAlert("申购费率位于0~100之间");
+                    return;
+                }
+            } else {
+                layerUtils.iAlert("费率为数字");
+                return;
+            }
+            calculatorFunction(nav, buy_rate, buy_amount);
+        });
+
+        $(pageId + " .core #calculator_reset").bindEvent(function() {
+            $(pageId + " .core #net_value").val("");
+            $(pageId + " .core #buy_rate").val("");
+            $(pageId + " .core #buy_amount").val("");
+            $(pageId + " .core #choose_date").val("");
+            $(pageId + " .core .cal_res .res").html("");
+        });
+    }
+
+    //申购计算
+    /**
+     * nav:份额净值
+     * buy_rate：申购费率
+     * buy_amount：申购金额
+     */
+    function calculatorFunction(nav, buy_rate, buy_amount) {
+        var param = {
+            nav: $.trim(nav),
+            buy_rate: $.trim(buy_rate),
+            buy_amount: $.trim(buy_amount)
+        }
+        var callBack = function(resultVo) {
+            var error_no = resultVo.getErrorNo();
+            var error_info = resultVo.getErrorInfo();
+            var results = resultVo.getResults();
+            if (error_no == 0) {
+                $(pageId + " .core .cal_res .res").html("<td>" + results[0].buy_cost + "元</td><td>" + results[0].buy_quotient + "份</td>");
+            } else {
+                layerUtils.iAlert(error_info);
+            }
+        };
+        fxckhService.getCalculatorApplyrate(callBack, param);
+    }
+
+    //当日基金净值
+    function queryFundNvByCode(fund_code, nv_date) {
+        var param = {
+            fund_code: $.trim(fund_code),
+            nv_date: $.trim(nv_date)
+        }
+        var callBack = function(resultVo) {
+            var error_no = resultVo.getErrorNo();
+            var error_info = resultVo.getErrorInfo();
+            var results = resultVo.getResults();
+            if (error_no == 0) {
+                $(pageId + " .core #net_value").val(results[0].unit_nv);
+            } else {
+                $(pageId + " .core #net_value").val("");
+                layerUtils.iAlert(error_info);
+            }
+        };
+        fundService.getFundNVByCode(callBack, param);
+    }
+
+    //初始化产品列表
+    function initFundList() {
+        fundService.getAllFundList(function(resultVo) {
+            var error_no = resultVo.getErrorNo();
+            var error_info = resultVo.getErrorInfo();
+            var results = resultVo.getResults();
+            if (error_no == 0) {
+                var str = "<option value='null' disabled  style='display:none;color:#b2b4bd;'>请选择基金</option>";
+                for (var i = 0; i < results.length; i++) {
+                    str += "<option value=" + results[i].fund_code + " >" + results[i].fund_short_name + "</option>";
+                }
+                $(pageId + " .core #fundSleect").html(str);
+            } else {
+                layerUtils.iAlert(error_info);
+            }
+        });
+    }
+
+    //销毁页面，单页面时候要用
+    function destroy() {
+
+    }
+
+    var applyrate = {
+        "init": init,
+        "bindPageEvent": bindPageEvent,
+        "destroy": destroy
+    };
+
+    // 暴露对外的接口
+    module.exports = applyrate;
+});

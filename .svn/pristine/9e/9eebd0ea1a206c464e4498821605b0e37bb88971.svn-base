@@ -1,0 +1,38 @@
+/**
+ * 投资回报计算器
+ */
+define("osoa/scripts/index/calculator/returns", function(require, exports, module) {
+    var page_id = "#indexcalculator_returns ";
+    require("osoa/js/datepicker.js");
+    //初始化 
+    function init(param) {
+        $("#choose_date_buy").datepicker({
+            dateFormat: "yy-mm-dd"
+        });
+        $("#choose_date_return").datepicker({
+            dateFormat: "yy-mm-dd"
+        });
+    }
+
+    //绑定事件
+    function bindPageEvent() {
+
+    }
+
+    //销毁页面，单页面时候要用
+    function destroy() {
+
+    }
+
+
+
+    var returns = {
+        "init": init,
+        "bindPageEvent": bindPageEvent,
+        "destroy": destroy
+    };
+
+    // 暴露对外的接口
+    module.exports =
+        returns;
+});

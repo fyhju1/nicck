@@ -1,0 +1,36 @@
+<div id="include_header">
+    <div class="header">
+        <div class="top">
+            <div class="wrap">
+                <div class="login_shortcut">
+                    <a class="login_item" id="login" href="https://trade.hsfund.com/etrading/" target="_blank">登录</a>
+                    <a class="login_item" id="signup" href="https://trade.hsfund.com/etrading/quickopenacco.do?method=doInit" target="_blank">注册</a>
+                    <a class="login_item" id="call_center" href="javascript:void(0)" onClick="javascript:window.open('http://service.hsfund.com/webcall/live/visitorRoom/onlineChat.jsp?command=inviteChat&companyId=1&visitorId=10c05598ab274055be3e2cfd6e688359&userId=ff7a32f8559c47d494c55a3ae333b9ee&configId=1&customerId=h208&realName=208%E5%8F%B7%E5%9D%90%E5%B8%AD','','width=820,height=530,toolbar=no, status=no, menubar=no, resizable=yes, scrollbars=yes');return false;">客服中心</a>
+
+
+                    <span class="call_item">服务热线：400-700-8800</span>
+                </div>
+                <div class="search">
+                    <input type="text" />
+                    <a class="srh_btn" href="javascript:void(0)"></a>
+                </div>
+            </div>
+        </div>
+        <div class="nav_wrap">
+            <div class="wrap">
+                <a href="javascript:void(0)" class="logo">
+                    <img src="/osoa/images/logo.png" alt="" />
+                </a>
+                <ul class="nav">
+                    <li id="hs_index" class="nav_item cur"><a href="/osoa/views/index.html">首页</a></li>
+                    <li id="hs_bao" class="nav_item"><a href="javascript:void(0)">天利宝<span class="num">5.03%</span></a></li>
+                    <li id='hs_fund' class="nav_item"><a href="/osoa/views/fund/index.html">旗下基金</a></li>
+                    <li id='hs_licai' class="nav_item"><a href="/osoa/views/separate/index.html">专户理财</a></li>
+                    <li id='hs_article' class="nav_item"><a href="/osoa/views/news/newsList.html">资讯中心</a></li>
+                    <li id='hs_server' class="nav_item"><a href="/osoa/views/customer/index.html">客户服务</a></li>
+                    <li id='hs_about' class="nav_item"><a href="/osoa/views/about/index.html">关于华商</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

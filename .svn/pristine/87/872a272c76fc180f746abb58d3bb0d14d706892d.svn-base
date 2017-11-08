@@ -1,0 +1,106 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <meta name="Keywords" content="让爱发光" />
+<meta name="Description" content="<p><span style='color: rgb(166, 124, 82); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: "Microsoft YaHei"; font-size: 17px; font-style: normal; font-weight: normal; word-spacing: 0px; float: none; display: inline !important; white-space: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;'>“华商人爱心基金”正式成立</span></p>" />
+<title>让爱发光社会责任-华商基金管理有限公司,文章</title>
+    <link rel="stylesheet" href="/osoa/css/style.css">
+    <link rel="stylesheet" href="/osoa/css/kn.css">
+    <link rel="stylesheet" href="/osoa/css/howe.css">
+    <link rel="stylesheet" href="/osoa/css/zh.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- right -->
+        <div id="right"></div>
+
+        <!-- /.right -->
+
+        <!--头部start-->
+        <div id="headerContent"></div>
+        <!--头部end-->
+        <div id="bodyContent">
+            <div id="index_classroom_detail" style="display: block;">
+                <div class="main grey_main">
+                    <div class="crumbs">
+                        <div class="crumbs_core">
+                            <a href="/osoa/views/index.html">首页</a>
+                            <small>></small>
+
+                            <a href="/osoa/views/index/classroom/index.html">理财课堂</a>
+
+                            <small>></small>
+                            <span>正文</span>
+                        </div>
+                        <!-- /.crumbs_core -->
+                    </div>
+                    <div class="center">
+
+					                        <div class="core core-one">
+				
+                            <div class="dongtai">
+                                <p class="p_title">让爱发光</p>
+                                <p class="p_sub_title">
+									                                    <span>发布日期： 
+
+2017-08-16 17:26:18</span> 						 
+
+
+
+
+ 
+ 
+
+                                </p>
+									
+
+							   </div>
+                        </div>
+                        <!-- /.core -->
+						
+
+                    </div>
+                    <!-- /.center -->
+                </div>
+                <!-- /.main -->
+            </div>
+        </div>
+
+        <!--底部start-->
+        <div id="footerContent"></div>
+        <!--底部end-->
+    </div>
+
+    <script src="/osoa/js/jquery.min.js"></script>
+    <script src="/osoa/js/main.js"></script>
+
+    <script type="text/javascript">
+        //项目主体页面 pageCode:页面路径编码,jsonParam:参数，isLoad:是否每次都加载
+        var _defaultPage = {
+            "pageCode": "index/classroom/detail",
+            "jsonParam": {},
+            "isLoad": false
+        };
+        //项目页头页面 pageCode:页面路径编码,jsonParam:参数，isLoad:是否每次都加载,默认是inclue/header
+        var _headerPage = {
+            "pageCode": "include/header",
+            "jsonParam": {},
+            "isLoad": false
+        };
+        //项目页脚页面 pageCode:页面路径编码,jsonParam:参数，isLoad:是否每次都加载,默认是inclue/footer
+        var _footerPage = {
+            "pageCode": "include/footer",
+            "jsonParam": {},
+            "isLoad": false
+        };
+    </script>
+    <script type="text/javascript" src="/osoa/version.js"></script>
+    <!--基础框架包 -->
+    <script type="text/javascript" src="/thinkiveJs.min.js"></script>
+</body>
+
+</html>

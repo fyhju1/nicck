@@ -1,0 +1,123 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>华商基金</title>
+    <link rel="stylesheet" href="/osoa/css/style.css">
+    <link rel="stylesheet" href="/osoa/css/kn.css">
+    <link rel="stylesheet" href="/osoa/css/zh.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- right -->
+        <div id="right"></div>
+
+        <!-- /.right -->
+
+        <!--头部start-->
+        <div id="headerContent"></div>
+        <!--头部end-->
+        <div id="bodyContent">
+            <div id="index_classroom_index" style="display: block;">
+                <div class="main grey_main">
+                    <div class="crumbs">
+                        <div class="crumbs_core">
+                            <a href="/osoa/views/index.html">首页</a>
+
+
+                            <small>></small>
+                            <span>理财课堂</span>
+                        </div>
+                        <!-- /.crumbs_core -->
+                    </div>
+                    <div class="center">
+
+
+                        <div class="core core-one">
+                            <div id="core_list">
+
+                            </div>
+                            <!-- <div class="core_list">
+                                <a href="licaiketang_detail.html"><span>2017年04月24日</span><strong>3月份CPI同比上涨0.9%维持低位 鲜菜价格大降27.9%</strong></a>
+                                <a href="licaiketang_detail.html"><span>2017年04月24日</span><strong>证监会完善上市公司非公开发行股票规则 规范上市公司再融资</strong></a>
+                                <a href="licaiketang_detail.html"><span>2017年04月24日</span><strong>2016年全国CPI同比涨2%</strong></a>
+                                <a href="licaiketang_detail.html"><span>2017年04月24日</span><strong>5月CPI同比涨幅回落 货币政策料以稳为主</strong></a>
+                                <a href="licaiketang_detail.html"><span>2017年04月24日</span><strong>一季度GDP同比6.7% 中国经济“开门红”</strong></a>
+                            </div>
+                            
+
+                            <div class="core_list">
+                                <a href="licaiketang_detail.html"><span>2017年04月24日</span><strong>3月份居民消费价格同比上涨2.3% 与2月份持平</strong></a>
+                                <a href="licaiketang_detail.html"><span>2017年04月24日</span><strong>3月制造业PMI为50.2 时隔8月返荣枯线</strong></a>
+                                <a href="licaiketang_detail.html"><span>2017年04月24日</span><strong>人民币汇率四连升重返6.50关口 贬值预期有所缓解</strong></a>
+                                <a href="licaiketang_detail.html"><span>2017年04月24日</span><strong>海通宏观评1月社融数据：短期兴奋剂 长期麻醉剂</strong></a>
+                                <a href="licaiketang_detail.html"><span>2017年04月24日</span><strong>减持门槛提高 协议转让不得低于5%</strong></a>
+                            </div>
+                            
+
+                            <div class="core_list">
+                                <a href="licaiketang_detail.html"><span>2017年04月24日</span><strong>公私募：多因素叠加致A股熔断 持续大跌可能性不大</strong></a>
+                                <a href="licaiketang_detail.html"><span>2017年04月24日</span><strong>机器人产业十三五发展规划草案已完成</strong></a>
+                                <a href="licaiketang_detail.html"><span>2017年04月24日</span><strong>GDP增速“破7”，怎么看？（前三季度经济数据解读）</strong></a>
+                                <a href="licaiketang_detail.html"><span>2017年04月24日</span><strong>9月CPI同比涨1.6%PPI降5.9% 各方解读一览</strong></a>
+                                <a href="licaiketang_detail.html"><span>2017年04月24日</span><strong>国企改革顶层方案亮相 三大细节提振市场预期</strong></a>
+                            </div> -->
+
+                            <div id="png">
+                                <!-- <div class="pgn">
+                                    共<span>80</span>条动态，第<span>1</span>/16页
+                                    <a class="pgn_nav" href="javascript:void(0)">上一页</a>
+                                    <strong>1</strong>
+                                    <a href="javascript:void(0)">2</a>
+                                    <a href="javascript:void(0)">3</a>
+                                    <small>...</small>
+                                    <a href="javascript:void(0)">16</a>
+                                    <a class="pgn_nav" href="javascript:void(0)">下一页</a>
+                                </div> -->
+                            </div>
+                            <!-- /.pgn -->
+                        </div>
+                        <!-- /.core -->
+                    </div>
+                    <!-- /.center -->
+                </div>
+                <!-- /.main -->
+            </div>
+        </div>
+
+        <!--底部start-->
+        <div id="footerContent"></div>
+        <!--底部end-->
+    </div>
+    <script src="/osoa/js/jquery.min.js"></script>
+    <script src="/osoa/js/main.js"></script>
+
+    <script type="text/javascript">
+        //项目主体页面 pageCode:页面路径编码,jsonParam:参数，isLoad:是否每次都加载
+        var _defaultPage = {
+            "pageCode": "index/classroom/index",
+            "jsonParam": {},
+            "isLoad": false
+        };
+        //项目页头页面 pageCode:页面路径编码,jsonParam:参数，isLoad:是否每次都加载,默认是inclue/header
+        var _headerPage = {
+            "pageCode": "include/header",
+            "jsonParam": {},
+            "isLoad": false
+        };
+        //项目页脚页面 pageCode:页面路径编码,jsonParam:参数，isLoad:是否每次都加载,默认是inclue/footer
+        var _footerPage = {
+            "pageCode": "include/footer",
+            "jsonParam": {},
+            "isLoad": false
+        };
+    </script>
+    <script type="text/javascript" src="/osoa/version.js"></script>
+    <!--基础框架包 -->
+    <script type="text/javascript" src="/thinkiveJs.min.js"></script>
+</body>
+
+</html>

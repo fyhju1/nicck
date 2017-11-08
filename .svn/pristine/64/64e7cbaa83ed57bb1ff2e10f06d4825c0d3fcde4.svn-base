@@ -1,0 +1,112 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>华商基金</title>
+    <link rel="stylesheet" href="/osoa/css/style.css">
+    <link rel="stylesheet" href="/osoa/css/kn.css">
+    <link rel="stylesheet" href="/osoa/css/zh.css">
+    <link rel="stylesheet" href="/osoa/css/swiper.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- right -->
+        <div id="right"></div>
+
+        <!-- /.right -->
+
+        <!--头部start-->
+        <div id="headerContent"></div>
+        <!--头部end-->
+
+        <div id="bodyContent">
+            <div id="customer_teach_detail" style="display: block;">
+
+                <div class="main grey_main">
+                    <div class="crumbs">
+                        <div class="crumbs_core">
+                            <a href="/osoa/views/index.html">首页</a>
+                            <small>&gt;</small>
+                            <a href="/osoa/views/customer/index.html">客户服务</a>
+                            <small>&gt;</small>
+                            <a href="/osoa/views/customer/teach/index.html">投资生活</a>
+                            <small>&gt;</small>
+                            <span>正文</span>
+                        </div>
+                        <!-- /.crumbs_core -->
+                    </div>
+                    <div class="center">
+
+
+                        <div class="core core-one">
+
+                            <div class="dongtai">
+                                <p class="p_title"></p>
+                                <p class="p_sub_title">
+                                    <span></span>
+                                </p>
+                                <div id="p_content">
+
+                                </div>
+                                <!-- <p>将时钟回拨至2015年6月26日，当天“黑色星期五”空袭A股，2011只个股跌停，2300只个股收跌。而后，市场进入不断调整和震荡的漫长弱市格局。</p>
+                                <p>这对于2015年7月8日刚刚成立的华商双驱优选来说，运气实在不佳，建仓可谓举步维艰。然而，出乎所有人意料的是，截至2016年12月31日，华商双驱优选自成立以来净值增长率竟然高达27.20%，同期上证综指则下跌16.73个百分点。进入2017年，华商双驱优选业绩继续稳步前进，一季度获益+0.55%（上述数据来自华商双驱优选的2016年报、2017年一季报）。</p>
+                                <p>“成立至今，华商双驱优选一直走得比较平稳。”华商双驱优选的掌舵者、华商基金投资管理部副总经理李双全显得非常谦虚，“这只产品采取立足于中长期相对均衡的配置策略，目标是追求绝对收益，就阶段性结果而言，投资策略和预期目标都比较稳妥地落到了实处。”</p>
+                                <p class="p_bold">“弱格局”首重企业中短期经营业绩</p>
+                                <p>在李双全看来，在“弱格局”的市场中，标的公司的实际经营情况和当期业绩情况显得格外重要。也就是说，要把公司的中短期经营业绩放在首位。同时，在市场调整过程中，标的公司风险的相对可控也很重要，因为，这对控制基金净值的回撤比较有利。在满足这两点的基础之上，还要考虑中长期维度上行业和公司的成长性。要多思考这个公司所在的行业是不是一个朝阳行业，公司自身能不能成为这个朝阳行业里的龙头公司。 “总体而言，值得纳入重点股票池的股票，不仅‘风险收益比较合适’，而且要在未来几个季度之内能够看到比较明显的上升空间。”李双全分析“弱格局”中的投资之道。
+                                </p>
+                                <p class="p_bold">注重长期均衡配置</p>
+                                <p>基于避险或者是“抱团取暖”的初衷，上半年很多机构投资者都将手中的筹码集中到白酒、家电等龙头股上。然而，这些“龙马股”并没有出现在华商双驱优选最近两个季度的重仓股名单中。</p>
+                                <p>“我没有刻意地和大家保持一致或者不一致，这是根据自己的选股习惯，自下而上精选的结果。从我管理的角度来看，我会把仓位保持在一个相对稳定的水平，双驱的仓位一般都在80%左右。我希望能够以时间换空间，所以不会去博短期的主题和热点，也不追求短期的爆发性。”李双全表示。他还是希望能够找到真正具有成长性的公司，通过长期持有的方式，来分享公司成长的收益，最终在公司的市值和基金的净值上有所体现。</p>
+                                <p class="p_bold">下半年高成长公司有望被重新认知</p>
+                                <p>“下半年整个市场会更加均衡。” 李双全分析认为，一方面是经济增长减缓有压力，另一方面是流动性可能有改善空间，这两者形成对冲。 “目前蓝筹股的估值修复可能已经走到一个比较高的位置，再往后可能不光是看市值是不是够大或者业绩确定性是不是高，还要看公司的成长和估值之间的比价效应。”李双全说。
+                                </p> -->
+
+                            </div>
+                        </div>
+                        <!-- /.core -->
+                    </div>
+                    <!-- /.center -->
+                </div>
+
+            </div>
+        </div>
+
+        <!-- /.main -->
+
+        <!--底部start-->
+        <div id="footerContent"></div>
+        <!--底部end-->
+    </div>
+    <script src="/osoa/js/jquery.min.js"></script>
+    <script src="/osoa/js/main.js"></script>
+
+    <script type="text/javascript">
+        //项目主体页面 pageCode:页面路径编码,jsonParam:参数，isLoad:是否每次都加载
+        var _defaultPage = {
+            "pageCode": "customer/teach/detail",
+            "jsonParam": {},
+            "isLoad": false
+        };
+        //项目页头页面 pageCode:页面路径编码,jsonParam:参数，isLoad:是否每次都加载,默认是inclue/header
+        var _headerPage = {
+            "pageCode": "include/header",
+            "jsonParam": {},
+            "isLoad": false
+        };
+        //项目页脚页面 pageCode:页面路径编码,jsonParam:参数，isLoad:是否每次都加载,默认是inclue/footer
+        var _footerPage = {
+            "pageCode": "include/footer",
+            "jsonParam": {},
+            "isLoad": false
+        };
+    </script>
+
+    <!--基础框架包 -->
+    <script type="text/javascript" src="/osoa/version.js"></script>
+    <script type="text/javascript" src="/thinkiveJs.min.js"></script>
+</body>
+
+</html>

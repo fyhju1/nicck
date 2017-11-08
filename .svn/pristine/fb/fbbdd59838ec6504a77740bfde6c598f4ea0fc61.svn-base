@@ -1,0 +1,447 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <title>华商基金</title>
+    <link rel="stylesheet" href="/osoa/css/style.css">
+    <link rel="stylesheet" href="/osoa/css/kn.css">
+    <link rel="stylesheet" href="/osoa/css/zh.css">
+    <link rel="stylesheet" href="/osoa/css/swiper.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- right -->
+        <div id="right"></div>
+
+        <!-- /.right -->
+
+        <!--头部start-->
+        <div id="headerContent"></div>
+        <!--头部end-->
+
+        <div id="bodyContent">
+            <div id="customer_index" style="display: block;">
+                <div class="main">
+                    <div class="cs_banner">
+                        <div class="cs_banner_core">
+                            <div class="cs_search_form">
+                                <input id="search_value" type="text" class="cs_search" placeholder="请简要描述您的问题，帮您快速寻找答案">
+                                <input id="search_question" type="submit" value="搜索" class="cs_search_btn">
+                            </div>
+                            <!-- /.cs_search_form -->
+                            <div class="cs_search_links">
+                                热门搜索：
+                                               <a href="/osoa/views/customer/server/search/detail.html?article_id=124922">APP开户</a><span>|</span>
+                                <a href="/osoa/views/customer/server/search/detail.html?article_id=124923"> 1折购基</a><span>|</span>
+                                <a href="/osoa/views/customer/server/search/detail.html?article_id=124924"> 忘记密码</a><span>|</span>
+                               
+                                <a href="https://trade.hsfund.com/etrading/"> 账户查询</a>
+                            </div>
+                        </div>
+                        <!-- /.cs_banner_core -->
+                    </div>
+                    <!-- /.cs_banner -->
+
+                    <div class="cs_ul">
+                        <a class="cs_li_0" href="/osoa/views/customer/server/guide.html">开户指南</a>
+                        <a class="cs_li_1" href="/osoa/views/customer/server/tarde.html">基金交易</a>
+                        <a class="cs_li_2" href="/osoa/views/customer/server/fund.html">天利宝</a>
+                        <a class="cs_li_3" href="/osoa/views/customer/server/rate.html">基金费率</a><br/>
+                        <a class="cs_li_4" href="/osoa/views/customer/server/subscribe.html">基金定投</a>
+                        <a class="cs_li_5" href="/osoa/views/customer/server/question.html">热点问题</a>
+                        <a class="cs_li_6" href="/osoa/views/customer/server/know.html">投资者须知</a>
+                        <a class="cs_li_7" href="/osoa/views/customer/server/download.html">表单下载</a>
+
+                    </div>
+                    <!-- /.cs_ul -->
+
+                    <div class="cs_box cs_our_service_box">
+                        <div class="cs_box_core">
+                            <h2>我们的服务</h2>
+
+                            <ul class="cs_our_service">
+                                <li class="cs_our_service_0">
+                                    <h3>服务介绍</h3>
+
+                                    <strong>人工客服</strong>
+                                    400-700-8880<br />
+                                    <span>服务时间:<br /> 工作日 8:30-11:30,13:00-17:00</span>
+
+                                    <strong>客服邮箱</strong>
+                                    services@hsfund.com
+
+                                    <strong>在线客服</strong>
+                                    <a href="javascript:void(0)" onclick="javascript:window.open('http://service.hsfund.com/webcall.jsp','','width=820,height=530,toolbar=no, status=no, menubar=no, resizable=yes, scrollbars=yes');return false;" class="cs_btn">立即咨询</a>
+                                </li>
+                                <li class="cs_our_service_1">
+                                    <h3>服务定制</h3>
+
+                                    <strong>定制短信</strong>
+                                    交易确认短信</a> |
+                                    短信咨讯</a>
+
+                                    <strong>定制邮件</strong>
+                                    交易确认邮件 |
+                                    邮件咨讯
+
+                                    <strong>定制对账单</strong>
+                                    <a target="_blank"  href="https://trade.hsfund.com/etrading/">电子对账单</a> |
+                                    <a target="_blank"  href="https://trade.hsfund.com/etrading/">APP对账单</a> |
+                                    <a target="_blank"  href="https://trade.hsfund.com/etrading/">微信对账单</a>
+
+                                    <a target="_blank"  href="https://trade.hsfund.com/etrading/ " class="cs_btn">立即定制</a>
+                                </li>
+                                <li class="cs_our_service_2">
+                                    <h3>掌上生活</h3>
+
+                                    <ul class="cs_qr">
+                                        <li>
+											
+																											<img width='94px' width='94px' src="/upload/20170913/20170913195840838.png" alt="" />华商基金APP
+
+											
+                                           
+
+
+                                        </li>
+                                        <li>
+
+                                            																<img width='94px' width='94px' src="/upload/20170913/20170913195909106.png" alt="" />华商基金微博
+
+
+
+                                        </li>
+                                        <li>
+
+                                            																<img width='94px' width='94px' src="/upload/20170913/20170913200008666.png" alt="" />公众号
+
+
+
+                                        </li>
+                                        <li>
+
+                                            																<img width='94px' width='94px' src="/upload/20170913/20170913195933876.jpg" alt="" />华商基金财知道
+
+
+                                        </li>
+                                    </ul>
+                                    <!-- /.cs_qr -->
+                                </li>
+                            </ul>
+                            <!-- /.cs_our_service -->
+                        </div>
+                        <!-- /.cs_box_core -->
+                    </div>
+                    <!-- /.cs_box -->
+
+                    <div class="cs_box cs_club">
+                        <div class="cs_box_core">
+                            <h2>金海螺俱乐部</h2>
+
+                            <div class="cs_club_ul">
+                                <li class="cs_club_li_0"><a style='color:#fff' href="/osoa/views/customer/server/search/detail.html?article_id=148848" >
+                                    <strong>尊享服务</strong>
+                                    <p>金海螺俱乐部采取自动入会机制，会员享受专业顾问式的咨询服务！</p>
+									</a>
+								</li>
+                                <li class="cs_club_li_1">
+                                    <strong>积分兑换</strong>
+                                    <p>面向金海螺俱乐部会员，提供不定期的积分兑换服务！</p><br/>
+                                </li>
+                                <li class="cs_club_li_2"><a style='color:#fff' href="/osoa/views/other/public/index.html?catalog_id=10317" >
+                                    <strong>活动公告</strong>
+                                    <p>为您提供丰富多彩的有奖活动，用心满足会员的理财服务需求！</p></a>
+                                </li>
+                            </div>
+                            <!-- /.cs_club_ul -->
+                        </div>
+                        <!-- /.cs_box_core -->
+                    </div>
+                    <!-- /.cs_box -->
+
+                    <div class="cs_swiper">
+                        <div id="cs_swiper_core" class="cs_swiper_core">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="csSwiItem">
+                                        <img src="/osoa/images/cs_swiper_0.jpg">
+                                        <img src="/osoa/images/cs_swiper_1.jpg">
+                                        <img src="/osoa/images/cs_swiper_2.jpg">
+                                        <img src="/osoa/images/cs_swiper_3.jpg">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="csSwiItem">
+                                        <img src="/osoa/images/cs_swiper_0.jpg">
+                                        <img src="/osoa/images/cs_swiper_1.jpg">
+                                        <img src="/osoa/images/cs_swiper_2.jpg">
+                                        <img src="/osoa/images/cs_swiper_3.jpg">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="csSwiItem">
+                                        <img src="/osoa/images/cs_swiper_0.jpg">
+                                        <img src="/osoa/images/cs_swiper_1.jpg">
+                                        <img src="/osoa/images/cs_swiper_2.jpg">
+                                        <img src="/osoa/images/cs_swiper_3.jpg">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="csSwiItem">
+                                        <img src="/osoa/images/cs_swiper_0.jpg">
+                                        <img src="/osoa/images/cs_swiper_1.jpg">
+                                        <img src="/osoa/images/cs_swiper_2.jpg">
+                                        <img src="/osoa/images/cs_swiper_3.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.swiper-wrapper -->
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                    <!-- /.cs_swiper -->
+
+                    <div class="cs_box cs_college">
+                        <div class="cs_box_core">
+                            <h2>华商学院</h2>
+
+                            <ul class="cs_college_ul">
+                                <li>
+                                    <strong>
+                                                投资生活
+                                                <a  href="/osoa/views/customer/life/index.html" class="notice_more"></a>
+                                            </strong>
+																												 
+																
+																
+																<a  style='overflow:hidden' class="news_link" href="/osoa/views/customer/life/detail.html?article_id=124965" target="_blank" >
+
+																	怎样规划孩子的教育基金
+																	
+																	</a>
+																 
+																
+																
+																<a  style='overflow:hidden' class="news_link" href="/osoa/views/customer/life/detail.html?article_id=124984" target="_blank" >
+
+																	教育基金储备
+																	
+																	</a>
+																 
+																
+																
+																<a  style='overflow:hidden' class="news_link" href="/osoa/views/customer/life/detail.html?article_id=124985" target="_blank" >
+
+																	第三篇：如何办理华商定投
+																	
+																	</a>
+																 
+																
+																
+																<a  style='overflow:hidden' class="news_link" href="/osoa/views/customer/life/detail.html?article_id=124983" target="_blank" >
+
+																	微信功能使用
+																	
+																	</a>
+
+
+
+                                </li>
+                                <li>
+                                    <strong>
+                                                投资教育
+                                                <a href="/osoa/views/customer/teach/index.html" class="notice_more"></a>
+                                            </strong>
+
+																												 
+																
+																
+																<a  style='overflow:hidden' class="news_link" href="/osoa/views/customer/teach/detail.html?article_id=152793" target="_blank" >
+
+																	“投资者保护?明规则、识风险”案例——非合格投资者的“危险游戏”
+																	
+																	</a>
+																 
+																
+																
+																<a  style='overflow:hidden' class="news_link" href="/osoa/views/customer/teach/detail.html?article_id=152794" target="_blank" >
+
+																	“投资者保护?明规则、识风险”案例——“代客理财”莫轻信 证券投资走正途
+																	
+																	</a>
+																 
+																
+																
+																<a  style='overflow:hidden' class="news_link" href="/osoa/views/customer/teach/detail.html?article_id=124015" target="_blank" >
+
+																	投资者保护？明规则、识风险”——欺诈发行和违规披露案例之LDD公司案
+																	
+																	</a>
+																 
+																
+																
+																<a  style='overflow:hidden' class="news_link" href="/osoa/views/customer/teach/detail.html?article_id=124016" target="_blank" >
+
+																	投资者保护？明规则、识风险”——欺诈发行和违规披露案例之WF公司案
+																	
+																	</a>
+
+
+                                </li>
+                                <li >
+                                    <strong>
+                                                法律法规
+                                                <a href="/osoa/views/customer/laws/index.html" class="notice_more"></a>
+                                            </strong>
+
+
+
+                                    																 
+																<a   style='overflow:hidden' class="news_link" href="/upload/2017/09/14/090435581_343_ac324882-3929-32f5-9558-7a8f4a86bac7.pdf" target="_blank" >
+																	证券投资基金管理公司合规管理规范
+																	
+																	</a>
+																 
+																<a   style='overflow:hidden' class="news_link" href="/upload/2017/09/07/085853295_343_1a2b0f24-ca9c-37ec-9d2f-4aed31d624df.pdf" target="_blank" >
+																	《证券投资基金投资流通受限股票估值业务指引(试行）》
+																	
+																	</a>
+																 
+																<a   style='overflow:hidden' class="news_link" href="/upload/2017/09/07/085824576_343_fe035842-617e-3515-8ffb-1b3408693321.pdf" target="_blank" >
+																	中国证监会关于证券投资基金估值业务的指导意见
+																	
+																	</a>
+																 
+																<a   style='overflow:hidden' class="news_link" href="/upload/2017/09/06/161940498_343_d7de2e53-3dc8-3d8c-81e5-62ea55a404db.pdf" target="_blank" >
+																	公开募集开放式证券投资基金流动性风险管理规定
+																	
+																	</a>
+
+												
+
+                                </li>
+                            </ul>
+                            <!-- /.cs_college_ul -->
+                        </div>
+                        <!-- /.cs_box_core -->
+                    </div>
+                    <!-- /.cs_box -->
+
+                    <!-- <div class="cs_bottom">预防洗钱活动 打击洗钱犯罪 维护金融秩序</div> -->
+					
+					<div class='cs_box_core'>
+																		<a href="http://www.hsfund.com/osoa/views/customer/laws/index.html" class="credits ad_banner" url="http://www.hsfund.com/osoa/views/customer/laws/index.html" style="background:url(/upload/20170926/20170926054355822.jpg)"></a>	
+												
+
+											
+					</div>
+					<br/>
+                </div>
+                <!-- /.main -->
+            </div>
+        </div>
+
+        <!--底部start-->
+        <div class="footer">
+		<div class="hotlink">
+			<div class="link_list">
+				<span class="link_title">希望以下内容能够帮助您：</span>
+				<div class="link_item">
+					<span class="item_title">服务介绍</span>
+					<ul class="links">
+						<li class="link"><a  target="_blank" href="/osoa/views/customer/server/search/detail.html?article_id=148849">电话服务</a></li>
+						<li class="link"><a  target="_blank" href="http://service.hsfund.com/webcall.jsp">在线服务</a></li>
+						<li class="link"><a  target="_blank" href="/osoa/views/customer/server/search/detail.html?article_id=148847">直销柜台</a></li>
+						<li class="link"><a  target="_blank" href="http://service.hsfund.com/webcall.jsp">投诉建议</a></li>
+					</ul>
+				</div>
+				<div class="link_item">
+					<span class="item_title">新手上路</span>
+					<ul class="links">
+						<li class="link"><a  target="_blank" href="https://trade.hsfund.com/etrading/quickopenacco.do?method=doInit&SECURE_TOKEN=Sxji3MWtXMC6Cw7xMCi7sGBXT86bGiY63WG1c8Fs">我要开户</a></li>
+						<li class="link"><a  target="_blank" href="https://trade.hsfund.com/etrading/">查询资产</a></li>
+						<li class="link"><a  target="_blank" href="https://trade.hsfund.com/etrading/resetpassword.do?method=initCheckRole">密码找回</a></li>
+						<li class="link"><a  target="_blank" href="/osoa/views/customer/server/know.html">投资者须知</a></li>
+					</ul>
+				</div>
+				<div class="link_item">
+					<span class="item_title">交易速查</span>
+					<ul class="links">
+						<li class="link"><a  target="_blank" href="/osoa/views/fund/index.html">旗下基金</a></li>
+						<li class="link"><a  target="_blank" href="javascript:void(0)">销售渠道</a></li>
+						<li class="link"><a  target="_blank" href="https://trade.hsfund.com/etrading/template/huashang/custom/other_2.html?id=1#">直销优惠</a></li>
+						<li class="link"><a  target="_blank" href="/osoa/views/customer/server/know/detail.html?article_id=152761">交易规则</a></li>
+					</ul>
+				</div>
+				<div class="link_item">
+					<span class="item_title">柜台直销</span>
+					<ul class="links">
+						<li class="link"><a  target="_blank" href="/osoa/views/customer/server/download.html">机构账户业务</a></li>
+						<li class="link"><a  target="_blank" href="/osoa/views/customer/server/download.html">机构交易业务</a></li>
+						<li class="link"><a  target="_blank" href="/osoa/views/customer/server/download.html">个人账户业务</a></li>
+						<li class="link"><a  target="_blank" href="/osoa/views/customer/server/download.html">个人交易业务</a></li>
+					</ul>
+				</div>
+				<div class="link_item">
+					<span class="item_title">选择华商</span>
+					<ul class="links">
+						<li class="link"><a target="_blank" href="/osoa/views/about/index.html">了解华商基金</a></li>
+                        <li class="link"><a target="_blank" href="/osoa/views/about/team.html">华商的优势</a></li>
+                        <li class="link"><a target="_blank" href="/osoa/views/separate/index.html">更高收益理财</a></li>
+                        <li class="link"><a target="_blank" href="http://zhaopin.hsfund.com/">加入我们</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+			<p>
+				<a  target="_blank" href="http://zhaopin.hsfund.com/">人才招聘</a> |
+				<a  target="_blank" href="/osoa/views/customer/server/know.html">投资者权益须知</a> |
+				<a  target="_blank" href="/osoa/views/customer/teach/index.html">投资者教育</a> |
+				<a  target="_blank" href="/osoa/views/customer/laws/index.html">法律法规</a> |
+				<a  target="_blank" href="/osoa/views/index/laws.html">法律声明</a> |
+				<a  target="_blank" href="/osoa/views/customer/laws/list.html?catalog_id=10314&title_name=反洗钱">反洗钱</a> |
+				<a  target="_blank" href="/osoa/views/index/letter.html">风险提示函</a> |
+				<a  target="_blank" href="/osoa/views/index/connect.html">友情链接</a> |
+				<a  target="_blank" href="/osoa/views/about/connect.html">联系我们</a>
+			</p>
+			<p>本网站所有资讯与说明文字仅供参考，如有与本公司相关公告及基金法律文件不符，以相关公告及基金法律文件为准。市场有风险，投资需谨慎。</p>
+			<p>网站备案：京ICP备16069264号 京公网安备：110102002124 版权所有：2006 华商基金管理有限公司</p>
+		</div>
+	</div>  
+        <!--底部end-->
+    </div>
+    <script src="/osoa/js/swiper.min.js"></script>
+    <script src="/osoa/js/jquery.min.js"></script>
+    <script src="/osoa/js/main.js"></script>
+    <script type="text/javascript">
+        //项目主体页面 pageCode:页面路径编码,jsonParam:参数，isLoad:是否每次都加载
+        var _defaultPage = {
+            "pageCode": "customer/index",
+            "jsonParam": {},
+            "isLoad": false
+        };
+        //项目页头页面 pageCode:页面路径编码,jsonParam:参数，isLoad:是否每次都加载,默认是inclue/header
+        var _headerPage = {
+            "pageCode": "include/header",
+            "jsonParam": {},
+            "isLoad": false
+        };
+        //项目页脚页面 pageCode:页面路径编码,jsonParam:参数，isLoad:是否每次都加载,默认是inclue/footer
+       
+    </script>
+
+    <!--基础框架包 -->
+    <script type="text/javascript" src="/osoa/version.js"></script>
+    <script type="text/javascript" src="/thinkiveJs.min.js"></script>
+
+    <script type="text/javascript">
+
+    </script>
+</body>
+
+</html>

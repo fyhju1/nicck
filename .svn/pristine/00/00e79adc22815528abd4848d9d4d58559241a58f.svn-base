@@ -1,0 +1,87 @@
+<div id="include_footer">
+	<div class="footer">
+		<div class="hotlink">
+			<div class="link_list">
+				<span class="link_title">希望以下内容能够帮助您：</span>
+				<div class="link_item">
+					<span class="item_title">账户管理</span>
+					<ul class="links">
+						<li class="link"><a  target="_blank" href="https://trade.hsfund.com/etrading/">开户</a></li>
+						<li class="link"><a  target="_blank" href="http://www.hsfund.com/home/Customer/gologin.do?inputUrl=4D5C792812E343CDA27A7942ADCD708316EFA34C520AEE0A55FBAF91213AC6D6449B32C8E96E0072">登录</a></li>
+						<li class="link"><a  target="_blank" href="http://www.hsfund.com/home/Customer/gologin.do?inputUrl=4D5C792812E343CDA27A7942ADCD708316EFA34C520AEE0A55FBAF91213AC6D6449B32C8E96E0072">账户查询</a></li>
+						<li class="link"><a  target="_blank" href="http://www.hsfund.com/home/Customer/gologin.do?inputUrl=8F0DDE88742D6AAE581D79A3C1EC9867">专户</a></li>
+					</ul>
+				</div>
+				<div class="link_item">
+					<span class="item_title">网上交易</span>
+					<ul class="links">
+						<li class="link"><a  target="_blank" href="https://trade.hsfund.com/etrading/">认购 转托管</a></li>
+						<li class="link"><a  target="_blank" href="https://trade.hsfund.com/etrading/">申购 智能定投</a></li>
+						<li class="link"><a  target="_blank" href="https://trade.hsfund.com/etrading/">赎回 撤单</a></li>
+						<li class="link"><a  target="_blank" href="https://trade.hsfund.com/etrading/">定投 交易申请查询</a></li>
+						<li class="link"><a  target="_blank" href="https://trade.hsfund.com/etrading/">转换 交易确认查询</a></li>
+					</ul>
+				</div>
+				<div class="link_item">
+					<span class="item_title">基金产品</span>
+					<ul class="links">
+					
+					
+																	<li class="link"><a  target="_blank" href="/osoa/views/fund/index.html?fund_type=1">股票</a></li>
+
+												<li class="link"><a  target="_blank" href="/osoa/views/fund/index.html?fund_type=2">债券</a></li>
+
+												<li class="link"><a  target="_blank" href="/osoa/views/fund/index.html?fund_type=3">混合</a></li>
+
+												<li class="link"><a  target="_blank" href="/osoa/views/fund/index.html?fund_type=4">货币</a></li>
+
+												<li class="link"><a  target="_blank" href="/osoa/views/fund/index.html?fund_type=5">保本</a></li>
+
+												<li class="link"><a  target="_blank" href="/osoa/views/fund/index.html?fund_type=6">指数</a></li>
+
+												<li class="link"><a  target="_blank" href="/osoa/views/fund/index.html?fund_type=7">FOF</a></li>
+
+
+										
+
+					</ul>
+				</div>
+				<div class="link_item">
+					<span class="item_title">客服中心</span>
+					<ul class="links">
+						<li class="link"><a  target="_blank" href="javascript:void(0)">客服中心</a></li>
+						<li class="link"><a  target="_blank" href="javascript:void(0)">直销柜台</a></li>
+						<li class="link"><a  target="_blank" href="javascript:void(0)">代销网点</a></li>
+						<li class="link"><a  target="_blank" href="javascript:void(0)">业务表格下载</a></li>
+						<li class="link"><a  target="_blank" href="javascript:void(0)">帮助中心</a></li>
+					</ul>
+				</div>
+				<div class="link_item">
+					<span class="item_title">关于我们</span>
+					<ul class="links">
+						<li class="link"><a target="_blank" href="/osoa/views/about/index.html">关于我们</a></li>
+                        <li class="link"><a target="_blank" href="/osoa/views/about/connect.html">联系我们</a></li>
+                        <li class="link"><a target="_blank" href="http://zhaopin.hsfund.com/">人才招聘</a></li>
+                        <li class="link"><a target="_blank" href="/osoa/views/about/big.html">公司大事记</a></li>
+                        <li class="link"><a target="_blank" href="/osoa/views/about/duty.html">社会责任</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+			<p>
+				<a  target="_blank" href="javascript:void(0)">人才招聘</a> |
+				<a  target="_blank" href="javascript:void(0)">投资者权益须知</a> |
+				<a  target="_blank" href="javascript:void(0)">投资者教育</a> |
+				<a  target="_blank" href="javascript:void(0)">法律法规</a> |
+				<a  target="_blank" href="javascript:void(0)">法律声明</a> |
+				<a  target="_blank" href="javascript:void(0)">反洗钱</a> |
+				<a  target="_blank" href="javascript:void(0)">风险提示函</a> |
+				<a  target="_blank" href="javascript:void(0)">友情链接</a> |
+				<a  target="_blank" href="javascript:void(0)">联系我</a>
+			</p>
+			<p>本网站所有资讯与说明文字仅供参考，如有与本公司相关公告及基金法律文件不符，以相关公告及基金法律文件为准。市场有风险，投资需谨慎。</p>
+			<p>网站备案：京ICP备16069264号 京公网安备：110102002124 版权所有：2006 华商基金管理有限公司</p>
+		</div>
+	</div>  
+</div>

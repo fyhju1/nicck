@@ -1,0 +1,207 @@
+/**
+ * 基金Service
+ */
+define("osoa/scripts/service/fund/fundService", function(require, exports, module) {
+
+    function FundService() {
+        this.service = new $.domain.Service();
+    }
+
+    /**
+     * 查询基金基本信息
+     * @param callBackFunc
+     * @param param
+     */
+    FundService.prototype.getFundBaseInfo = function(callBackFunc, param) {
+        var paraMap = {};
+        paraMap["funcNo"] = "905014";
+        paraMap["fund_code"] = param.fund_code;
+        var reqParamVo = $.getReqParamVo();
+        reqParamVo.setUrl($.gconfig.global.server);
+        reqParamVo.setReqParam(paraMap);
+        reqParamVo.setIsLastReq(true); //是否是最后一个请求
+        reqParamVo.setIsShowWait(true); //是否加载请求状态
+        reqParamVo.setTipsWords("正在加载，请稍后");
+        this.service.invoke(reqParamVo, callBackFunc);
+    };
+
+
+    /**
+     * 查询基金经理列表
+     * @param callBackFunc
+     * @param param
+     */
+    FundService.prototype.getManagerForFund = function(callBackFunc, param) {
+        var paraMap = {};
+        paraMap["funcNo"] = "905013";
+        paraMap["fund_code"] = param.fund_code;
+        var reqParamVo = $.getReqParamVo();
+        reqParamVo.setUrl($.gconfig.global.server);
+        reqParamVo.setReqParam(paraMap);
+        reqParamVo.setIsLastReq(true); //是否是最后一个请求
+        reqParamVo.setIsShowWait(true); //是否加载请求状态
+        reqParamVo.setTipsWords("正在加载，请稍后");
+        this.service.invoke(reqParamVo, callBackFunc);
+    };
+    /**
+     * 产品列表--详细信息
+     * @param callBackFunc
+     * @param param
+     */
+    FundService.prototype.getFundList = function(callBackFunc, param) {
+        var paraMap = {};
+        paraMap["funcNo"] = "905010";
+        paraMap["fund_type"] = param.fund_type;
+        paraMap["theme_code"] = param.theme_code;
+        var reqParamVo = $.getReqParamVo();
+        reqParamVo.setUrl($.gconfig.global.server);
+        reqParamVo.setReqParam(paraMap);
+        reqParamVo.setIsLastReq(true); //是否是最后一个请求
+        reqParamVo.setIsShowWait(true); //是否加载请求状态
+        reqParamVo.setTipsWords("正在加载，请稍后");
+        this.service.invoke(reqParamVo, callBackFunc);
+    };
+
+    /**
+     * 产品费率
+     * @param callBackFunc
+     * @param param
+     */
+    FundService.prototype.getFundRate = function(callBackFunc, param) {
+        var paraMap = {};
+        paraMap["funcNo"] = "905015";
+        paraMap["fund_code"] = param.fund_code;
+        paraMap["feerate_type"] = param.feerate_type;
+        var reqParamVo = $.getReqParamVo();
+        reqParamVo.setUrl($.gconfig.global.server);
+        reqParamVo.setReqParam(paraMap);
+        reqParamVo.setIsLastReq(true); //是否是最后一个请求
+        reqParamVo.setIsShowWait(true); //是否加载请求状态
+        reqParamVo.setTipsWords("正在加载，请稍后");
+        this.service.invoke(reqParamVo, callBackFunc);
+    };
+
+    /**
+     * 查询网上银行·销售机构
+     * @param callBackFunc
+     * @param param
+     */
+    FundService.prototype.getBankSalesList = function(callBackFunc, param) {
+        var paraMap = {};
+        paraMap["funcNo"] = "905016";
+        paraMap["fund_code"] = param.fund_code;
+        paraMap["organization_type"] = param.organization_type;
+        paraMap["type"] = param.type;
+        var reqParamVo = $.getReqParamVo();
+        reqParamVo.setUrl($.gconfig.global.server);
+        reqParamVo.setReqParam(paraMap);
+        reqParamVo.setIsLastReq(true); //是否是最后一个请求
+        reqParamVo.setIsShowWait(true); //是否加载请求状态
+        reqParamVo.setTipsWords("正在加载，请稍后");
+        this.service.invoke(reqParamVo, callBackFunc);
+    };
+
+
+    /**
+     * 基金净值
+     * @param callBackFunc
+     * @param param
+     * 	String fund_code  产品编号
+    	String type       0:最近一个月  1：3个月  2：最近6个月  3：最近1年 4：成立以来  5:以日期为准 
+    	String start_time 开始日期
+    	String end_time=  结束日期
+    	String page       当前页
+    	String pageSize   分页行数
+    	String isPage     0： 全部查询    1:分页   2：list集合  (默认是0)[可不传]
+     */
+    FundService.prototype.getFunfValueList = function(callBackFunc, param) {
+        var paraMap = {};
+        paraMap["funcNo"] = "905017";
+        paraMap["fund_code"] = param.fund_code;
+        paraMap["type"] = param.type;
+        paraMap["start_time"] = param.start_time;
+        paraMap["end_time"] = param.end_time;
+        paraMap["page"] = param.page;
+        paraMap["pageSize"] = param.pageSize;
+        paraMap["isPage"] = param.isPage;
+        var reqParamVo = $.getReqParamVo();
+        reqParamVo.setUrl($.gconfig.global.server);
+        reqParamVo.setReqParam(paraMap);
+        reqParamVo.setIsLastReq(true); //是否是最后一个请求
+        reqParamVo.setIsShowWait(true); //是否加载请求状态
+        reqParamVo.setTipsWords("正在加载，请稍后");
+        this.service.invoke(reqParamVo, callBackFunc);
+    };
+
+    /**
+     * 基金净值
+     * @param callBackFunc
+     * @param param
+     * 	String fund_code  产品编号
+     */
+    FundService.prototype.getFundInvestPortfolio = function(callBackFunc, param) {
+        var paraMap = {};
+        paraMap["funcNo"] = "905021";
+        paraMap["fund_code"] = param.fund_code;
+        var reqParamVo = $.getReqParamVo();
+        reqParamVo.setUrl($.gconfig.global.server);
+        reqParamVo.setReqParam(paraMap);
+        reqParamVo.setIsLastReq(true); //是否是最后一个请求
+        reqParamVo.setIsShowWait(true); //是否加载请求状态
+        reqParamVo.setTipsWords("正在加载，请稍后");
+        this.service.invoke(reqParamVo, callBackFunc);
+    };
+
+    /**
+     * 查询基金列表--查询产品表
+     * @param callBackFunc
+     * @param param
+     * 	String fund_code  产品编号
+     */
+    FundService.prototype.getAllFundList = function(callBackFunc, param) {
+        var paraMap = {};
+        paraMap["funcNo"] = "905025";
+        var reqParamVo = $.getReqParamVo();
+        reqParamVo.setUrl($.gconfig.global.server);
+        reqParamVo.setReqParam(paraMap);
+        reqParamVo.setIsLastReq(true); //是否是最后一个请求
+        reqParamVo.setIsShowWait(true); //是否加载请求状态
+        reqParamVo.setTipsWords("正在加载，请稍后");
+        this.service.invoke(reqParamVo, callBackFunc);
+    };
+
+    /**
+     * 查询净值日期当日净值
+     * @param callBackFunc
+     * @param param
+     * 	String fund_code  产品编号
+     */
+    FundService.prototype.getFundNVByCode = function(callBackFunc, param) {
+        var paraMap = {};
+        paraMap["funcNo"] = "905026";
+        paraMap["fund_code"] = param.fund_code;
+        paraMap["nv_date"] = param.nv_date;
+        var reqParamVo = $.getReqParamVo();
+        reqParamVo.setUrl($.gconfig.global.server);
+        reqParamVo.setReqParam(paraMap);
+        reqParamVo.setIsLastReq(true); //是否是最后一个请求
+        reqParamVo.setIsShowWait(true); //是否加载请求状态
+        reqParamVo.setTipsWords("正在加载，请稍后");
+        this.service.invoke(reqParamVo, callBackFunc);
+    };
+
+    /**
+     * 释放操作 
+     */
+    FundService.prototype.destroy = function() {
+        for (var key in this.serviceMap) {
+            var service = this.serviceMap[key];
+            service.destroy();
+            delete this.serviceMap[key];
+        }
+        this.serviceMap = {};
+    };
+
+    // 暴露对外的接口
+    module.exports = new FundService();
+});

@@ -1,0 +1,43 @@
+/**
+ * 商城业务常量配置
+ */
+define(function(require, exports, module) {
+
+    var serviceConstant = {
+        NEWS_PAGE: { //列表展示12条数据
+            PAGE: 1,
+            PAGESIZE: 12,
+            LINEPAGE: 4
+        },
+        INDEX_PAGE: { //列表展示15调数据
+            PAGE: 1,
+            PAGESIZE: 15,
+            LINEPAGE: 5 //换行DIV PAGE
+        },
+        ARTICLE_PAGE: { //列表展示4条数据
+            PAGE: 1,
+            PAGESIZE: 4
+        },
+        KNOWLEDGE_PAGE: { //列表展示3调数据
+            PAGE: 1,
+            PAGESIZE: 3
+        },
+        LAWS_PAGE: { //列表展示5条数据
+            PAGE: 1,
+            PAGESIZE: 5
+        },
+        COLORGROUP: { //颜色组
+            //红色
+            REDCOLOR: ['#f1505a', '#f26c71', '#f18886', '#f3a59d', '#f4ddc9']
+        },
+        ARTICLEID: { //文章ID
+            HONOR: 47185, //华商荣誉
+            EXPERIENCE: 47186, //华商历程
+            LETTER: 47189, //风险提示涵
+            LAWS: 47190 //法律声明
+        }
+    };
+
+    //暴露对外的接口
+    module.exports = serviceConstant;
+});

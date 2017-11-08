@@ -1,0 +1,1 @@
+D:\develop\server\resin-3.1.12\httpd.exe -conf D:\develop\workspace\hs_web\resin3.conf

@@ -1,0 +1,33 @@
+<div class="fund_organiz">
+    <div class="deal_online">
+        <h1>网上交易</h1>
+        <span>您可以足不出户，在华商基金网上交易平台购买基金，网址：<a href="http://www.hsfund.com">www.hsfund.com</a></span> <br>
+        <a class="deal_entry" href="javascript:void(0)">进入网上交易</a>
+        <div class="deal_banks">
+            <h1>支持网上交易的银行包括:</h1>
+            <div class="bank_list">
+            	 {@each data.banklist as item,index}  
+				    <a href="javascript:void(0)" class="bank_item">
+		        		<div class="bank_img" style="background-image: url(${item.bank_photo})"></div>
+	                   	<span class="phone">客服电话： ${item.customer_phone}</span>
+	                </a>
+            	 {@/each} 
+            </div>
+        </div>
+        <p class="attention">* 以上费率优惠情况仅供参考，具体费率优惠请以销售机构公告为准</p>
+    </div>
+    <div class="deal_offline">
+        <h1>柜台直销</h1>
+        <span>华商基金柜台直销业务办理 为方便投资者，华商基金管理有限公司设立有直销中心，可专门服务投资人在基金公司柜台办理日常业务,<a  style='color:red' href='/osoa/views/customer/server/download.html'>点击下载</a>直销中心办理业务所需表格。<br>
+      		地址：北京市西城区平安里西大街28号中海国际中心9层 | 邮编：100035 | 直销电话：010-58573768 | 直销传真：010-58573737
+        </span>
+    </div>
+    <div class="deal_brach">
+        <h1>代销网点</h1>
+        <div class="brach_list">
+        		{@each data.salelist0 as item,index}  
+				    <a href="javascript:void(0)" >${item.organization_name}</a><span>|</span>
+            	{@/each} 
+        </div>
+    </div>
+</div>

@@ -1,0 +1,1 @@
+DD_belatedPNG.fix('.footer .footlinks .links2 dl dt');

@@ -1,0 +1,89 @@
+<div class="fund_group">
+	<div class="chart-item" id="fund_group_alloca">
+	    <h1>资产分布</h1>
+	    <h2></h2>
+	    <div class="clearfix">
+	        <table class="table-normal"><tbody>		
+	            <tr class="table-normal-title">
+	                <th>资产类型</th>
+	                <th>金额（亿元）</th>
+	                <th>占基金总资产比例（%）</th>
+	            </tr>
+	           {@each data.allocalist as item,index}   
+	            	<tr class="table-normal-title">
+		                <th>${item.asset_type_name }</th>
+		                <th>${((item.market_val-0)/100000000).toFixed(4)}</th>
+		                <th>${(item.ratio_total_asset-0).toFixed(2) }</th>
+		            </tr>
+	            {@/each} 
+	        </tbody></table>
+	        <div class="pie-chart">
+	            <div class="pie_chart_content" id="pie-chart-1"></div>
+	        </div>
+	    </div>
+	</div>
+	<div class="chart-item" id="fund_group_industry">
+	    <h1>行业分布</h1>
+	    <h2></h2>
+	    <div class="clearfix">
+	        <table class="table-normal"><tbody>
+	             <tr class="table-normal-title">
+	                <th>资产类型</th>
+	                <th>金额（亿元）</th>
+	                <th>占基金总资产比例（%）</th>
+	            </tr>
+	           {@each data.industrylist as item,index}   
+	            	<tr class="table-normal-title">
+		                <th>${item.industry_name }</th>
+		                <th>${((item.market_val-0)/100000000).toFixed(4) }</th>
+		                <th>${(item.ratio_in_nv-0).toFixed(2) }</th>
+		            </tr>
+	            {@/each} 
+	        </tbody></table>
+	        <div class="pie-chart">
+	            <div class="pie_chart_content" id="pie-chart-2"></div>
+	        </div>
+	    </div>
+	</div>
+       <br/>
+	<div class="clearfix">
+	    <div class="chart-item chart-item-l">
+	        <h1>十大股票持仓</h1>
+	        <table class="table-normal table-small"><tbody>
+	            <tr class="table-normal-title">
+	                <th>序号</th>
+	                <th>股票代码</th>
+	                <th>股票名称</th>
+	                <th>净值占比（%）</th>
+	            </tr>
+	            {@each data.sharelist as item,index}   
+	            <tr>
+	                <td>${(index-0)+1}</td>
+	                <td>${item.stock_code}</td>
+	                <td><span class="green">${item.stock_name}</span></td>
+	                <td><span class="green">${(item.ratio_in_nv-0).toFixed(2)}</span></td>
+	            </tr>
+	            {@/each} 
+	        </tbody></table>
+	    </div>
+	    <div class="chart-item chart-item-r">
+	         <h1>五大债券持仓</h1>
+	         <table class="table-normal table-small"><tbody>
+	             <tr class="table-normal-title">
+	                <th>序号</th>
+	                <th>债券代码</th>
+	                <th>债券名称</th>
+	                <th>净值占比（%）</th>
+	            </tr>
+	            {@each data.bondlist as item,index}   
+	            <tr>
+	                <td>${(index-0)+1}</td>
+	                <td>${item.stock_code}</td>
+	                <td><span class="green">${item.stock_name}</span></td>
+	                <td><span class="green">${(item.ratio_in_nv-0).toFixed(2)}</span></td>
+	            </tr>
+	            {@/each} 
+	        </tbody></table>
+	    </div>
+	</div>
+</div>

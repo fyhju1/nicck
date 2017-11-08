@@ -1,0 +1,23 @@
+<tr class="table-normal-title">
+    <th>时间</th>
+    {@if data.fund_type=="4"}
+    <th>每万份收益</th>
+    <th>七日年化收益</th>
+    {@/if} {@if data.fund_type!="4"}
+    <th>单位净值</th>
+    <th>累计净值</th>
+    {@/if}
+</tr>
+{@each data.data as item,index}
+<tr>
+    <td>${item.nv_date}</td>
+    {@if data.fund_type=="4"}
+    <td><span class="green">${item.profit_per_million}</span></td>
+    <td><span class="green">${item.serven_days_annual_profit}%</span></td>
+    {@/if} {@if data.fund_type!="4"}
+    <td><span class="green">${item.unit_nv}</span></td>
+    <td><span class="green">${item.sum_nv}</span></td>
+    {@/if}
+
+</tr>
+{@/each}

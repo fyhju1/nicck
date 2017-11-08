@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="GBK"?>
+<modules>
+	<!-- 公共入参开始 -->
+	<common-param >
+		<params id="systemCommonParam" description="每个接口都需要传的参数">
+			<param name="login_id" value="$session(@session_client_id)" description="session保存的用户ID"/>
+			<param name="sfundacco" value="$session(@session_fund_account)"></param>
+			<param name="sfundcode" value="$session(@session_fund_code)"></param>
+		</params>
+	</common-param>
+	
+	<function id="900001" type="2" class="com.thinkive.bussiness.LoginJudgment" description="获取高端理财信息披露"></function>
+	<function id="900002" type="2" class="com.thinkive.bussiness.QueryUserName" description="查询session里存放的用户信息"></function>
+	
+	<function id="904120" type="0" busNo="904120" description="理财计算器    >>>  基金申购计算器"/>
+	<function id="904121" type="0" busNo="904121" description="理财计算器    >>>  基金赎回计算器"/>
+
+	<function id="905001" type="0" busNo="905001" description="查询广告信息"/>
+	<function id="905002" type="0" busNo="905002" description="推荐产品信息"/>
+	<function id="905003" type="0" busNo="905003" description="根据栏目查询查询新闻"/>
+	<function id="905004" type="0" busNo="905004" description="文章详情"/>
+	<function id="905005" type="0" busNo="905005" description="投研信息查询"/>
+	<function id="905006" type="0" busNo="905006" description="投研详情"/>
+	<function id="905007" type="0" busNo="905007" description="华商荣誉"/>
+	<function id="905008" type="0" busNo="905008" description="华商大事件"/>
+	<function id="905009" type="0" busNo="905009" description="查询当前栏目下的子栏目"/>
+	<function id="905010" type="0" busNo="905010" description="查询基金产品列表根据主题编号和基金类型"/>
+	<function id="905011" type="0" busNo="905011" description="查询数据字典"/>
+	<function id="905012" type="0" busNo="905012" description="查询基金主题列表"/>
+	<function id="905013" type="0" busNo="905013" description="产品基金经理信息查询"/>
+	<function id="905014" type="0" busNo="905014" description="产品基本信息查询"/>
+	<function id="905015" type="0" busNo="905015" description="产品费率信息"/>
+	<function id="905016" type="0" busNo="905016" description="查询基金销售机构·网上银行"/>
+	<function id="905017" type="0" busNo="905017" description="产品基金净值走势"/>
+	<function id="905018" type="0" busNo="905018" description="基金资产配置"/>
+	<function id="905019" type="0" busNo="905019" description="基金行业投资"/>
+	<function id="905020" type="0" busNo="905020" description="基金持仓组合"/>
+	<function id="905021" type="0" busNo="905021" description="基金投资组合"/>
+	<function id="905022" type="0" busNo="905022" description="信息纰漏查询"/>
+	<function id="905023" type="0" busNo="905023" description="信息纰漏子类型查询关联产品"/>
+	<function id="905024" type="0" busNo="905024" description="信息披露文章详情"/>
+	<function id="905025" type="0" busNo="905025" description="基金名称查询"/>
+	<function id="905026" type="0" busNo="905026" description="查询净值日期当日净值"/>
+	<function id="905027" type="0" busNo="905027" description="基金优势推荐"/>
+	<function id="905028" type="0" busNo="905028" description="热门推荐"/>
+	<function id="905029" type="0" busNo="905029" description="投研团队"/>
+</modules>

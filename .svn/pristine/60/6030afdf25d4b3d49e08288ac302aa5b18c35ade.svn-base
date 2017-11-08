@@ -1,0 +1,35 @@
+/**
+ * 首页 
+ */
+define("osoa/scripts/index2", function(require, exports, module) {
+    var layerUtils = require("layerUtils");
+    var fundService = require("fundService");
+    var common = require("common");
+    var pageId = "#index2 ";
+    var common = require("common");
+    var chartsUtils = require('chartsUtils');
+    var params = { fund_code: 630001 }
+        //初始化
+    function init(parm) {
+
+    }
+
+    //绑定事件
+    function bindPageEvent() {}
+
+
+
+    //销毁页面，单页面时候要用
+    function destroy() {
+
+    }
+
+
+    var index2 = {
+        "init": init,
+        "bindPageEvent": bindPageEvent,
+        "destroy": destroy
+    };
+    // 暴露对外的接口
+    module.exports = index2;
+});

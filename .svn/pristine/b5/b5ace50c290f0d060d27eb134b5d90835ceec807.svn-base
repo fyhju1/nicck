@@ -1,0 +1,106 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <meta name="Keywords" content="关于华商天利宝暂停快速提现及还贷款业务的通知" />
+<meta name="Description" content="中国人民银行办公厅关于2014年支付清算系统运行维护安排的通知" />
+<title>关于华商天利宝暂停快速提现及还贷款业务的通知华商动态-华商基金管理有限公司,文章</title>
+    <link rel="stylesheet" href="/osoa/css/style.css">
+    <link rel="stylesheet" href="/osoa/css/kn.css">
+    <link rel="stylesheet" href="/osoa/css/howe.css">
+    <link rel="stylesheet" href="/osoa/css/zh.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- right -->
+        <div id="right"></div>
+
+        <!-- /.right -->
+
+        <!--头部start-->
+        <div id="headerContent"></div>
+        <!--头部end-->
+        <div id="bodyContent">
+            <div id="index_classroom_detail" style="display: block;">
+                <div class="main grey_main">
+                    <div class="crumbs">
+                        <div class="crumbs_core">
+                            <a href="/osoa/views/index.html">首页</a>
+                            <small>></small>
+
+                            <a href="/osoa/views/index/classroom/index.html">理财课堂</a>
+
+                            <small>></small>
+                            <span>正文</span>
+                        </div>
+                        <!-- /.crumbs_core -->
+                    </div>
+                    <div class="center">
+
+					                        <div class="core core-one">
+				
+                            <div class="dongtai">
+                                <p class="p_title">关于华商天利宝暂停快速提现及还贷款业务的通知</p>
+                                <p class="p_sub_title">
+									                                    <span>发布日期： 
+
+2017-07-13 19:36:26</span> 						 
+
+
+
+
+ 
+ 
+
+                                </p>
+									<p style="margin: 0px; padding: 0px; color: rgb(88, 88, 90); text-transform: none; text-indent: 28px; letter-spacing: normal; font-family: 宋体; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; background-color: rgb(242, 242, 242); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">尊敬的客户：</p><p style="margin: 0px; padding: 0px; color: rgb(88, 88, 90); text-transform: none; text-indent: 28px; letter-spacing: normal; font-family: 宋体; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; background-color: rgb(242, 242, 242); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">您好!</p><p style="margin: 0px; padding: 0px; color: rgb(88, 88, 90); text-transform: none; text-indent: 28px; letter-spacing: normal; font-family: 宋体; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; background-color: rgb(242, 242, 242); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">根据《中国人民银行办公厅关于2014年支付清算系统运行维护安排的通知》，2014年2月22日凌晨00：00至08：00期间，中国人民银行网上支付跨行清算系统将进行维护。在此期间，本公司将暂停天利宝快速提现和还贷款两项业务（其他业务不受影响）。2014年2月22日08:00起，本公司将恢复快速提现和还贷款业务。</p><p style="margin: 0px; padding: 0px; color: rgb(88, 88, 90); text-transform: none; text-indent: 28px; letter-spacing: normal; font-family: 宋体; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; background-color: rgb(242, 242, 242); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">如果您在此期间有资金使用需求，请您提前做好交易安排。如有疑问，您可拨打本公司客服电话400-700-8880获取相关信息。由此给您带来的不便，敬请谅解。<br style="margin: 0px; padding: 0px;">&nbsp;</p>
+
+							   </div>
+                        </div>
+                        <!-- /.core -->
+						
+
+                    </div>
+                    <!-- /.center -->
+                </div>
+                <!-- /.main -->
+            </div>
+        </div>
+
+        <!--底部start-->
+        <div id="footerContent"></div>
+        <!--底部end-->
+    </div>
+
+    <script src="/osoa/js/jquery.min.js"></script>
+    <script src="/osoa/js/main.js"></script>
+
+    <script type="text/javascript">
+        //项目主体页面 pageCode:页面路径编码,jsonParam:参数，isLoad:是否每次都加载
+        var _defaultPage = {
+            "pageCode": "index/classroom/detail",
+            "jsonParam": {},
+            "isLoad": false
+        };
+        //项目页头页面 pageCode:页面路径编码,jsonParam:参数，isLoad:是否每次都加载,默认是inclue/header
+        var _headerPage = {
+            "pageCode": "include/header",
+            "jsonParam": {},
+            "isLoad": false
+        };
+        //项目页脚页面 pageCode:页面路径编码,jsonParam:参数，isLoad:是否每次都加载,默认是inclue/footer
+        var _footerPage = {
+            "pageCode": "include/footer",
+            "jsonParam": {},
+            "isLoad": false
+        };
+    </script>
+    <script type="text/javascript" src="/osoa/version.js"></script>
+    <!--基础框架包 -->
+    <script type="text/javascript" src="/thinkiveJs.min.js"></script>
+</body>
+
+</html>

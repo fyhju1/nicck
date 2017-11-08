@@ -1,0 +1,142 @@
+/**
+ * 首页 
+ */
+define("osoa/scripts/index", function(require, exports, module) {
+    var layerUtils = require("layerUtils");
+    var pageId = "#index ";
+    var fundService = require("fundService");
+
+    //初始化
+    function init(parm) {
+        //		$(pageId + " .prod_small").eq(3).addClass("m_rihgt_0");
+
+        $("#include_header .nav_wrap #hs_index").addClass("cur").siblings().removeClass("cur");
+
+        $("#right").loadPageContent(null, "include/right", {}, function() {}, true, false, true);
+
+    }
+
+
+    //绑定事件
+    function bindPageEvent() {
+
+        //热门主题
+        $(pageId + " #hot_theme a").bindEvent(function() {
+            var theme_code = $(this).attr("theme_code");
+            var fund_type = $(pageId + " #hot_type a.filter_all").attr("fund_type");
+            $(this).addClass("filter_all").siblings().removeClass("filter_all");
+            showProductList(fund_type, theme_code);
+        });
+
+        //热门类型
+        $(pageId + " #hot_type a").bindEvent(function() {
+            var fund_type = $(this).attr("fund_type");
+            var theme_code = $(pageId + " #hot_theme  a.filter_all").attr("theme_code");
+            $(this).addClass("filter_all").siblings().removeClass("filter_all");
+            showProductList(fund_type, theme_code);
+        });
+    }
+
+    /**
+     *  产品list展示
+     */
+    function showProductList(fund_type, theme_code) {
+        fundService.getFundList(function(resultVo) {
+            var error_no = resultVo.getErrorNo();
+            var error_info = resultVo.getErrorInfo();
+            var results = resultVo.getResults();
+            var len = 0; //记录货币型数量 
+            var lens = 0; //记录其他数量
+            //正常列表标题
+            var str = "<tr class='fund_th'>" +
+                "<th class='txt_l fund_name'>基金名称</th>" +
+                "<th>关注</th> <th>基金代码</th> <th>最新净值</th> <th>累计净值</th>" +
+                "<th>日涨跌幅</th><th>成立以来 <br />收益率</th><th>赎回状态</th>" +
+                "<th width='166px' class='txt_l'>描述</th><th>操作</th></tr>";
+
+            //货币列表标题
+            var strs = "<tr class='fund_th'>" +
+                "<th class='txt_l fund_name'>基金名称</th>" +
+                "<th>关注</th> <th>基金代码</th> <th>万份收益</th> <th>七日年化<br />收益率</th>" +
+                "<th>日涨跌幅</th><th>成立以来 <br />收益率</th><th>赎回状态</th>" +
+                "<th width='166px' class='txt_l'>描述</th><th>操作</th></tr>";
+            if (error_no == 0) {
+                if (results != null) {
+                    for (var i = 0; i < results.length; i++) {
+                        var ops = "<tr><td class='txt_l fund_name txt-bold' fundCode='" + results[i].fund_code + "' ><a style='color:#3d3c44' href='/osoa/views/fund/detail/" + results[i].fund_code + ".html?fund_code=" + results[i].fund_code + " '>" + results[i].fund_short_name + "</a></td>" +
+                            "<td class='unfav'></td><td class='txt-bold'>" + results[i].fund_code + "</td>";
+                        if (results[i].fund_type == "4") {
+                            ops += "<td class='txt-bold'>" + results[i].profit_per_million + "<br/> <span>" + results[i].nv_date + "</span></td><td>" + results[i].serven_days_annual_profit + "%</td>";
+                        } else {
+                            ops += "<td class='txt-bold'>" + results[i].unit_nv + "<br/> <span>" + results[i].nv_date + "</span></td><td>" + results[i].sum_nv + "</td>";
+                        }
+                        if (results[i].daily_change - 0 > 0) {
+                            ops += "<td class='num_red txt-bold'>" + results[i].daily_change + "%</td>";
+                        } else {
+                            ops += "<td class='num_green txt-bold'>" + results[i].daily_change + "%</td>";
+                        }
+                        if (results[i].yieldratestart - 0 > 0) {
+                            ops += "<td class='num_red txt-bold'>" + results[i].yieldratestart + "%</td>";
+                        } else {
+                            ops += "<td class='num_green txt-bold'>" + results[i].yieldratestart + "%</td>";
+                        }
+                        if (results[i].redeem_status == "0") {
+                            ops += "<td>关闭</td>";
+                        } else {
+                            ops += "<td>开放</td>";
+                        }
+                        ops += "<td class='txt_l'>" + results[i].fund_feature + "</td><td>";
+                        if (!$.string.isEmpty(results[i].purchase_status)) {
+                            if (results[i].purchase_status == "1") {
+                                ops += "<a  target='_blank'  href='https://trade.hsfund.com/etrading/' class='fund_ctrl'>申购</a>&nbsp;";
+                            } else {
+                                ops += "<a style='background:#ccc'  href='javascript:void(0)' class='fund_ctrl'>申购</a>&nbsp;";
+                            }
+                        } else {
+                            ops += "<a style='background:#ccc'  href='javascript:void(0)' class='fund_ctrl'>申购</a>&nbsp;";
+                        }
+                        if (!$.string.isEmpty(results[i].subscribe_status)) {
+                            if (results[i].subscribe_status == "1") {
+                                ops += "<a  target='_blank'  href='https://trade.hsfund.com/etrading/' class='fund_ctrl'>申购</a>&nbsp;";
+                            } else {
+                                ops += "<a style='background:#ccc'  href='javascript:void(0)' class='fund_ctrl'>定投</a>";
+                            }
+                        } else {
+                            ops += "<a style='background:#ccc'  href='javascript:void(0)' class='fund_ctrl'>定投</a>";
+                        }
+                        ops += "<div class='ctrl_des'>优惠费率：<i class='num_red'>" + results[i].preferential_rate + "%</i>";
+                        ops += "<s>" + results[i].buy_rate + "%</s></div></td></tr>";
+                        if (results[i].fund_type == "4") {
+                            strs += ops;
+                            len++;
+                        } else {
+                            lens++;
+                            str += ops;
+                        }
+                    }
+                }
+                if (len != 0) {
+                    if (lens == 0) {
+                        str = "";
+                    }
+                    str += strs;
+                }
+            } else {
+                layerUtils.iAlert(error_info);
+            }
+            $(pageId + " .all_fund .fund_list .fund_table tbody").html(str);
+        }, { fund_type: fund_type, theme_code: theme_code });
+    }
+    //销毁页面，单页面时候要用
+    function destroy() {
+
+    }
+
+    var index = {
+        "init": init,
+        "bindPageEvent": bindPageEvent,
+        "destroy": destroy
+    };
+    // 暴露对外的接口
+    module.exports = index;
+});

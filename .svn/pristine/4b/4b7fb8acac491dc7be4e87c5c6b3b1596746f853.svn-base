@@ -1,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>  
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+ <meta name="Keywords" content="华商基金,金牛基金,基金直销,基金定投,基金,货币基金,余额理财,实时赎回,费率1折,基金怎么买,热销基金,华商盛世成长,华商价值共享,华商领先企业,
+华商新趋势优选,华商主题精选,华商优势行业" />
+<meta name="Description" content="华商基金管理有限公司—基金网上直销—费率1折优惠" />
+<title>华商基金管理有限公司 -天利宝|基金|理财|专户</title>
+	<!-- 后加载公用样式先加载滑动组件样式 -->
+	<link rel="stylesheet" href="/osoa/css/style.css" />
+	
+    <link rel="stylesheet" href="/osoa/css/kn.css" />
+<link rel="stylesheet" href="/osoa/css/zh.css" />
+    <link rel="stylesheet" href="/osoa/css/howe.css" />
+ <link rel="stylesheet" href="/osoa/css/datepicker.css" />
+</head>
+<body>
+	<div>
+		<!--头部start-->  
+		<div id="headerContent"></div>
+		<!--头部end-->  
+		
+		
+
+	      
+		
+	    <div id="bodyContent">
+	    	<div id="fund_detail" style="display: block;"> 
+	     		<div class="wrapper">
+	     		 <div class="main">
+		            <div class="crumbs">
+		                <div class="crumbs_core">
+		                    <a href="/osoa/views/index.html">首页</a>
+		                    <small>></small>
+		                    <a href="/osoa/views/fund/index.html">旗下基金</a>
+		                    <small>></small>
+		                    <span>基金详情</span>
+		                </div><!-- /.crumbs -->
+		            </div><!-- /.crumbs -->
+											
+						
+						
+
+						
+												
+						
+							<div class="fund_banner">
+								<div class="fund_banner_content">
+									<h1 id="fund_index_name">华商双债丰利A</h1>
+				
+									<ul class="fund_banner_left">
+										<li>
+											<span style="font-size:16px;color:black;">净值（2017-10-16）</span>
+											
+													<strong class="txt_num" id="base_unit_nv">1.304</strong>
+												
+											<small style="font-size:16px;color:black;">基金代码： 000463</small>
+										</li>
+										<li>
+											<span style="font-size:16px;color:black;">日涨跌</span>
+
+																														<strong class="txt_num green"><label id="base_daily_change">-0.15</label><span>
+															<font color="#31be66" >%</font>
+														</span> 
+													</strong>
+										
+										
+		                        </li>
+		                    </ul><!-- /.fund_banner_left -->
+		
+		                    <ul class="fund_banner_right">
+		                        <li>
+		                            基金类型：债券型<br />
+		                            风险类型：中低风险<br />
+		                            <a target="_blank" href="https://trade.hsfund.com/etrading/">申购</a>
+		                        </li>
+		                        <li>
+		                            最低申购金额：<span  style="font-size:16px;" >10元</span><br />
+		                            成立日期： 2014-01-28<br />
+		                            <a class="border_btn" target="_blank"  href="https://trade.hsfund.com/etrading/">定投</a>
+		                        </li>
+		                    </ul><!-- /.fund_banner_right -->
+		                </div><!-- /.fund_banner_content -->
+						
+						
+
+	      
+		            </div><!-- /.fund_banner -->
+		
+		            <div class="center fund_center">
+		                <ul class="fund_thumbs">
+																				<ul class="fund_thumbs">
+												<li class="fund_thumbs_0">
+													<strong>业绩长期领先</strong>
+													<p>在权益类和固定收益类投资领域，均取得了持续领先同业的良好业绩</p>
+												</li>
+												<li class="fund_thumbs_1">
+													<strong>深受业界好评</strong>
+													<p>品牌影响力不断提升，在主流机构选中屡获殊荣</p>
+												</li>
+												<li class="fund_thumbs_2">
+													<strong>关注企业成长</strong>
+													<p>坚定投资优秀企业，将ESG责任投资理念纳入选股指标</p>
+												</li>
+												<li class="fund_thumbs_3">
+													<strong>执著持续分红</strong>
+													<p>注重将投资收益及时转化为红利，累计为持有人分红超过百亿元</p>
+												</li>
+											</ul><!-- /.fund_thumbs -->
+											
+
+		                </ul><!-- /.fund_thumbs -->
+		
+		                <h2 class="title_h2">业绩表现</h2>
+
+                <div class="performance_left">
+                    <strong>历年份额累计净值增长率与业绩比较基准收益率走势对比图</strong>
+
+                    <div id="echart_tab" class="echart_tab">
+                        
+                    </div><!-- /.echart_tab -->
+                    <div id="echart_fund" class="echart_fund"></div><!-- /.echart_fund -->
+                    <div class="fund_des">华商红利优选混合 （001188）  来源：华商基金  数据截至：2011年1月1日至2017年8月22日</div>
+                </div><!-- /.performance_left -->
+		
+		                <div class="tab_box">
+		                    <ul class="tabs">
+		                        <li id="fund_base" class="current"><a href="javascript:void(0)">基本信息</a></li>
+		                        <li id="fund_group"><a href="javascript:void(0)">投资组合</a></li>
+		                        <li id="fund_nv"><a href="javascript:void(0)">基金净值</a></li>
+		                        <li id="fund_mana"><a href="javascript:void(0)">基金经理</a></li>
+		                        <li id="fund_rate"><a href="javascript:void(0)">费率</a></li>
+		                        <li id="fund_organiza"><a href="javascript:void(0)">销售机构</a></li>
+		                        <li id="fund_article"><a href="javascript:void(0)">基金公告</a></li>
+		                    </ul><!-- /ul.tab_box -->
+		
+									                    <div class="tab_content current" fund_type='2'>
+		                        <div class="fund_index">
+		                            <table>
+									
+									
+		                                <tbody>
+		                                    <tr>
+		                                        <td class="table_lbl" width="14%">基金名称</td>
+		                                        <td width="36%">华商双债丰利A</td>
+		                                        <td class="table_lbl" width="14%">基金代码</td>
+		                                        <td width="36%">000463</td>
+		                                    </tr>
+		                                    <tr>
+		                                        <td class="table_lbl">基金运作方式</td>
+		                                        <td>开放</td>
+		                                        <td class="table_lbl">基金类型</td>
+		                                        <td>债券型</td>
+		                                    </tr>
+		                                    <tr>
+		                                        <td class="table_lbl">风险评价</td>
+		                                        <td>中低风险</td>
+		                                        <td class="table_lbl">最低申购金额</td>
+		                                        <td>10元</td>
+		                                    </tr>
+		                                    <tr>
+		                                        <td class="table_lbl">管理人</td>
+		                                        <td>华商基金管理有限公司</td>
+		                                        <td class="table_lbl">基金经理</td>
+		                                        <td> 梁伟泓</td>
+		                                    </tr>
+		                                    <tr>
+		                                        <td class="table_lbl">托管人</td>
+		                                        <td>中国建设银行股份有限公司</td>
+		                                        <td class="table_lbl">合同生效日期</td>
+		                                        <td>2014-01-28</td>
+		                                    </tr>
+		                                    <tr>
+		                                        <td class="table_lbl">业绩比较基准</td>
+		                                        <td colspan="3">中债综合指数</td>
+		                                    </tr>
+		                                    <tr>
+		                                        <td class="table_lbl">投资目标</td>
+		                                        <td colspan="3">本基金管理人通过严格的风险控制和积极主动的投资管理，在合理控制信用风险、保持适当流动性的基础上，以信用债和可转债为主要投资标的，力争获得高于业绩比较基准的投资业绩，使基金份额持有人获得长期稳定的投资收益。</td>
+		                                    </tr>
+		                                    <tr>
+		                                        <td class="table_lbl">投资范围</td>
+		                                        <td colspan="3">本基金的投资范围主要为国内依法发行固定收益类品种，包括信用债、可转换债券（含可分离交易可转债）、国债、政策性金融债、央行票据、债券回购、银行存款等。本基金同时投资于A股股票（含中小板、创业板及其他经中国证监会核准上市的股票）、权证等权益类品种以及法律法规或中国证监会允许基金投资的其他金融工具。
+本基金投资债券资产的比例不低于基金资产的80%；投资于信用债和可转债的比例合计不低于非现金基金资产的80%；股票等权益类资产的比例不超过基金资产的20%；基金保留的现金或投资于到期日在一年以内的政府债券的比例合计不低于基金资产净值的5%。</td>
+		                                    </tr>
+		                                    <tr>
+		                                        <td class="table_lbl">投资策略</td>
+		                                        <td colspan="3">本基金债券投资策略主要采用信用策略，同时采用久期策略、期限结构配置策略、骑乘策略、息差策略、可转债策略等积极投资策略，在合理控制风险的前提下，通过严格的信用分析和对信用利差的变动趋势进行判断，力争获取信用溢价。</td>
+		                                    </tr>
+											
+					
+		                                </tbody>
+		                            </table>
+		                        </div>
+		                    </div><!-- /.tab_content -->
+								<div id ='quarterly_strategy' style="display:none;">
+									    二季度市场受政策冲击较大，三会主导金融去杠杆，力度远超市场预期，叠加4月份央行公开市场回笼，资金成本上升，推动债券市场持续下跌至6月份方企稳反弹。其中，10年国开收益率一度高达4.4%，信用利差有所加大，收益率曲线呈熊平。政策方面，负面消息不断，保监会、银监会、证监会轮番政策调控，存单、杠杆一一受到限制，委外赎回压力较大，短端债券收益率跟随同业存单一起大幅上升，上行幅度远高于长端，整体收益率曲线熊市平坦。6月上旬，监管趋缓预期和央行公开市场净投放下市场情绪得到一定的修复，交易盘带动债券市场出现一轮“抢跑”行情，10年国开收益率从4.36%的高点最低下行至4.14%，之后随着获利盘兑现收益，季末收益率再度上行至4.20%。 
+股票市场结构分化明显，安防、家电、白酒、医药、保险等“漂亮50”持续上涨并不断创出新高，而以创业板为代表的高估值、中小市值股票连续下跌，很多品种股价已跌破2016年初熔断时的位置。
+展望未来，我们对债券市场持谨慎乐观态度，债券绝对收益率较高，甚至高于企业可比贷款成本，配置价值突出。监管风险随时间推移和政策明确，将逐步缓和；地产调控和基建投资喜爱半年逐步回落，经济增速稳中趋降，还有债券通的开启，利好债券。但考虑到债券供给较多，海外货币紧缩，将抑制债券涨幅。
+本基金二季度主要持有相对价值较高的上市公司债券，通过优化品种，保障流动性并增持了转债。 
+							    </div>
+		                </div><!-- /.tab_box -->
+		            </div><!-- /.center -->
+		        </div><!-- /.main -->
+			     </div>
+	     	</div>
+	    </div>
+		<!--底部start-->
+	    <div id="footerContent"></div>
+	    <!--底部end-->
+    </div>
+     <script src="/osoa/js/jquery.min.js"></script>
+    <script src="/osoa/js/echarts.common.min.js"></script>
+<script src="/osoa/js/datepicker.js"></script>
+	<script src="/osoa/js/main.js"></script>
+    <script src="/osoa/js/detail_chart.js"></script>	
+	
+    <script type="text/javascript">
+ 	//项目主体页面 pageCode:页面路径编码,jsonParam:参数，isLoad:是否每次都加载
+ 	var _defaultPage = {"pageCode": "fund/detail", "jsonParam":{},"isLoad":false}; 
+ 	//项目页头页面 pageCode:页面路径编码,jsonParam:参数，isLoad:是否每次都加载,默认是inclue/header
+ 	var _headerPage = {"pageCode": "include/header", "jsonParam":{},"isLoad":false}; 
+	//项目页脚页面 pageCode:页面路径编码,jsonParam:参数，isLoad:是否每次都加载,默认是inclue/footer
+	var _footerPage = {"pageCode": "include/footer", "jsonParam":{},"isLoad":false};
+	</script>
+	<script type="text/javascript" src="/osoa/version.js"></script>
+	<!--基础框架包 -->
+	<script type="text/javascript" src="/thinkiveJs.min.js"></script>
+</body>
+</html>
