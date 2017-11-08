@@ -6,7 +6,7 @@ define(function(require, exports, module) {
 
     var configuration = {
         "firstLoadCss": "/osoa/css/style.css", //加载的样式文件
-        "pageTitle": "华商基金管理有限公司 -天利宝|基金|理财|专户", //页面标题
+        "pageTitle": "c华商基金管理有限公司 -天利宝|基金|理财|专户", //页面标题
         "projPath": "/osoa/", //工程目录
 
         //错误功能号定义
